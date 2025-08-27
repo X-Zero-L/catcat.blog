@@ -62,9 +62,13 @@ import { i18n } from "@/i18n/translation";
   function updateGiscusTheme() {
     const iframe = document.querySelector('iframe.giscus-frame') as HTMLIFrameElement | null;
     if (!iframe) return;
+    
+    const newThemeUrl = buildThemeUrl();
+    console.log('Updating Giscus theme to:', newThemeUrl);
+    
     iframe.contentWindow?.postMessage({
       giscus: {
-        setConfig: { theme: buildThemeUrl() }
+        setConfig: { theme: newThemeUrl }
       }
     }, GISCUS_ORIGIN);
   }
@@ -76,17 +80,38 @@ import { i18n } from "@/i18n/translation";
   const observer = new MutationObserver((mutations) => {
     for (const m of mutations) {
       if (m.type === 'attributes' && (m.attributeName === 'class' || m.attributeName === 'style')) {
-        updateGiscusTheme();
+        // 延迟一下确保主题已经切换完成
+        setTimeout(() => {
+          updateGiscusTheme();
+        }, 100);
       }
     }
   });
   observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class', 'style'] });
 
+  // Also listen for theme toggle button clicks
+  document.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    if (target.closest('[aria-label*="theme"]') || target.closest('.theme-toggle-btn')) {
+      setTimeout(() => {
+        updateGiscusTheme();
+      }, 100);
+    }
+  });
+
   // Also update after page transitions
   if (window?.swup?.hooks) {
-    window.swup.hooks.on('page:view', () => updateGiscusTheme());
+    window.swup.hooks.on('page:view', () => {
+      setTimeout(() => {
+        updateGiscusTheme();
+      }, 100);
+    });
   } else {
-    document.addEventListener('swup:enable', () => updateGiscusTheme());
+    document.addEventListener('swup:enable', () => {
+      setTimeout(() => {
+        updateGiscusTheme();
+      }, 100);
+    });
   }
 </script>
 
