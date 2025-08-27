@@ -6,7 +6,7 @@ import Seo from "@components/Seo.astro";
 import { profileConfig, siteConfig } from "@/config";
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
-import Analytics from '@vercel/analytics/astro';
+import AnalyticsWrapper from '@components/AnalyticsWrapper.astro';
 import {
 	AUTO_MODE,
 	BANNER_HEIGHT,
@@ -187,7 +187,7 @@ const bannerOffset =
 	>
 		<ConfigCarrier></ConfigCarrier>
 		<slot />
-		<Analytics />
+		{import.meta.env.PROD && <AnalyticsWrapper />}
 
 		<!-- increase the page height during page transition to prevent the scrolling animation from jumping -->
 		<div id="page-height-extend" class="hidden h-[300vh]"></div>
