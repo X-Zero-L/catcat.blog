@@ -21,3 +21,11 @@ title: 友链
 - 描述：𝙄𝙩'𝙨 𝙩𝙝𝙚 𝙤𝙣𝙡𝙮 𝙉𝙀𝙀𝙏 𝙩𝙝𝙞𝙣𝙜 𝙩𝙤 𝙙𝙤…
 
 - RSS: https://catcat.blog/rss.xml
+
+## 自助提交
+
+请自行提交PR [点击这里提交](https://github.com/Yuri-NagaSaki/catcat.blog/blob/main/src/pages/friends.astro)
+
+
+
+
