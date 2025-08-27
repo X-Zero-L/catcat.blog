@@ -2,7 +2,7 @@
 title: "Emby客户端推荐"
 published: 2024-05-21
 tags: [Emby]
-category: 教程
+category: Emby
 ---
 
 ## 安卓
