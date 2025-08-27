@@ -10,15 +10,15 @@ function clampHue(v: number) {
 function cssFor(h: number, mode: 'light' | 'dark') {
   const hue = clampHue(h);
   
-  // 基于你的主题色调生成边框颜色
-  const borderColor = `oklch(0.75 0.14 ${hue})`;
-  const borderMuted = mode === 'dark' ? `oklch(0.55 0.08 ${hue})` : `oklch(0.80 0.10 ${hue})`;
+  // 基于你的主题色调生成边框颜色 - 更柔和的边框
+  const borderColor = mode === 'dark' ? `oklch(0.35 0.04 ${hue})` : `oklch(0.88 0.04 ${hue})`;
+  const borderMuted = mode === 'dark' ? `oklch(0.30 0.03 ${hue})` : `oklch(0.92 0.03 ${hue})`;
   
-  // 生成不同明度的主题色背景
-  const bgDefault = mode === 'dark' ? `oklch(0.25 0.08 ${hue})` : `oklch(0.95 0.03 ${hue})`;
-  const bgSubtle = mode === 'dark' ? `oklch(0.28 0.09 ${hue})` : `oklch(0.93 0.04 ${hue})`;
-  const bgInset = mode === 'dark' ? `oklch(0.22 0.07 ${hue})` : `oklch(0.97 0.02 ${hue})`;
-  const bgOverlay = mode === 'dark' ? `oklch(0.30 0.10 ${hue})` : `oklch(0.92 0.05 ${hue})`;
+  // 生成不同明度的主题色背景 - 更协调的背景层次
+  const bgDefault = mode === 'dark' ? `oklch(0.18 0.02 ${hue})` : `oklch(0.98 0.01 ${hue})`;
+  const bgSubtle = mode === 'dark' ? `oklch(0.22 0.03 ${hue})` : `oklch(0.96 0.02 ${hue})`;
+  const bgInset = mode === 'dark' ? `oklch(0.15 0.02 ${hue})` : `oklch(0.99 0.005 ${hue})`;
+  const bgOverlay = mode === 'dark' ? `oklch(0.25 0.04 ${hue})` : `oklch(0.94 0.03 ${hue})`;
   
   const light = `
     /*! Giscus Custom Theme - Light */
@@ -29,8 +29,8 @@ function cssFor(h: number, mode: 'light' | 'dark') {
       --color-border-default: ${borderColor};
       --color-border-muted: ${borderMuted};
       --color-neutral-muted: rgba(175, 184, 193, 0.2);
-      --color-accent-fg: oklch(0.50 0.20 ${hue});
-      --color-accent-emphasis: oklch(0.45 0.22 ${hue});
+      --color-accent-fg: oklch(0.52 0.16 ${hue});
+      --color-accent-emphasis: oklch(0.48 0.18 ${hue});
       --color-fg-default: #24292f;
       --color-fg-muted: #57606a;
       --color-fg-subtle: #6e7781;
@@ -162,8 +162,8 @@ function cssFor(h: number, mode: 'light' | 'dark') {
       --color-border-default: ${borderColor};
       --color-border-muted: ${borderMuted};
       --color-neutral-muted: rgba(110, 118, 129, 0.4);
-      --color-accent-fg: oklch(0.70 0.15 ${hue});
-      --color-accent-emphasis: oklch(0.65 0.18 ${hue});
+      --color-accent-fg: oklch(0.65 0.14 ${hue});
+      --color-accent-emphasis: oklch(0.60 0.16 ${hue});
       --color-fg-default: #ffffff;
       --color-fg-muted: #e0e0e0;
       --color-fg-subtle: #d0d0d0;
