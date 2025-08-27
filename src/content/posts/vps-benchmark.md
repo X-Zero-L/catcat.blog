@@ -3,6 +3,7 @@ title: "VPS 常用测试脚本"
 published: 2023-02-28
 tags: [脚本]
 category: 脚本
+pinned: true
 ---
 
 ## 1.体检脚本

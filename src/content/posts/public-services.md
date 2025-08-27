@@ -3,11 +3,8 @@ title: "公益项目整理"
 published: 2024-07-04
 tags: [公益项目]
 category: 公益项目
+pinned: true
 ---
-
-\[timeline\]2024-12-6|域名更新| misaka.games 即将替换sakiko.de域名\[/timeline\]
-
-\[timeline\]2025-3-1|即日起，准备把所有项目的域名转移到sakiko.de\[/timeline\]
 
 ## 镜像反代系列
 

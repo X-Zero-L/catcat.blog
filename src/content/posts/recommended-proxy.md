@@ -3,6 +3,7 @@ title: "什么值得买-持续更新ing(自用机场推荐)"
 published: 2023-02-23
 tags: [机场]
 category: 机场
+pinned: true
 ---
 
 ## 目前在使用的
