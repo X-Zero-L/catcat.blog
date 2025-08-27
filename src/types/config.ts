@@ -50,7 +50,6 @@ export enum LinkPreset {
 	About = 2,
 	Friends = 3,
 }
-}
 
 export type NavBarLink = {
 	name: string;
