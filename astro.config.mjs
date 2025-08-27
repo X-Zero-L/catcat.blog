@@ -114,7 +114,13 @@ export default defineConfig({
 			parseDirectiveNode,
 		],
 		rehypePlugins: [
-			rehypeKatex,
+			[rehypeKatex, { 
+				strict: false,
+				trust: true,
+				macros: {
+					"\\text": "\\textrm"
+				}
+			}],
 			rehypeSlug,
 			[
 				rehypeComponents,
