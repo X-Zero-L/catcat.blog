@@ -332,3 +332,5 @@ export const GET: APIRoute = async ({ url }) => {
     },
   });
 };
+
+export const prerender = false;

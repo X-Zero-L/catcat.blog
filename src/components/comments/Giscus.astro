@@ -25,7 +25,7 @@ import { i18n } from "@/i18n/translation";
   function buildThemeUrl() {
     const origin = window.location.origin;
     const mode = isDark() ? 'dark' : 'light';
-    return `${origin}/giscus.css/?h=${currentHue()}&mode=${mode}`;
+    return `${origin}/giscus.css?h=${currentHue()}&mode=${mode}`;
   }
 
   function injectGiscus() {
