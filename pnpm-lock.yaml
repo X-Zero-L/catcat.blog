@@ -32,9 +32,6 @@ importers:
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.2.6
         version: 5.2.6
-      '@fontsource/roboto':
-        specifier: ^5.2.6
-        version: 5.2.6
       '@iconify-json/fa6-brands':
         specifier: ^1.2.6
         version: 1.2.6
@@ -1062,9 +1059,6 @@ packages:
 
   '@fontsource-variable/jetbrains-mono@5.2.6':
     resolution: {integrity: sha512-1pvtyK6H1paBOixbtZ9xfQgArVQ4SJMW3WSGZPOd5PiW3yg0t8umwKnjDMzW2ofb7qSdiXnsnIaHPT36vEOdlg==}
-
-  '@fontsource/roboto@5.2.6':
-    resolution: {integrity: sha512-hzarG7yAhMoP418smNgfY4fO7UmuUEm5JUtbxCoCcFHT0hOJB+d/qAEyoNjz7YkPU5OjM2LM8rJnW8hfm0JLaA==}
 
   '@iconify-json/fa6-brands@1.2.6':
     resolution: {integrity: sha512-twL3X4KWcxAhbc1vz/mIDsVr+CAItk1/EIfxKUVQtpv6O4eydk5KNYqTZWdvJNHGInUgd6vKg21aWfVgb5DXEg==}
@@ -6371,8 +6365,6 @@ snapshots:
       '@expressive-code/core': 0.41.3
 
   '@fontsource-variable/jetbrains-mono@5.2.6': {}
-
-  '@fontsource/roboto@5.2.6': {}
 
   '@iconify-json/fa6-brands@1.2.6':
     dependencies:

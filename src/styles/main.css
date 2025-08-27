@@ -5,8 +5,9 @@
 
 @theme {
   --font-sans:
-    Roboto, sans-serif, ui-sans-serif, system-ui, sans-serif,
+    "MiSans", "JetBrains Mono Variable", -apple-system, BlinkMacSystemFont, "Open Sans", system-ui, "Segoe UI", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-weight-base: 500;
 }
 
 @utility card-base {
@@ -134,6 +135,10 @@
 @layer components {
     h1, h2, h3, h4, h5, h6, p, a, span, li, ul, ol, blockquote, code, pre, table, th, td, strong {
         @apply transition;
+    }
+
+    body {
+        font-weight: 500;
     }
 
     #toc-inner-wrapper {
