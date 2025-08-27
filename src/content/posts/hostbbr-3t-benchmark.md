@@ -2,7 +2,7 @@
 title: "Hostbbr 3T超大存储年付72刀翻倍款vps测评"
 published: 2023-06-02
 tags: [德国,存储服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 介绍

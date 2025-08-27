@@ -2,7 +2,7 @@
 title: "Layer Spokane-WA AMD 7950X 10Gbit  测评"
 published: 2023-09-16
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 **来自迪拜的商家，据说从2012年就开始在OCF上提供服务，三年前更名为Layer(一家在迪拜注册的公司，贸易许可证号为 900809，并设有真正的办事处),目前拓展到扩展到华盛顿州斯波坎,硬件性能优秀，自带5个备份插槽，带DDOS防护，综合来说还是不错的。机器使用AMD 7950X+DDR5 内存+PCIE4.0 NVME固态，单核性能GB6接近3000分，在我使用的机器里仅次于Crunchbits的VDS，使用观察中ing.**
@@ -110,7 +110,7 @@ Clouvider       | NYC, NY, US (10G)         | 58.9 Mbits/sec  | 95.9 Mbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 43.7 Mbits/sec  | 114 Mbits/sec   | 72.5 ms        
 Clouvider       | Los Angeles, CA, US (10G) | 105 Mbits/sec   | busy            | 39.2 ms        
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -449,7 +449,7 @@ Speedtest.net    2331.40 Mbps    8938.77 Mbps    15.94    0.0%
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Sat Sep 16 2023 10:40:13 - 11:08:36
+BenchMark Run: Sat Sep 16 2023 10:40:13 - 11:08:36
 1 CPU in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       79494427.8 lps   (10.0 s, 7 samples)
@@ -465,7 +465,7 @@ Shell Scripts (1 concurrent)                  23857.5 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3130.9 lpm   (60.0 s, 2 samples)
 System Call Overhead                        5628008.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   79494427.8   6811.9
 Double-Precision Whetstone                       55.0      12958.7   2356.1
 Execl Throughput                                 43.0      12599.0   2930.0
@@ -479,7 +479,7 @@ Shell Scripts (1 concurrent)                     42.4      23857.5   5626.8
 Shell Scripts (8 concurrent)                      6.0       3130.9   5218.2
 System Call Overhead                          15000.0    5628008.4   3752.0
                                                                    ========
-System Benchmarks Index Score                                        4248.4
+System BenchMarks Index Score                                        4248.4
 ```
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试
@@ -567,7 +567,7 @@ Block Size	512k (IOPS)	1m (IOPS)
 Read	2.78 GB/s (5.4k)	3.57 GB/s (3.4k)
 Write	2.93 GB/s (5.7k)	3.81 GB/s (3.7k)
 Total	5.71 GB/s (11.1k)	7.38 GB/s (7.2k)
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 Test | Value
 |
 Single Core | 2886
@@ -633,7 +633,7 @@ Read       | 3.20 GB/s     (6.2k) | 3.73 GB/s     (3.6k)
 Write      | 3.37 GB/s     (6.5k) | 3.98 GB/s     (3.8k)
 Total      | 6.57 GB/s    (12.8k) | 7.72 GB/s     (7.5k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -682,7 +682,7 @@ Read       | 3.52 GB/s     (6.8k) | 3.90 GB/s     (3.8k)
 Write      | 3.70 GB/s     (7.2k) | 4.16 GB/s     (4.0k)
 Total      | 7.23 GB/s    (14.1k) | 8.06 GB/s     (7.8k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -722,7 +722,7 @@ YABS completed in 6 min 20 sec
 
  1 Thread Test:                 6277 Scores
 
-Geekbench 4 Benchmark Test:
+Geekbench 4 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -730,7 +730,7 @@ Single Core     | 8889
 Multi Core      | 8347                          
 Full Test       | https://browser.geekbench.com/v4/cpu/16880424
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -1140,7 +1140,7 @@ Read       | 3.41 GB/s     (6.6k) | 3.54 GB/s     (3.4k)
 Write      | 3.59 GB/s     (7.0k) | 3.77 GB/s     (3.6k)
 Total      | 7.01 GB/s    (13.6k) | 7.31 GB/s     (7.1k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

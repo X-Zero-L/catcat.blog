@@ -2,7 +2,7 @@
 title: "Spaceberg 4C6G512G 150T"
 published: 2023-07-07
 tags: [Spaceberg,存储服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 配置
@@ -127,7 +127,7 @@ Clouvider       | NYC, NY, US (10G)         | 1.53 Gbits/sec  | 2.10 Gbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 1.12 Gbits/sec  | 1.46 Gbits/sec  | 117 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 937 Mbits/sec   | 1.31 Gbits/sec  | 132 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

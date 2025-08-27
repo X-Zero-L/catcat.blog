@@ -2,7 +2,7 @@
 title: "英国 AllHost AMD 7900 测评"
 published: 2023-09-08
 tags: [英国]
-category: Benchmark
+category: BenchMark
 ---
 
 > ## 套餐
@@ -142,7 +142,7 @@ Shell Scripts (1 concurrent)                  23124.3 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   6286.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4439258.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   74248937.5   6362.4
 Double-Precision Whetstone                       55.0      12462.0   2265.8
 Execl Throughput                                 43.0       8568.0   1992.6
@@ -156,7 +156,7 @@ Shell Scripts (1 concurrent)                     42.4      23124.3   5453.8
 Shell Scripts (8 concurrent)                      6.0       6286.5  10477.5
 System Call Overhead                          15000.0    4439258.8   2959.5
                                                                    ========
-System Benchmarks Index Score                                        3736.0
+System BenchMarks Index Score                                        3736.0
 
 ------------------------------------------------------------------------
 3 CPUs in system; running 3 parallel copies of tests
@@ -174,7 +174,7 @@ Shell Scripts (1 concurrent)                  43806.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   6567.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                       12747363.3 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  216635558.8  18563.5
 Double-Precision Whetstone                       55.0      37459.4   6810.8
 Execl Throughput                                 43.0      15703.7   3652.0
@@ -188,7 +188,7 @@ Shell Scripts (1 concurrent)                     42.4      43806.4  10331.7
 Shell Scripts (8 concurrent)                      6.0       6567.6  10946.0
 System Call Overhead                          15000.0   12747363.3   8498.2
                                                                    ========
-System Benchmarks Index Score                                        8806.0
+System BenchMarks Index Score                                        8806.0
 ```
 
 ### PassMark

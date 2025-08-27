@@ -2,7 +2,7 @@
 title: "Hetzner美西俄勒冈vps评测"
 published: 2023-02-27
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 1\. 官方网站

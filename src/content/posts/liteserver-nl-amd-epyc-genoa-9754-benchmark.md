@@ -2,7 +2,7 @@
 title: "LiteServer 荷兰  AMD EPYC™ Genoa 9754 测评"
 published: 2023-11-24
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 题外话：最近忙着公司事情，很久没测了，买了很多都在吃灰，闲下来慢慢补上吧
@@ -163,7 +163,7 @@ Clouvider       | NYC, NY, US (10G)         | busy            | busy            
 Clouvider       | Dallas, TX, US (10G)      | busy            | busy            | 235 ms         
 Clouvider       | Los Angeles, CA, US (10G) | busy            | 263 Mbits/sec   | 149 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -425,7 +425,7 @@ Google搜索可行性：YES
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: k8s-worker1: GNU/Linux
    OS: GNU/Linux -- 6.1.0-9-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)
@@ -442,7 +442,7 @@ Google搜索可行性：YES
    09:03:28 up 34 min,  1 user,  load average: 0.56, 0.27, 0.16; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Dec 03 2023 09:03:28 - 09:31:30
+BenchMark Run: Sun Dec 03 2023 09:03:28 - 09:31:30
 4 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       46515663.2 lps   (10.0 s, 7 samples)
@@ -458,7 +458,7 @@ Shell Scripts (1 concurrent)                  13272.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3885.4 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2352540.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   46515663.2   3985.9
 Double-Precision Whetstone                       55.0       7354.0   1337.1
 Execl Throughput                                 43.0       4029.7    937.1
@@ -472,10 +472,10 @@ Shell Scripts (1 concurrent)                     42.4      13272.2   3130.2
 Shell Scripts (8 concurrent)                      6.0       3885.4   6475.7
 System Call Overhead                          15000.0    2352540.8   1568.4
                                                                    ========
-System Benchmarks Index Score                                        1979.0
+System BenchMarks Index Score                                        1979.0
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Dec 03 2023 09:31:30 - 09:59:32
+BenchMark Run: Sun Dec 03 2023 09:31:30 - 09:59:32
 4 CPUs in system; running 4 parallel copies of tests
 
 Dhrystone 2 using register variables      185014625.2 lps   (10.0 s, 7 samples)
@@ -491,7 +491,7 @@ Shell Scripts (1 concurrent)                  30337.1 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4126.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4887214.7 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  185014625.2  15853.9
 Double-Precision Whetstone                       55.0      29337.2   5334.0
 Execl Throughput                                 43.0      11619.5   2702.2
@@ -505,7 +505,7 @@ Shell Scripts (1 concurrent)                     42.4      30337.1   7155.0
 Shell Scripts (8 concurrent)                      6.0       4126.7   6877.8
 System Call Overhead                          15000.0    4887214.7   3258.1
                                                                    ========
-System Benchmarks Index Score                                        4306.5
+System BenchMarks Index Score                                        4306.5
 
 ======= Script description and score comparison completed! ======= 
 ```

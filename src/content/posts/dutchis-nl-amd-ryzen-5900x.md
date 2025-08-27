@@ -2,7 +2,7 @@
 title: "DutchIS 荷兰 AMD Ryzen 5900X 测评"
 published: 2023-10-10
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 套餐
@@ -200,7 +200,7 @@ Shell Scripts (1 concurrent)                  18895.5 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3780.9 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2207231.2 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   60483881.9   5182.9
 Double-Precision Whetstone                       55.0      10771.9   1958.5
 Execl Throughput                                 43.0       6039.6   1404.6
@@ -214,7 +214,7 @@ Shell Scripts (1 concurrent)                     42.4      18895.5   4456.5
 Shell Scripts (8 concurrent)                      6.0       3780.9   6301.6
 System Call Overhead                          15000.0    2207231.2   1471.5
                                                                    ========
-System Benchmarks Index Score                                        2417.9
+System BenchMarks Index Score                                        2417.9
 
 ------------------------------------------------------------------------
 
@@ -233,7 +233,7 @@ Shell Scripts (1 concurrent)                  28001.1 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4038.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4485247.0 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  119114723.4  10206.9
 Double-Precision Whetstone                       55.0      21432.7   3896.9
 Execl Throughput                                 43.0      10240.0   2381.4
@@ -247,7 +247,7 @@ Shell Scripts (1 concurrent)                     42.4      28001.1   6604.0
 Shell Scripts (8 concurrent)                      6.0       4038.2   6730.3
 System Call Overhead                          15000.0    4485247.0   2990.2
                                                                    ========
-System Benchmarks Index Score                                        4755.2
+System BenchMarks Index Score                                        4755.2
 ```
 
 ### Network-Speed.xyz

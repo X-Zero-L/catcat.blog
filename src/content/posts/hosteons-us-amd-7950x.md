@@ -2,7 +2,7 @@
 title: "HostEONS  美国 AMD 7950X  VDS 测评"
 published: 2023-10-21
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 这家争议挺大的，老板似乎很会营销，在上次促销中就把3950 和5950x混着一起卖，最后说 他只销售锐龙，而且在mjj入场之后，老板还专门为mjj推出半杯套餐，美其名曰VDS。实际上你需要购买两核才能独享一个真正的单核（独享存疑）。现在推出的7950X vds应该是同一个套路，至于性能，中规中矩的水平，在这个价格算不上什么优势，实际上用了一段实际之后，性能还是下降了（CPU ,IO,网络均出现下滑）。介于老板的做事形式和MJJ的无脑，不是很推荐上车。（请注意，这家**无退款**。）
@@ -112,7 +112,7 @@ Clouvider       | NYC, NY, US (10G)         | 3.35 Gbits/sec  | 3.45 Gbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 2.52 Gbits/sec  | 2.47 Gbits/sec  | 140 ms
 Clouvider       | Los Angeles, CA, US (10G) | 5.65 Gbits/sec  | 5.98 Gbits/sec  | 20.1 ms
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -189,7 +189,7 @@ Shell Scripts (1 concurrent)                  25870.5 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5527.0 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2868479.3 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   79195958.5   6786.3
 Double-Precision Whetstone                       55.0      13279.0   2414.4
 Execl Throughput                                 43.0       7957.9   1850.7
@@ -203,7 +203,7 @@ Shell Scripts (1 concurrent)                     42.4      25870.5   6101.5
 Shell Scripts (8 concurrent)                      6.0       5527.0   9211.7
 System Call Overhead                          15000.0    2868479.3   1912.3
                                                                    ========
-System Benchmarks Index Score                                        3062.8
+System BenchMarks Index Score                                        3062.8
 
 ------------------------------------------------------------------------
 
@@ -222,7 +222,7 @@ Shell Scripts (1 concurrent)                  39834.5 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5663.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        5679527.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  156881381.5  13443.1
 Double-Precision Whetstone                       55.0      26529.9   4823.6
 Execl Throughput                                 43.0      15078.4   3506.6
@@ -236,7 +236,7 @@ Shell Scripts (1 concurrent)                     42.4      39834.5   9394.9
 Shell Scripts (8 concurrent)                      6.0       5663.3   9438.8
 System Call Overhead                          15000.0    5679527.4   3786.4
                                                                    ========
-System Benchmarks Index Score                                        6490.9
+System BenchMarks Index Score                                        6490.9
 ```
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试

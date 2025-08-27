@@ -2,7 +2,7 @@
 title: "HostHatch  东京 AMD 7R13 测评"
 published: 2023-12-25
 tags: [日本]
-category: Benchmark
+category: BenchMark
 ---
 
 HostHatch(hh) 2011年创建, 美国商家, 特色是便宜大碗, 没有优化线路。今年已经是他们的12周年，已经属于老商家了。这次学习bero推出了配置接近的便宜大碗组合，就目前开机的效果而言，还是非常不错的。需要注意的是 他家硬盘/内存测试数据都会小一点, 其他商家是以GiB为单位给, 他家是按GB (60 GB大约55.9 GiB).根据LOC的说法存在丢数据的情况，我没有经历过，不做评价。
@@ -139,7 +139,7 @@ Clouvider       | NYC, NY, US (10G)         | 938 Mbits/sec   | 1.10 Gbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 1.19 Gbits/sec  | 1.39 Gbits/sec  | 130 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 1.50 Gbits/sec  | 1.70 Gbits/sec  | 108 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -509,7 +509,7 @@ Memory Mark:                       1906
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat: GNU/Linux
    OS: GNU/Linux -- 6.1.0-9-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)
@@ -530,7 +530,7 @@ Memory Mark:                       1906
    08:05:21 up  1:05,  1 user,  load average: 0.15, 0.07, 0.23; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Dec 25 2023 08:05:21 - 08:33:17
+BenchMark Run: Mon Dec 25 2023 08:05:21 - 08:33:17
 6 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       47758585.6 lps   (10.0 s, 7 samples)
@@ -546,7 +546,7 @@ Shell Scripts (1 concurrent)                  12023.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4345.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2445825.0 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   47758585.6   4092.4
 Double-Precision Whetstone                       55.0       8345.8   1517.4
 Execl Throughput                                 43.0       3488.9    811.4
@@ -560,10 +560,10 @@ Shell Scripts (1 concurrent)                     42.4      12023.2   2835.7
 Shell Scripts (8 concurrent)                      6.0       4345.3   7242.2
 System Call Overhead                          15000.0    2445825.0   1630.6
                                                                    ========
-System Benchmarks Index Score                                        1990.9
+System BenchMarks Index Score                                        1990.9
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Dec 25 2023 08:33:17 - 09:01:19
+BenchMark Run: Mon Dec 25 2023 08:33:17 - 09:01:19
 6 CPUs in system; running 6 parallel copies of tests
 
 Dhrystone 2 using register variables      283929194.1 lps   (10.0 s, 7 samples)
@@ -579,7 +579,7 @@ Shell Scripts (1 concurrent)                  43691.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5776.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4985527.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  283929194.1  24329.8
 Double-Precision Whetstone                       55.0      49978.6   9087.0
 Execl Throughput                                 43.0      13431.6   3123.6
@@ -593,7 +593,7 @@ Shell Scripts (1 concurrent)                     42.4      43691.8  10304.7
 Shell Scripts (8 concurrent)                      6.0       5776.5   9627.4
 System Call Overhead                          15000.0    4985527.6   3323.7
                                                                    ========
-System Benchmarks Index Score                                        5299.3
+System BenchMarks Index Score                                        5299.3
 
 ======= Script description and score comparison completed! ======= 
 ```
@@ -622,7 +622,7 @@ root@catcat:~# curl -sL bench.monster | bash -s -- -asia
  ASN & ISP    : AS63473, HostHatch / HostHatch, LLC
 ---------------------------------------------------------------------------
 
- ## Geekbench v6 CPU Benchmark:
+ ## Geekbench v6 CPU BenchMark:
 
   Single Core : 1560  (EXCELLENT)
    Multi Core : 6571

@@ -2,7 +2,7 @@
 title: "Madcityservers 7950x 测评"
 published: 2023-09-04
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 > 风评不大好，谨慎购买
@@ -81,7 +81,7 @@ Clouvider       | NYC, NY, US (10G)         | 821 Mbits/sec   | busy            
 Clouvider       | Dallas, TX, US (10G)      | 749 Mbits/sec   | 5.04 Gbits/sec  | 37.5 ms        
 Clouvider       | Los Angeles, CA, US (10G) | busy            | busy            | 59.7 ms 
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -90,7 +90,7 @@ Multi Core      | 8281
        
 ```
 
-### Benchmark
+### BenchMark
 
 ```shell
 Dhrystone 2 using register variables       78754641.2 lps   (10.0 s, 7 samples)
@@ -106,7 +106,7 @@ Shell Scripts (1 concurrent)                  28624.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   7930.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4687056.0 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   78754641.2   6748.5
 Double-Precision Whetstone                       55.0      13316.1   2421.1
 Execl Throughput                                 43.0       8987.0   2090.0
@@ -120,7 +120,7 @@ Shell Scripts (1 concurrent)                     42.4      28624.8   6751.1
 Shell Scripts (8 concurrent)                      6.0       7930.7  13217.9
 System Call Overhead                          15000.0    4687056.0   3124.7
                                                                    ========
-System Benchmarks Index Score                                        3832.9
+System BenchMarks Index Score                                        3832.9
 
 ------------------------------------------------------------------------
 4 CPUs in system; running 4 parallel copies of tests
@@ -138,7 +138,7 @@ Shell Scripts (1 concurrent)                  59806.0 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   8756.4 lpm   (60.0 s, 2 samples)
 System Call Overhead                       18113612.1 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  302860184.9  25952.0
 Double-Precision Whetstone                       55.0      52184.5   9488.1
 Execl Throughput                                 43.0      19701.4   4581.7
@@ -152,7 +152,7 @@ Shell Scripts (1 concurrent)                     42.4      59806.0  14105.2
 Shell Scripts (8 concurrent)                      6.0       8756.4  14594.0
 System Call Overhead                          15000.0   18113612.1  12075.7
                                                                    ========
-System Benchmarks Index Score                                       12018.2
+System BenchMarks Index Score                                       12018.2
 ```
 
 ### PassMark

@@ -2,7 +2,7 @@
 title: "Hybula 7950x 荷兰24欧"
 published: 2023-04-08
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 <picture>
@@ -60,7 +60,7 @@ looking glass : [https://lg-nl-dtc.hybula.net/](https://lg-nl-dtc.hybula.net/)
 </picture>
 
 ```shell
-Geekbench 4 Benchmark Test:
+Geekbench 4 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -68,7 +68,7 @@ Single Core     | 9298
 Multi Core      | 8951                          
 Full Test       | https://browser.geekbench.com/v4/cpu/16739481
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -76,7 +76,7 @@ Single Core     | 2246
 Multi Core      | 2241                          
 Full Test       | https://browser.geekbench.com/v5/cpu/21023036
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -278,7 +278,7 @@ Clouvider       | NYC, NY, US (10G)         | busy            | 464 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 969 Mbits/sec   | 376 Mbits/sec   | 127 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 926 Mbits/sec   | 387 Mbits/sec   | 151 ms 
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |       
@@ -400,7 +400,7 @@ Clouvider       | NYC, NY, US (10G)         | 904 Mbits/sec   | 153 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 529 Mbits/sec   | 142 Mbits/sec   | 115 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 802 Mbits/sec   | 543 Mbits/sec   | 142 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -451,7 +451,7 @@ Read       | 2.80 GB/s     (5.4k) | 3.43 GB/s     (3.3k)
 Write      | 2.95 GB/s     (5.7k) | 3.66 GB/s     (3.5k)
 Total      | 5.76 GB/s    (11.2k) | 7.10 GB/s     (6.9k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -500,7 +500,7 @@ Read       | 3.86 GB/s     (7.5k) | 3.76 GB/s     (3.6k)
 Write      | 4.06 GB/s     (7.9k) | 4.01 GB/s     (3.9k)
 Total      | 7.92 GB/s    (15.4k) | 7.78 GB/s     (7.5k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

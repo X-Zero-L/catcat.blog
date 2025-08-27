@@ -2,7 +2,7 @@
 title: "Evoxt AMD EPYC-Genoa 波兰测评"
 published: 2024-07-14
 tags: [波兰]
-category: Benchmark
+category: BenchMark
 ---
 
 这家开业有几年了。地区目前有香港，日本 ，美国，波兰，英国，马来西亚，德国等地区。前一段时间他们家的香港和日本炒的比较火，因为托管的是Xtom的机房，线路大家都懂，加上之前水灾，老板赔偿的可以。也有很多人拿他们家当Tiktok，我不涉及这些，不做说明。这次新上了波兰机房，这种地区咱们就不看网络了。
@@ -97,7 +97,7 @@ Clouvider       | Los Angeles, CA, US (10G) | busy            | 340 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 743 Mbits/sec   | 633 Mbits/sec   | -- 
 Edgoo           | Sao Paulo, BR (1G)        | 648 Mbits/sec   | 191 Mbits/sec   | 204 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -164,7 +164,7 @@ Shell Scripts (1 concurrent)                  26157.6 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4528.9 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4735741.1 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   78812817.7   6753.5
 Double-Precision Whetstone                       55.0      12863.3   2338.8
 Execl Throughput                                 43.0      12246.0   2847.9
@@ -178,7 +178,7 @@ Shell Scripts (1 concurrent)                     42.4      26157.6   6169.2
 Shell Scripts (8 concurrent)                      6.0       4528.9   7548.2
 System Call Overhead                          15000.0    4735741.1   3157.2
                                                                    ========
-System Benchmarks Index Score                                        3732.3
+System BenchMarks Index Score                                        3732.3
 
 ------------------------------------------------------------------------
 2 CPUs in system; running 2 parallel copies of tests
@@ -196,7 +196,7 @@ Shell Scripts (1 concurrent)                  32825.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4316.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4190635.5 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  154692797.3  13255.6
 Double-Precision Whetstone                       55.0      25624.7   4659.0
 Execl Throughput                                 43.0      13992.4   3254.0
@@ -210,7 +210,7 @@ Shell Scripts (1 concurrent)                     42.4      32825.4   7741.8
 Shell Scripts (8 concurrent)                      6.0       4316.7   7194.5
 System Call Overhead                          15000.0    4190635.5   2793.8
                                                                    ========
-System Benchmarks Index Score                                        4273.0
+System BenchMarks Index Score                                        4273.0
 
 ======= Script description and score comparison completed! ======= 
 ```

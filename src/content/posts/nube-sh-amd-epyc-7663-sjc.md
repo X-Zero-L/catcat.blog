@@ -2,7 +2,7 @@
 title: "Nube.sh AMD EPYC 7663 圣何塞优化线路 测评"
 published: 2025-03-03
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 促销不再赘述了，详情可见 [Nube.sh 弹性云折扣](https://catcat.blog/nube-sh.html)

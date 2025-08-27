@@ -176,7 +176,7 @@ Shell Scripts (1 concurrent)                  30712.4 lpm   (60.0 s, 4 samples)
 Shell Scripts (8 concurrent)                   5431.8 lpm   (60.0 s, 4 samples)
 System Call Overhead                        5519520.3 lps   (10.0 s, 10 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   82250362.3   7048.0
 Double-Precision Whetstone                       55.0      13671.1   2485.7
 Execl Throughput                                 43.0      11121.8   2586.5
@@ -190,7 +190,7 @@ Shell Scripts (1 concurrent)                     42.4      30712.4   7243.5
 Shell Scripts (8 concurrent)                      6.0       5431.8   9052.9
 System Call Overhead                          15000.0    5519520.3   3679.7
                                                                    ========
-System Benchmarks Index Score                                        4051.0
+System BenchMarks Index Score                                        4051.0
 
 ------------------------------------------------------------------------
 2 CPUs in system; running 2 parallel copies of tests
@@ -208,7 +208,7 @@ Shell Scripts (1 concurrent)                  41571.0 lpm   (60.0 s, 4 samples)
 Shell Scripts (8 concurrent)                   5929.4 lpm   (60.0 s, 4 samples)
 System Call Overhead                       11243558.2 lps   (10.0 s, 10 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  160306340.0  13736.6
 Double-Precision Whetstone                       55.0      27300.4   4963.7
 Execl Throughput                                 43.0      20533.8   4775.3
@@ -222,7 +222,7 @@ Shell Scripts (1 concurrent)                     42.4      41571.0   9804.5
 Shell Scripts (8 concurrent)                      6.0       5929.4   9882.4
 System Call Overhead                          15000.0   11243558.2   7495.7
                                                                    ========
-System Benchmarks Index Score                                        7534.8
+System BenchMarks Index Score                                        7534.8
 ```
 
 ### Geekbench 6

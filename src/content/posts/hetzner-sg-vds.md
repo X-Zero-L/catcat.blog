@@ -2,7 +2,7 @@
 title: "Hetzner 新加坡 VDS 测评"
 published: 2024-08-06
 tags: [新加坡]
-category: Benchmark
+category: BenchMark
 ---
 
 期待已久的Hetzner 新加坡终于上线了。只能说，理想很美好，显示很骨感。并没有想象中能够媲美德国的优惠，性价比非常低，带宽属于单向1T，CPU仅有7002，7003起，价格7.4欧起步，属实有点上不起。额外每T的流量 7.40 欧元。
@@ -128,7 +128,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 818 Mbits/sec   | 177 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 712 Mbits/sec   | 752 Mbits/sec   | 228 ms         
 Edgoo           | Sao Paulo, BR (1G)        | 461 Mbits/sec   | 480 Mbits/sec   | 326 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -185,7 +185,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/7217346
 ### UnixBench
 
 ```shell
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat: GNU/Linux
    OS: GNU/Linux -- 5.4.0-189-generic -- #209-Ubuntu SMP Fri Jun 7 14:05:13 UTC 2024
@@ -198,7 +198,7 @@ Full Test       | https://browser.geekbench.com/v6/cpu/7217346
    11:50:15 up 2 min,  1 user,  load average: 0.77, 0.35, 0.13; runlevel 2024-08-06
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Aug 06 2024 11:50:15 - 12:18:12
+BenchMark Run: Tue Aug 06 2024 11:50:15 - 12:18:12
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       55583034.0 lps   (10.0 s, 7 samples)
@@ -214,7 +214,7 @@ Shell Scripts (1 concurrent)                  17863.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   2894.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3848781.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   55583034.0   4762.9
 Double-Precision Whetstone                       55.0       9236.6   1679.4
 Execl Throughput                                 43.0       7802.2   1814.5
@@ -228,10 +228,10 @@ Shell Scripts (1 concurrent)                     42.4      17863.8   4213.1
 Shell Scripts (8 concurrent)                      6.0       2894.7   4824.5
 System Call Overhead                          15000.0    3848781.6   2565.9
                                                                    ========
-System Benchmarks Index Score                                        2348.3
+System BenchMarks Index Score                                        2348.3
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Aug 06 2024 12:18:12 - 12:46:08
+BenchMark Run: Tue Aug 06 2024 12:18:12 - 12:46:08
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables       79959917.0 lps   (10.0 s, 7 samples)
@@ -247,7 +247,7 @@ Shell Scripts (1 concurrent)                  20657.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3023.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4634725.1 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   79959917.0   6851.7
 Double-Precision Whetstone                       55.0      15553.0   2827.8
 Execl Throughput                                 43.0       9923.1   2307.7
@@ -261,7 +261,7 @@ Shell Scripts (1 concurrent)                     42.4      20657.8   4872.1
 Shell Scripts (8 concurrent)                      6.0       3023.5   5039.2
 System Call Overhead                          15000.0    4634725.1   3089.8
                                                                    ========
-System Benchmarks Index Score                                        3694.0
+System BenchMarks Index Score                                        3694.0
 ```
 
 ### 融合怪脚本测试

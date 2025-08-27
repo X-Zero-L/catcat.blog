@@ -2,7 +2,7 @@
 title: "SpeedyPage 日本东京测试"
 published: 2023-08-29
 tags: [日本]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 套餐
@@ -80,7 +80,7 @@ Clouvider       | NYC, NY, US (10G)         | 25.0 Mbits/sec  | 30.7 Mbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 20.3 Mbits/sec  | 29.5 Mbits/sec  | 188 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 24.7 Mbits/sec  | 30.6 Mbits/sec  | 160 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -354,11 +354,11 @@ Speedtest.net    946.47 Mbps     889.53 Mbps     0.25     NULL
 ----------------------------------------------------------------------
 ```
 
-### Benchmark
+### BenchMark
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Tue Aug 29 2023 12:25:19 - 12:53:15
+BenchMark Run: Tue Aug 29 2023 12:25:19 - 12:53:15
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       48984971.2 lps   (10.0 s, 7 samples)
@@ -374,7 +374,7 @@ Shell Scripts (1 concurrent)                  11655.3 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   2136.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1963697.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   48984971.2   4197.5
 Double-Precision Whetstone                       55.0       8749.5   1590.8
 Execl Throughput                                 43.0       3638.5    846.2
@@ -388,10 +388,10 @@ Shell Scripts (1 concurrent)                     42.4      11655.3   2748.9
 Shell Scripts (8 concurrent)                      6.0       2136.2   3560.4
 System Call Overhead                          15000.0    1963697.9   1309.1
                                                                    ========
-System Benchmarks Index Score                                        1616.4
+System BenchMarks Index Score                                        1616.4
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Aug 29 2023 12:53:15 - 13:21:12
+BenchMark Run: Tue Aug 29 2023 12:53:15 - 13:21:12
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables       96252850.8 lps   (10.0 s, 7 samples)
@@ -407,7 +407,7 @@ Shell Scripts (1 concurrent)                  15955.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   2152.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3149910.0 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   96252850.8   8247.9
 Double-Precision Whetstone                       55.0      17526.8   3186.7
 Execl Throughput                                 43.0       6375.3   1482.6
@@ -421,7 +421,7 @@ Shell Scripts (1 concurrent)                     42.4      15955.8   3763.2
 Shell Scripts (8 concurrent)                      6.0       2152.5   3587.6
 System Call Overhead                          15000.0    3149910.0   2099.9
                                                                    ========
-System Benchmarks Index Score                                        2730.7
+System BenchMarks Index Score                                        2730.7
 
 ======= Script description and score comparison completed! ======= 
 ```

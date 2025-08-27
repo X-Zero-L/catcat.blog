@@ -2,7 +2,7 @@
 title: "Server-Factory AMD 7950X 荷兰预售"
 published: 2024-01-10
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 Server-Factory 这次我是预售48欧买的，结果跳票从瑞典跳到荷兰跳到今年才开机。之前推出的纯ipv6机在MJJ中挺受欢迎的，硬盘IO很不错。据反馈之前的epyc系列和5000系列也非常稳定。**商家不允许退款**，支持使用加密货币和PayPal。服务器位于荷兰 Eygelshoven 的 SkyLink 数据中心。
@@ -152,7 +152,7 @@ Clouvider       | NYC, NY, US (10G)         | 260 Mbits/sec   | 1.78 Gbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 344 Mbits/sec   | 1.22 Gbits/sec  | 120 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 376 Mbits/sec   | 1.10 Gbits/sec  | 149 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -247,7 +247,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat: GNU/Linux
    OS: GNU/Linux -- 6.1.0-17-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.69-1 (2023-12-30)
@@ -260,7 +260,7 @@ Geekbench 5 测试结果
    15:41:24 up 43 min,  1 user,  load average: 0.14, 0.15, 0.11; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Wed Jan 10 2024 15:41:24 - 16:09:44
+BenchMark Run: Wed Jan 10 2024 15:41:24 - 16:09:44
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       84357772.6 lps   (10.0 s, 7 samples)
@@ -276,7 +276,7 @@ Shell Scripts (1 concurrent)                  21882.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3764.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2806512.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   84357772.6   7228.6
 Double-Precision Whetstone                       55.0      13345.1   2426.4
 Execl Throughput                                 43.0       7767.3   1806.3
@@ -290,10 +290,10 @@ Shell Scripts (1 concurrent)                     42.4      21882.9   5161.1
 Shell Scripts (8 concurrent)                      6.0       3764.2   6273.7
 System Call Overhead                          15000.0    2806512.6   1871.0
                                                                    ========
-System Benchmarks Index Score                                        3000.3
+System BenchMarks Index Score                                        3000.3
 
 ------------------------------------------------------------------------
-Benchmark Run: Wed Jan 10 2024 16:09:44 - 16:38:04
+BenchMark Run: Wed Jan 10 2024 16:09:44 - 16:38:04
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables      164587088.7 lps   (10.0 s, 7 samples)
@@ -309,7 +309,7 @@ Shell Scripts (1 concurrent)                  29362.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3887.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3062638.5 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  164587088.7  14103.4
 Double-Precision Whetstone                       55.0      26484.9   4815.4
 Execl Throughput                                 43.0      10880.8   2530.4
@@ -323,7 +323,7 @@ Shell Scripts (1 concurrent)                     42.4      29362.7   6925.2
 Shell Scripts (8 concurrent)                      6.0       3887.2   6478.6
 System Call Overhead                          15000.0    3062638.5   2041.8
                                                                    ========
-System Benchmarks Index Score                                        4559.1
+System BenchMarks Index Score                                        4559.1
 
 ======= Script description and score comparison completed! ======= 
 ```
@@ -352,7 +352,7 @@ root@catcat:~# curl -sL bench.monster | bash -s
  ASN & ISP    : AS206075, Maximilian Jacobsen / Maximilian Jacobsen
 ---------------------------------------------------------------------------
 
- ## Geekbench v6 CPU Benchmark:
+ ## Geekbench v6 CPU BenchMark:
 
   Single Core : 3022  (MONSTER)
    Multi Core : 5433

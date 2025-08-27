@@ -2,7 +2,7 @@
 title: "Hetzner ARM 和X86 对比评测"
 published: 2023-05-16
 tags: [Hetzner]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 双方选手
@@ -64,7 +64,7 @@ Hetzner CAX31 - 11.99 EURO      | Hetzner CPX31 - 13.1 EURO
 Score      :           133666 TPS               |       138406 TPS
 Avg Latency:            0.748 ms                |        0.723 ms
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-***** PTS Nginx Benchmark *****
+***** PTS Nginx BenchMark *****
 Connections: 1000
 ----------------------------------------------------------------------------
 Hetzner CAX31 - 11.99 EURO      | Hetzner CPX31 - 13.1 EURO
@@ -192,7 +192,7 @@ Read       | 2.09 GB/s     (4.0k) | 2.10 GB/s     (2.0k)
 Write      | 2.27 GB/s     (4.4k) | 2.34 GB/s     (2.2k)
 Total      | 4.36 GB/s     (8.5k) | 4.44 GB/s     (4.3k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

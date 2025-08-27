@@ -2,7 +2,7 @@
 title: "Spaceberg 法国4T 大容量存储服务器测评"
 published: 2023-06-11
 tags: [法国,存储服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 ```shell
@@ -67,7 +67,7 @@ Clouvider       | NYC, NY, US (10G)         | 2.35 Gbits/sec  | 1.73 Gbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 1.56 Gbits/sec  | 966 Mbits/sec   | 115 ms
 Clouvider       | Los Angeles, CA, US (10G) | 1.28 Gbits/sec  | 1.02 Gbits/sec  | 136 ms
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value
                 |

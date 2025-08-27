@@ -126,7 +126,7 @@ Clouvider       | NYC, NY, US (10G)         | 1.02 Gbits/sec  | 1.19 Gbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 252 Mbits/sec   | 258 Mbits/sec   | 115 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 739 Mbits/sec   | 441 Mbits/sec   | 144 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

@@ -2,7 +2,7 @@
 title: "Verasel  一个神秘的商家"
 published: 2025-07-07
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 **最近在Low 10G不限量的杜甫的帖子下面遇到的神秘商家，和他聊了聊，提供了我台服务器。至于说为什么神秘，且听我道来。首先根据描述得知主要提供高带宽、高可用性的专用服务器，不提供 VPS，服务定位于稳定运行与客户隐私保护，因此他们完全没用计费面板，一切来源于线下（这非常夸张），发票与账单采用加密文本邮件发送，仅接受加密货币付款。网络方面拥有充足带宽资源和多个 ASN，支持跨 ASN 提供服务，支持更换 IP、无理由、不收费（IP 分配策略这也太灵活了）遇到网络拥塞会主动 reroute（重路由），****算****也是较高级的托管服务商能力表现。**
@@ -226,7 +226,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 835 Mbits/sec   | 502 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 884 Mbits/sec   | 686 Mbits/sec   | 75.0 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 740 Mbits/sec   | 391 Mbits/sec   | 193 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

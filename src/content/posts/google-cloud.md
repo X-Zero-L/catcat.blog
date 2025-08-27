@@ -2,7 +2,7 @@
 title: "Google Cloud 测评"
 published: 2023-07-10
 tags: [台湾, 新加坡, 日本, 香港]
-category: Benchmark
+category: BenchMark
 ---
 
 ## GCP 台湾

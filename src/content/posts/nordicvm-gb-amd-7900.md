@@ -2,7 +2,7 @@
 title: "NordicVM 英国 AMD 7900 测试"
 published: 2024-01-20
 tags: [英国]
-category: Benchmark
+category: BenchMark
 ---
 
 忘记了什么时候注册的商家（似乎刚成立1年多），今天收到了他们的邮件。新上架了英国7900的服务器，惊奇发现性能还不错,单核性能目前3000分,控制面板采用的是virtfusion。
@@ -124,7 +124,7 @@ Clouvider       | NYC, NY, US (10G)         | 889 Mbits/sec   | 737 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 861 Mbits/sec   | 388 Mbits/sec   | 107 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 829 Mbits/sec   | 382 Mbits/sec   | 144 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -219,7 +219,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat.blog: GNU/Linux
    OS: GNU/Linux -- 6.1.0-9-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)
@@ -232,7 +232,7 @@ Geekbench 5 测试结果
    20:56:33 up 23 min,  1 user,  load average: 0.17, 0.16, 0.14; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sat Jan 20 2024 20:56:33 - 21:24:55
+BenchMark Run: Sat Jan 20 2024 20:56:33 - 21:24:55
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       82445222.0 lps   (10.0 s, 7 samples)
@@ -248,7 +248,7 @@ Shell Scripts (1 concurrent)                  24213.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4127.8 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4205955.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   82445222.0   7064.7
 Double-Precision Whetstone                       55.0      12891.1   2343.8
 Execl Throughput                                 43.0       7847.3   1825.0
@@ -262,10 +262,10 @@ Shell Scripts (1 concurrent)                     42.4      24213.9   5710.8
 Shell Scripts (8 concurrent)                      6.0       4127.8   6879.7
 System Call Overhead                          15000.0    4205955.6   2804.0
                                                                    ========
-System Benchmarks Index Score                                        3242.5
+System BenchMarks Index Score                                        3242.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sat Jan 20 2024 21:24:55 - 21:53:17
+BenchMark Run: Sat Jan 20 2024 21:24:55 - 21:53:17
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables      162865824.8 lps   (10.0 s, 7 samples)
@@ -281,7 +281,7 @@ Shell Scripts (1 concurrent)                  29200.5 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4061.8 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4878568.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  162865824.8  13955.9
 Double-Precision Whetstone                       55.0      25467.8   4630.5
 Execl Throughput                                 43.0      11635.5   2705.9
@@ -295,7 +295,7 @@ Shell Scripts (1 concurrent)                     42.4      29200.5   6886.9
 Shell Scripts (8 concurrent)                      6.0       4061.8   6769.7
 System Call Overhead                          15000.0    4878568.9   3252.4
                                                                    ========
-System Benchmarks Index Score                                        4737.4
+System BenchMarks Index Score                                        4737.4
 
 ======= Script description and score comparison completed! ======= 
 ```
@@ -323,7 +323,7 @@ System Benchmarks Index Score                                        4737.4
  ASN & ISP    : , Ace Data Centers / Ace Data Centers, Inc.
 ---------------------------------------------------------------------------
 
- ## Geekbench v5 CPU Benchmark:
+ ## Geekbench v5 CPU BenchMark:
 
   Single Core : 2039  (MONSTER)
    Multi Core : 3955

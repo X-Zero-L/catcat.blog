@@ -2,7 +2,7 @@
 title: "POVPS 哥本哈根 AMD 7950X 测评"
 published: 2023-10-05
 tags: [哥本哈根]
-category: Benchmark
+category: BenchMark
 ---
 
 新开不久的一个商家,不建议购买，带宽实测跑不到1G。
@@ -102,7 +102,7 @@ Uztelecom       | Tashkent, UZ (10G)        | 624 Mbits/sec   | 325 Mbits/sec   
 Clouvider       | NYC, NY, US (10G)         | 577 Mbits/sec   | 77.1 Mbits/sec  | 84.5 ms        
 Clouvider       | Dallas, TX, US (10G)      | 477 Mbits/sec   | 90.1 Mbits/sec  | 121 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 461 Mbits/sec   | 49.3 Mbits/sec  | 150 ms         
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -188,7 +188,7 @@ Memory Mark:                       1878
 ### byte-unixbench 性能测试
 
 ```shell
-Benchmark Run: Thu Oct 05 2023 019:13:19 - 019:41:12
+BenchMark Run: Thu Oct 05 2023 019:13:19 - 019:41:12
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       74444796.3 lps   (10.0 s, 7 samples)
@@ -204,7 +204,7 @@ Shell Scripts (1 concurrent)                  21305.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4198.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4370098.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   74444796.3   6379.2
 Double-Precision Whetstone                       55.0      12447.8   2263.2
 Execl Throughput                                 43.0       7755.5   1803.6
@@ -218,10 +218,10 @@ Shell Scripts (1 concurrent)                     42.4      21305.9   5025.0
 Shell Scripts (8 concurrent)                      6.0       4198.6   6997.7
 System Call Overhead                          15000.0    4370098.6   2913.4
                                                                    ========
-System Benchmarks Index Score                                        3364.5
+System BenchMarks Index Score                                        3364.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Thu Oct 05 2023 19:41:12 - 20:09:10
+BenchMark Run: Thu Oct 05 2023 19:41:12 - 20:09:10
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables      146007625.0 lps   (10.0 s, 7 samples)
@@ -237,7 +237,7 @@ Shell Scripts (1 concurrent)                  30837.0 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4221.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        8671357.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  146007625.0  12511.4
 Double-Precision Whetstone                       55.0      24991.2   4543.8
 Execl Throughput                                 43.0      11330.7   2635.0
@@ -251,7 +251,7 @@ Shell Scripts (1 concurrent)                     42.4      30837.0   7272.9
 Shell Scripts (8 concurrent)                      6.0       4221.2   7035.3
 System Call Overhead                          15000.0    8671357.8   5780.9
                                                                    ========
-System Benchmarks Index Score                                        6285.9
+System BenchMarks Index Score                                        6285.9
 ```
 
 ### SpeedTest

@@ -2,7 +2,7 @@
 title: "Redswitches  荷兰万兆 AMD EPYC 4344P 测评"
 published: 2025-05-07
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 **RedSwitches是一家全球托管服务提供商，在全球 20 多个地点提供高性能专用（裸机）服务器、基础设施即服务 (IaaS) 和托管主机解决方案，自称拥有超过15 年的行业经验，机器硬件配置不错，但是价格和网络不行，标称10G的带宽，实际上很难跑满。**
@@ -167,7 +167,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 731 Mbits/sec   | 114 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 1.80 Gbits/sec  | 918 Mbits/sec   | 76.8 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 828 Mbits/sec   | 247 Mbits/sec   | 199 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -261,7 +261,7 @@ Geekbench 5 测试结果
 
 ```shell
 root@ams-2-2-22:~/byte-unixbench/UnixBench/results# cat ams-2-2-22-2025-05-07-01
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: ams-2-2-22: GNU/Linux
    OS: GNU/Linux -- 5.15.0-139-generic -- #149-Ubuntu SMP Fri Apr 11 22:06:13 UTC 2025
@@ -302,7 +302,7 @@ root@ams-2-2-22:~/byte-unixbench/UnixBench/results# cat ams-2-2-22-2025-05-07-01
    12:11:59 up  1:41,  3 users,  load average: 0.00, 0.03, 0.45; runlevel 2025-05-07
 
 ------------------------------------------------------------------------
-Benchmark Run: Wed May 07 2025 12:11:59 - 12:40:27
+BenchMark Run: Wed May 07 2025 12:11:59 - 12:40:27
 16 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       80783754.4 lps   (10.0 s, 7 samples)
@@ -318,7 +318,7 @@ Shell Scripts (1 concurrent)                  18987.5 lpm   (60.1 s, 2 samples)
 Shell Scripts (8 concurrent)                  15098.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1759876.3 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   80783754.4   6922.3
 Double-Precision Whetstone                       55.0      12965.4   2357.4
 Execl Throughput                                 43.0       5696.5   1324.8
@@ -332,10 +332,10 @@ Shell Scripts (1 concurrent)                     42.4      18987.5   4478.2
 Shell Scripts (8 concurrent)                      6.0      15098.7  25164.5
 System Call Overhead                          15000.0    1759876.3   1173.3
                                                                    ========
-System Benchmarks Index Score                                        2614.1
+System BenchMarks Index Score                                        2614.1
 
 ------------------------------------------------------------------------
-Benchmark Run: Wed May 07 2025 12:40:27 - 13:08:29
+BenchMark Run: Wed May 07 2025 12:40:27 - 13:08:29
 16 CPUs in system; running 16 parallel copies of tests
 
 Dhrystone 2 using register variables      817127478.3 lps   (10.0 s, 7 samples)
@@ -351,7 +351,7 @@ Shell Scripts (1 concurrent)                 163061.5 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  21771.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                       21784940.2 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  817127478.3  70019.5
 Double-Precision Whetstone                       55.0     166313.7  30238.8
 Execl Throughput                                 43.0      60061.3  13967.7
@@ -365,7 +365,7 @@ Shell Scripts (1 concurrent)                     42.4     163061.5  38457.9
 Shell Scripts (8 concurrent)                      6.0      21771.5  36285.8
 System Call Overhead                          15000.0   21784940.2  14523.3
                                                                    ========
-System Benchmarks Index Score                                       22659.4
+System BenchMarks Index Score                                       22659.4
 ```
 
 ### PassMark PerformanceTest Linux

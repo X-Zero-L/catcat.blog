@@ -2,7 +2,7 @@
 title: "op法国杜甫 测评"
 published: 2023-06-18
 tags: [法国]
-category: Benchmark
+category: BenchMark
 ---
 
 ```shell

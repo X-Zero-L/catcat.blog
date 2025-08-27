@@ -2,7 +2,7 @@
 title: "Vebble 新加坡 AMD  测评"
 published: 2024-02-12
 tags: [新加坡]
-category: Benchmark
+category: BenchMark
 ---
 
 之前论坛送的一款机器，现在应该活动已经没了。WebHorizon的下游应该是，由于免费一个月，体验估计目前很烂。联通黑户，一律连不上。现在商家的官网做的是真好看，比起千篇一律的whmcs舒服多了。
@@ -79,7 +79,7 @@ Clouvider       | NYC, NY, US (10G)         | busy            | 707 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 680 Mbits/sec   | 740 Mbits/sec   | 226 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 784 Mbits/sec   | 849 Mbits/sec   | 202 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

@@ -2,7 +2,7 @@
 title: "Hetzner EX43 Intel i5 12500 测评"
 published: 2024-07-19
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 日常捡垃圾 发现拍卖鸡好东西。通电平均2000小时，读写总计20T。
@@ -47,7 +47,7 @@ Read       | 3.65 GB/s     (7.1k) | 4.02 GB/s     (3.9k)
 Write      | 3.84 GB/s     (7.5k) | 4.29 GB/s     (4.1k)
 Total      | 7.50 GB/s    (14.6k) | 8.32 GB/s     (8.1k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -87,10 +87,10 @@ Geekbench 5 测试结果
 可供参考链接：https://browser.geekbench.com/search?k=v5_cpu&q=Intel%20Core%20i5-12500
 ```
 
-### BYTE UNIX Benchmarks
+### BYTE UNIX BenchMarks
 
 ```shell
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: Debian-K8S: GNU/Linux
    OS: GNU/Linux -- 6.1.0-21-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.90-1 (2024-05-03)
@@ -123,7 +123,7 @@ Geekbench 5 测试结果
    11:38:58 up 19 min,  1 user,  load average: 0.21, 0.18, 0.19; runlevel 2024-07-19
 
 ------------------------------------------------------------------------
-Benchmark Run: Fri Jul 19 2024 11:38:58 - 12:06:55
+BenchMark Run: Fri Jul 19 2024 11:38:58 - 12:06:55
 12 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       72264895.9 lps   (10.0 s, 7 samples)
@@ -139,7 +139,7 @@ Shell Scripts (1 concurrent)                   3442.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  11505.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3261965.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   72264895.9   6192.4
 Double-Precision Whetstone                       55.0      10613.2   1929.7
 Execl Throughput                                 43.0       7170.9   1667.7
@@ -153,10 +153,10 @@ Shell Scripts (1 concurrent)                     42.4       3442.9    812.0
 Shell Scripts (8 concurrent)                      6.0      11505.3  19175.6
 System Call Overhead                          15000.0    3261965.9   2174.6
                                                                    ========
-System Benchmarks Index Score                                        2579.2
+System BenchMarks Index Score                                        2579.2
 
 ------------------------------------------------------------------------
-Benchmark Run: Fri Jul 19 2024 12:06:55 - 12:34:54
+BenchMark Run: Fri Jul 19 2024 12:06:55 - 12:34:54
 12 CPUs in system; running 12 parallel copies of tests
 
 Dhrystone 2 using register variables      606986789.4 lps   (10.0 s, 7 samples)
@@ -172,7 +172,7 @@ Shell Scripts (1 concurrent)                 102189.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  13620.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                       28194471.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  606986789.4  52012.6
 Double-Precision Whetstone                       55.0     105842.8  19244.1
 Execl Throughput                                 43.0      43539.4  10125.4
@@ -186,7 +186,7 @@ Shell Scripts (1 concurrent)                     42.4     102189.9  24101.4
 Shell Scripts (8 concurrent)                      6.0      13620.7  22701.2
 System Call Overhead                          15000.0   28194471.8  18796.3
                                                                    ========
-System Benchmarks Index Score                                       19501.9
+System BenchMarks Index Score                                       19501.9
 ```
 
 ### PassMark PerformanceTest Linux

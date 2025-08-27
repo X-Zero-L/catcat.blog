@@ -2,7 +2,7 @@
 title: "HostBrr 德国 AMD 9950X 测评"
 published: 2024-09-08
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 HostBrr于今天也开启了9950X的销售，这次机房不在Hetzner，网络相比ntt和hz有了不小的进步。目前提供VPS，VDS两种产品销售，作为新发售的CPU，性价比不错，想尝鲜的可以玩玩。
@@ -169,7 +169,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 1.21 Gbits/sec  | 1.26 Gbits/sec  
 Leaseweb        | NYC, NY, US (10G)         | 2.22 Gbits/sec  | 2.28 Gbits/sec  | 81.7 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 915 Mbits/sec   | 931 Mbits/sec   | 189 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -213,7 +213,7 @@ YABS completed in 10 min 56 sec
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat.blog: GNU/Linux
    OS: GNU/Linux -- 6.1.0-9-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)
@@ -226,7 +226,7 @@ YABS completed in 10 min 56 sec
    14:45:47 up 45 min,  2 users,  load average: 0.18, 0.42, 0.25; runlevel 2024-09-08
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Sep 08 2024 14:45:47 - 15:14:05
+BenchMark Run: Sun Sep 08 2024 14:45:47 - 15:14:05
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables      107703452.3 lps   (10.0 s, 7 samples)
@@ -242,7 +242,7 @@ Shell Scripts (1 concurrent)                  25734.5 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5030.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3784936.3 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  107703452.3   9229.1
 Double-Precision Whetstone                       55.0      13887.9   2525.1
 Execl Throughput                                 43.0       8472.1   1970.3
@@ -256,10 +256,10 @@ Shell Scripts (1 concurrent)                     42.4      25734.5   6069.5
 Shell Scripts (8 concurrent)                      6.0       5030.2   8383.6
 System Call Overhead                          15000.0    3784936.3   2523.3
                                                                    ========
-System Benchmarks Index Score                                        3531.3
+System BenchMarks Index Score                                        3531.3
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Sep 08 2024 15:14:05 - 15:42:23
+BenchMark Run: Sun Sep 08 2024 15:14:05 - 15:42:23
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables      211040693.0 lps   (10.0 s, 7 samples)
@@ -275,7 +275,7 @@ Shell Scripts (1 concurrent)                  39600.5 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4291.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        7370624.7 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  211040693.0  18084.0
 Double-Precision Whetstone                       55.0      27134.3   4933.5
 Execl Throughput                                 43.0       8104.5   1884.8
@@ -289,7 +289,7 @@ Shell Scripts (1 concurrent)                     42.4      39600.5   9339.7
 Shell Scripts (8 concurrent)                      6.0       4291.7   7152.8
 System Call Overhead                          15000.0    7370624.7   4913.7
                                                                    ========
-System Benchmarks Index Score                                        6304.8
+System BenchMarks Index Score                                        6304.8
 ```
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试

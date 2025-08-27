@@ -2,7 +2,7 @@
 title: "Fiberstate 洛杉矶万兆 AMD 9950x 测评"
 published: 2025-05-06
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 \[admonition title="警告" color="red"\]**由于温度过高，散热不佳，我已退款，见文末的温度对比，此外这款机器商家明确说了无法提供其他散热方式**\[/admonition\]
@@ -203,7 +203,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 7.43 Gbits/sec  | 6.38 Gbits/sec  
 Leaseweb        | NYC, NY, US (10G)         | 2.68 Gbits/sec  | 4.35 Gbits/sec  | 57.1 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 706 Mbits/sec   | 1.17 Gbits/sec  | 171 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -372,7 +372,7 @@ Geekbench 5 测试结果
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Mon May 05 2025 18:03:56 - 18:32:15
+BenchMark Run: Mon May 05 2025 18:03:56 - 18:32:15
 32 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables      103429451.8 lps   (10.0 s, 7 samples)
@@ -388,7 +388,7 @@ Shell Scripts (1 concurrent)                  28986.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  21790.9 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4144112.5 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  103429451.8   8862.8
 Double-Precision Whetstone                       55.0      13481.4   2451.2
 Execl Throughput                                 43.0      10210.7   2374.6
@@ -402,10 +402,10 @@ Shell Scripts (1 concurrent)                     42.4      28986.2   6836.4
 Shell Scripts (8 concurrent)                      6.0      21790.9  36318.1
 System Call Overhead                          15000.0    4144112.5   2762.7
                                                                    ========
-System Benchmarks Index Score                                        4803.0
+System BenchMarks Index Score                                        4803.0
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon May 05 2025 18:32:15 - 19:00:14
+BenchMark Run: Mon May 05 2025 18:32:15 - 19:00:14
 32 CPUs in system; running 32 parallel copies of tests
 
 Dhrystone 2 using register variables     1656117699.4 lps   (10.0 s, 7 samples)
@@ -421,7 +421,7 @@ Shell Scripts (1 concurrent)                 291668.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  38147.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                       95558930.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0 1656117699.4 141912.4
 Double-Precision Whetstone                       55.0     350666.2  63757.5
 Execl Throughput                                 43.0      67033.2  15589.1
@@ -435,7 +435,7 @@ Shell Scripts (1 concurrent)                     42.4     291668.4  68789.7
 Shell Scripts (8 concurrent)                      6.0      38147.6  63579.3
 System Call Overhead                          15000.0   95558930.9  63706.0
                                                                    ========
-System Benchmarks Index Score                                       48638.9
+System BenchMarks Index Score                                       48638.9
 ```
 
 ### PassMark PerformanceTest Linux

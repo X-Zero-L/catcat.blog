@@ -2,7 +2,7 @@
 title: "Hetzner 新大盘杜甫SX65 测评"
 published: 2024-05-07
 tags: [德国,存储服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 Hetzner 前几天推出了三款新型经济型专用存储服务器，性价比还可以。对比经典拍卖款的40T 目前50欧-60欧的售价还是挺有性价比的。 机器配备 AMD Ryzen 7 3700X Matisse 8 核 (Zen2) CPU ，配有 2 x 1 TB NVMe SSD。此外，还包含 **4 个 22 TB SATA HDD（共计88T）**。内存是 64GB DDR4 ECC RAM，可扩展至 128GB，每月 104.00 欧元起，每小时 0.1666 欧元起，不包括 39.00 欧元的一次性安装费。
@@ -108,7 +108,7 @@ Read       | 4.95 GB/s     (9.6k) | 4.98 GB/s     (4.8k)
 Write      | 5.22 GB/s    (10.1k) | 5.31 GB/s     (5.1k)
 Total      | 10.18 GB/s   (19.8k) | 10.30 GB/s   (10.0k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

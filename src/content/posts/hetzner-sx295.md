@@ -2,7 +2,7 @@
 title: "Hetzner SX295 存储机测评"
 published: 2024-06-03
 tags: [德国,存储服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 继上次SX65之后，新增了SX295。售价每月384欧元+一次性安装费79欧元。包括 2 个 7.68 TB NVMe U2 NVME SSD （三星的PM9A3）和 14 个 22 TB 全新SATA HDD（西部数据 HC570），配备 256GB DDR4 ECC RAM，平均每T价格为1.3T，价格还算可以。
@@ -124,7 +124,7 @@ Read       | 772.93 MB/s   (1.5k) | 1.88 GB/s     (1.8k)
 Write      | 814.00 MB/s   (1.5k) | 2.01 GB/s     (1.9k)
 Total      | 1.58 GB/s     (3.0k) | 3.90 GB/s     (3.8k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

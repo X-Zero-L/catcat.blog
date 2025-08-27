@@ -2,7 +2,7 @@
 title: "Hetzner Helsinki 独立服务器 AMD 5950X 测评"
 published: 2024-02-13
 tags: [芬兰]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 机器配置
@@ -113,7 +113,7 @@ Read       | 3.84 GB/s     (7.5k) | 4.27 GB/s     (4.1k)
 Write      | 4.05 GB/s     (7.9k) | 4.55 GB/s     (4.4k)
 Total      | 7.89 GB/s    (15.4k) | 8.83 GB/s     (8.6k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

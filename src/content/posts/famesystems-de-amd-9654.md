@@ -2,7 +2,7 @@
 title: "FameSystems 德国 AMD 9654 测评"
 published: 2024-12-02
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 从去年Bero 发布大内存机器以来，不少商家发现很受买家青睐。目前经常出现的有[Bero](https://catcat.blog/bero-host-%e5%be%b7%e5%9b%bdamd-epyc-7443p-%e6%b5%8b%e8%af%84.html),[HostHatch](https://catcat.blog/hosthatch-jp-amd-7r13.html),[Hostbrr](https://catcat.blog/hostbrr-amd-9454p.htm)。虽然商家对于流量比较抠搜，总体来说通过 cf 缓存的话还是够用。之前一直三代米兰([7763](https://www.nodeseek.com/post-143116-1))促销的时候就想买个试试了，一直忍到了黑五。商家果然推出了两款新型号 AMD EPYC 9654 和 AMD 9900X ，从机器整体来看性价比非常不错，机器也据说是老板全新采购的，机房和 bero 在同一个。购买时可以选择 Linux 和 Windows，这是两个不同架构，Linux 分配 KVM，Windows 分配 HyperV。
@@ -146,7 +146,7 @@ Clouvider       | Los Angeles, CA, US (10G) | busy            | 355 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | busy            | 836 Mbits/sec   | 81.8 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 539 Mbits/sec   | 296 Mbits/sec   | 195 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -192,7 +192,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat.blog: GNU/Linux
    OS: GNU/Linux -- 6.1.0-28-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.119-1 (2024-11-22)
@@ -213,7 +213,7 @@ Geekbench 5 测试结果
    05:52:21 up 2 days, 18:02,  1 user,  load average: 0.18, 0.06, 0.01; runlevel 2024-11-29
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Dec 02 2024 05:52:21 - 06:20:18
+BenchMark Run: Mon Dec 02 2024 05:52:21 - 06:20:18
 6 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       55514782.9 lps   (10.0 s, 7 samples)
@@ -229,7 +229,7 @@ Shell Scripts (1 concurrent)                  11038.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4932.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                         774143.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   55514782.9   4757.1
 Double-Precision Whetstone                       55.0       9138.4   1661.5
 Execl Throughput                                 43.0       2680.6    623.4
@@ -243,10 +243,10 @@ Shell Scripts (1 concurrent)                     42.4      11038.9   2603.5
 Shell Scripts (8 concurrent)                      6.0       4932.5   8220.9
 System Call Overhead                          15000.0     774143.9    516.1
                                                                    ========
-System Benchmarks Index Score                                        1269.6
+System BenchMarks Index Score                                        1269.6
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Dec 02 2024 06:20:18 - 06:48:17
+BenchMark Run: Mon Dec 02 2024 06:20:18 - 06:48:17
 6 CPUs in system; running 6 parallel copies of tests
 
 Dhrystone 2 using register variables      332861033.6 lps   (10.0 s, 7 samples)
@@ -262,7 +262,7 @@ Shell Scripts (1 concurrent)                  41075.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5581.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4634829.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  332861033.6  28522.8
 Double-Precision Whetstone                       55.0      54633.6   9933.4
 Execl Throughput                                 43.0      12569.5   2923.1
@@ -276,7 +276,7 @@ Shell Scripts (1 concurrent)                     42.4      41075.4   9687.6
 Shell Scripts (8 concurrent)                      6.0       5581.3   9302.1
 System Call Overhead                          15000.0    4634829.9   3089.9
                                                                    ========
-System Benchmarks Index Score                                        6799.9
+System BenchMarks Index Score                                        6799.9
 ```
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试

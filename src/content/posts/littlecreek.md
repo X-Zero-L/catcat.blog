@@ -2,7 +2,7 @@
 title: "Little Creek 评测"
 published: 2023-03-02
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 1.官方网站

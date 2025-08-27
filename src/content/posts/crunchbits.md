@@ -471,7 +471,7 @@ Clouvider       | Dallas, TX, US (10G)      | 58.4 Mbits/sec  | 235 Mbits/sec   
 Clouvider       | Los Angeles, CA, US (10G) | 102 Mbits/sec   | 164 Mbits/sec   | 38.9 ms        
 Biznet          | Jakarta, ID (10G)         | busy            | busy            | -- 
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

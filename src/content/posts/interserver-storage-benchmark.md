@@ -2,7 +2,7 @@
 title: "InterServer 大盘鸡测评"
 published: 2023-03-08
 tags: [美国,存储服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 1.官网
@@ -78,7 +78,7 @@ Uztelecom       | Tashkent, UZ (10G)        | 1.25 Gbits/sec  | 603 
 Clouvider       | NYC, NY, US (10G)         | 5.98 Gbits/sec  | 7.02 Gbits/sec  | 1.34 ms
 Clouvider       | Dallas, TX, US (10G)      | 2.93 Gbits/sec  | 1.31 Gbits/sec  | 37.6 ms
 Clouvider       | Los Angeles, CA, US (10G) | 2.74 Gbits/sec  | 995 Mbits/sec   | 56.2 ms
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value
                 |

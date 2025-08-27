@@ -2,7 +2,7 @@
 title: "Ikoula 法国 Intel 9700K 杜甫测试"
 published: 2025-06-16
 tags: [法国]
-category: Benchmark
+category: BenchMark
 ---
 
 **Ikoula是法国主机商,成立于1998年,数据中心位于法国兰斯。ikoula主要提供服务器租用和云服务器业务,是欧洲少数对国人非常友好的商家了,后台支持中文。ikoula服务器性价比可以，但是后台管理是真的烂，重装有一个月20次的限制，各种意义不明的功能。这台促销用的是家用机箱的服务器，配置和ovh的ks-a挺接近的，性能挺不错的。不出意外的话又是一款pt好鸡了。**
@@ -85,7 +85,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 825 Mbits/sec   | 410 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 870 Mbits/sec   | 723 Mbits/sec   | 76.8 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 767 Mbits/sec   | 282 Mbits/sec   | 183 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

@@ -102,7 +102,7 @@ Clouvider       | NYC, NY, US (10G)         | busy            | busy            
 Clouvider       | Dallas, TX, US (10G)      | busy            | busy            | 123 ms         
 Clouvider       | Los Angeles, CA, US (10G) | busy            | busy            | 143 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

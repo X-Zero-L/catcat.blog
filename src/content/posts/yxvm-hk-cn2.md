@@ -2,7 +2,7 @@
 title: "YxVM 香港CN2 测评"
 published: 2024-01-12
 tags: [香港]
-category: Benchmark
+category: BenchMark
 ---
 
 玩具车，不构成任何购买建议，首月5刀，续费99刀。不恰AFF,只做玩具展示。**感觉不如Sharon(真)。**

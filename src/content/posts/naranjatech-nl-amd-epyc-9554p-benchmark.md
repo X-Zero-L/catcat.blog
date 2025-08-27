@@ -2,7 +2,7 @@
 title: "naranjatech 荷兰 AMD EPYC 9554P 测评"
 published: 2023-11-25
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 naranjatech（官方宣称从2003年就开始搞这行生意），在Low上的口碑很不错，抗投诉能力也很强，其他我对这家的了解就很少了，有待观察吧。
@@ -118,7 +118,7 @@ Read       | 6.19 GB/s    (12.0k) | 5.02 GB/s     (4.9k)
 Write      | 6.51 GB/s    (12.7k) | 5.35 GB/s     (5.2k)
 Total      | 12.71 GB/s   (24.8k) | 10.38 GB/s   (10.1k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -247,7 +247,7 @@ Read       | 9.59 GB/s    (18.7k) | 9.22 GB/s     (9.0k)
 Write      | 10.10 GB/s   (19.7k) | 9.83 GB/s     (9.6k)
 Total      | 19.69 GB/s   (38.4k) | 19.06 GB/s   (18.6k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -263,7 +263,7 @@ YABS completed in 5 min 43 sec
 ```shell
 
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: k8s-master: GNU/Linux
    OS: GNU/Linux -- 5.4.0-29-generic -- #33-Ubuntu SMP Wed Apr 29 14:32:27 UTC 2020
@@ -280,7 +280,7 @@ YABS completed in 5 min 43 sec
    07:51:19 up 5 days, 23:40,  2 users,  load average: 1.39, 1.15, 1.41; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Dec 03 2023 07:51:19 - 08:19:19
+BenchMark Run: Sun Dec 03 2023 07:51:19 - 08:19:19
 4 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       53830422.7 lps   (10.0 s, 7 samples)
@@ -296,7 +296,7 @@ Shell Scripts (1 concurrent)                  16100.1 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4522.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3201919.0 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   53830422.7   4612.7
 Double-Precision Whetstone                       55.0       8770.2   1594.6
 Execl Throughput                                 43.0       5370.4   1248.9
@@ -310,10 +310,10 @@ Shell Scripts (1 concurrent)                     42.4      16100.1   3797.2
 Shell Scripts (8 concurrent)                      6.0       4522.5   7537.4
 System Call Overhead                          15000.0    3201919.0   2134.6
                                                                    ========
-System Benchmarks Index Score                                        2224.9
+System BenchMarks Index Score                                        2224.9
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Dec 03 2023 08:19:19 - 08:47:20
+BenchMark Run: Sun Dec 03 2023 08:19:19 - 08:47:20
 4 CPUs in system; running 4 parallel copies of tests
 
 Dhrystone 2 using register variables      211571331.9 lps   (10.0 s, 7 samples)
@@ -329,7 +329,7 @@ Shell Scripts (1 concurrent)                  35814.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5850.4 lpm   (60.0 s, 2 samples)
 System Call Overhead                        9345120.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  211571331.9  18129.5
 Double-Precision Whetstone                       55.0      35107.8   6383.2
 Execl Throughput                                 43.0      25259.5   5874.3
@@ -343,7 +343,7 @@ Shell Scripts (1 concurrent)                     42.4      35814.4   8446.8
 Shell Scripts (8 concurrent)                      6.0       5850.4   9750.6
 System Call Overhead                          15000.0    9345120.4   6230.1
                                                                    ========
-System Benchmarks Index Score                                        5542.0
+System BenchMarks Index Score                                        5542.0
 
 ======= Script description and score comparison completed! ======= 
 ```

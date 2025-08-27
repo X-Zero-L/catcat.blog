@@ -2,7 +2,7 @@
 title: "Scaleway 荷兰 年付30元"
 published: 2023-07-09
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 ## Yabs

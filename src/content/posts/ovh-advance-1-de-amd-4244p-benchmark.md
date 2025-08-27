@@ -2,7 +2,7 @@
 title: "OVH Advance-1 德国万兆 AMD 4244P 测评"
 published: 2025-06-28
 tags: [德国,OVH]
-category: Benchmark
+category: BenchMark
 ---
 
 **之前一直以来注册都被ovh免税拒绝，昨天听闻优惠，实在按捺不住再次尝试，终于注册****成功****。**
@@ -110,7 +110,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 843 Mbits/sec   | 1.15 Gbits/sec  
 Leaseweb        | NYC, NY, US (10G)         | 2.13 Gbits/sec  | busy            | 86.2 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 704 Mbits/sec   | 736 Mbits/sec   | 233 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -168,7 +168,7 @@ YABS completed in 13 min 54 sec
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Sat Jun 28 2025 00:45:05 - 01:13:06
+BenchMark Run: Sat Jun 28 2025 00:45:05 - 01:13:06
 12 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       78453858.8 lps   (10.0 s, 7 samples)
@@ -184,7 +184,7 @@ Shell Scripts (1 concurrent)                  13092.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  10924.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1674525.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   78453858.8   6722.7
 Double-Precision Whetstone                       55.0      12529.7   2278.1
 Execl Throughput                                 43.0       4840.7   1125.7
@@ -198,10 +198,10 @@ Shell Scripts (1 concurrent)                     42.4      13092.8   3087.9
 Shell Scripts (8 concurrent)                      6.0      10924.3  18207.2
 System Call Overhead                          15000.0    1674525.8   1116.4
                                                                    ========
-System Benchmarks Index Score                                        2147.4
+System BenchMarks Index Score                                        2147.4
 
 ------------------------------------------------------------------------
-Benchmark Run: Sat Jun 28 2025 01:13:06 - 01:41:04
+BenchMark Run: Sat Jun 28 2025 01:13:06 - 01:41:04
 12 CPUs in system; running 12 parallel copies of tests
 
 Dhrystone 2 using register variables      671473265.6 lps   (10.0 s, 7 samples)
@@ -217,7 +217,7 @@ Shell Scripts (1 concurrent)                 124343.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  16740.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                       15822963.5 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  671473265.6  57538.4
 Double-Precision Whetstone                       55.0     124190.3  22580.1
 Execl Throughput                                 43.0      40036.9   9310.9
@@ -231,7 +231,7 @@ Shell Scripts (1 concurrent)                     42.4     124343.8  29326.4
 Shell Scripts (8 concurrent)                      6.0      16740.5  27900.9
 System Call Overhead                          15000.0   15822963.5  10548.6
                                                                    ========
-System Benchmarks Index Score                                       17042.9
+System BenchMarks Index Score                                       17042.9
 ```
 
 ### [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试

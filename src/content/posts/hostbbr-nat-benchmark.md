@@ -2,7 +2,7 @@
 title: "Hostbbr ipv6 ipv4 nat VPS"
 published: 2023-08-29
 tags: [德国,存储服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 套餐
@@ -82,7 +82,7 @@ Clouvider       | NYC, NY, US (10G)         | 45.7 Mbits/sec  | 87.8 Mbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 30.9 Mbits/sec  | 44.0 Mbits/sec  | 126 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 25.9 Mbits/sec  | 33.2 Mbits/sec  | 145 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

@@ -2,7 +2,7 @@
 title: "Oplink 美国 AMD 7950X 测评"
 published: 2024-02-06
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 这家争议挺大，主要矛盾点在于安装费(黑五活动可以免设置费)。商家的意思安装费是用于筛选客户，只保留精致的用户。新用户可以购买测试3天，如果不满意可以全额退款，包括设置费。就目前买过机器的人而言，表现是很好的。确实做到了像他描述的那样，因为门槛高，所以相对而已邻居的素质也更高。网络而言并不是很好，
@@ -82,7 +82,7 @@ Clouvider       | NYC, NY, US (10G)         | 5.25 Gbits/sec  | 4.32 Gbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 8.12 Gbits/sec  | 4.84 Gbits/sec  | 5.87 ms        
 Clouvider       | Los Angeles, CA, US (10G) | 4.68 Gbits/sec  | 1.67 Gbits/sec  | 36.3 ms        
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -149,7 +149,7 @@ Shell Scripts (1 concurrent)                  15682.1 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   8165.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2829431.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   76446801.9   6550.7
 Double-Precision Whetstone                       55.0      12709.8   2310.9
 Execl Throughput                                 43.0       7853.7   1826.4
@@ -163,7 +163,7 @@ Shell Scripts (1 concurrent)                     42.4      15682.1   3698.6
 Shell Scripts (8 concurrent)                      6.0       8165.5  13609.2
 System Call Overhead                          15000.0    2829431.9   1886.3
                                                                    ========
-System Benchmarks Index Score                                        3263.2
+System BenchMarks Index Score                                        3263.2
 
 ------------------------------------------------------------------------
 
@@ -182,7 +182,7 @@ Shell Scripts (1 concurrent)                  73699.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  10572.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        7923054.7 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  453129785.0  38828.6
 Double-Precision Whetstone                       55.0      76366.0  13884.7
 Execl Throughput                                 43.0      26883.7   6252.0
@@ -196,7 +196,7 @@ Shell Scripts (1 concurrent)                     42.4      73699.7  17382.0
 Shell Scripts (8 concurrent)                      6.0      10572.2  17620.4
 System Call Overhead                          15000.0    7923054.7   5282.0
                                                                    ========
-System Benchmarks Index Score                                        8294.1
+System BenchMarks Index Score                                        8294.1
 
 ======= Script description and score comparison completed! ======= 
 ```

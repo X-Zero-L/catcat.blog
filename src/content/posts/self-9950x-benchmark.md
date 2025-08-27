@@ -2,7 +2,7 @@
 title: "猫猫 AMD Ryzen 9950X 服务器 测试"
 published: 2025-01-04
 tags: [大陆服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 机器配置
@@ -258,7 +258,7 @@ Sina      ✔     ✔     ✔     ✘     ✔     ✘
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run:  1月 04 2025 15:51:44 - 16:20:03
+BenchMark Run:  1月 04 2025 15:51:44 - 16:20:03
 32 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables      107449143.4 lps   (10.0 s, 7 samples)
@@ -274,7 +274,7 @@ Shell Scripts (1 concurrent)                  25986.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  19704.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4814257.2 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  107449143.4   9207.3
 Double-Precision Whetstone                       55.0      13702.0   2491.3
 Execl Throughput                                 43.0      11160.8   2595.5
@@ -288,10 +288,10 @@ Shell Scripts (1 concurrent)                     42.4      25986.8   6129.0
 Shell Scripts (8 concurrent)                      6.0      19704.3  32840.5
 System Call Overhead                          15000.0    4814257.2   3209.5
                                                                    ========
-System Benchmarks Index Score                                        5138.7
+System BenchMarks Index Score                                        5138.7
 
 ------------------------------------------------------------------------
-Benchmark Run:  1月 04 2025 16:20:03 - 16:48:05
+BenchMark Run:  1月 04 2025 16:20:03 - 16:48:05
 32 CPUs in system; running 32 parallel copies of tests
 
 Dhrystone 2 using register variables     1911881653.1 lps   (10.0 s, 7 samples)
@@ -307,7 +307,7 @@ Shell Scripts (1 concurrent)                 237700.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  29145.1 lpm   (60.0 s, 2 samples)
 System Call Overhead                      113136421.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0 1911881653.1 163828.8
 Double-Precision Whetstone                       55.0     383152.5  69664.1
 Execl Throughput                                 43.0      61223.5  14238.0
@@ -321,7 +321,7 @@ Shell Scripts (1 concurrent)                     42.4     237700.9  56061.5
 Shell Scripts (8 concurrent)                      6.0      29145.1  48575.2
 System Call Overhead                          15000.0  113136421.9  75424.3
                                                                    ========
-System Benchmarks Index Score                                       49884.3
+System BenchMarks Index Score                                       49884.3
 ```
 
 ### 硬盘 Smart

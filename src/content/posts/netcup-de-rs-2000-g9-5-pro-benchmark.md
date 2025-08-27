@@ -2,7 +2,7 @@
 title: "Netcup 德国 RS 2000 G9.5 PRO 测试"
 published: 2025-06-25
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 **netcup的六月活动出人意料的返场了之前炙手可热的RS2000系列，而且增量降价。官网未返场前，这款机器目前市场已经炒到溢价300在售，不知道多少人溢价收的看到这个心碎一地。此外美国此次还有抽奖活动，有概率开到G11的9634**。**德国款存在IO不一致的情况，有的机器io非常好，有的io非常差，不排除动态分配到刷子多的邻居node上。**
@@ -141,7 +141,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 955 Mbits/sec   | 615 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 2.49 Gbits/sec  | 1.89 Gbits/sec  | 91.6 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 1.19 Gbits/sec  | 32.5 Mbits/sec  | 198 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

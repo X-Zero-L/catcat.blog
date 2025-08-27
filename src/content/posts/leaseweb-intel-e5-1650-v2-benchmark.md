@@ -2,7 +2,7 @@
 title: "Leaseweb Intel E5-1650 v2 测试"
 published: 2025-07-08
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 机器来自阿三的二次转卖，目前已绝版。价格足够便宜和1G不限流量加持，看上去机器的性价比之前40欧的E-2388G高出很多。这应该是市面上最便宜的48TB HDD 35欧了。
@@ -260,7 +260,7 @@ Leaseweb        | Singapore, SG (10G)       | 795 Mbits/sec   | 573 Mbits/sec   
 Clouvider       | Los Angeles, CA, US (10G) | 825 Mbits/sec   | 135 Mbits/sec   | 131 ms         
 Leaseweb        | NYC, NY, US (10G)         | 871 Mbits/sec   | 613 Mbits/sec   | 76.1 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 639 Mbits/sec   | 80.1 Mbits/sec  | 230 ms 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

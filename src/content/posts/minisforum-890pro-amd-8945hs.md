@@ -2,7 +2,7 @@
 title: "铭凡 890Pro AMD 8945HS 测评"
 published: 2025-08-01
 tags: [迷你主机, AMD]
-category: Benchmark
+category: BenchMark
 ---
 
 **最近整了个小主机玩玩，转了一圈发现铭凡这款比较水桶。本来准备买那个AMD AI9 HX 370 的版本的，结果京东没有裸主机的版本，而且架构是大小核设计的，最后还是全大核的8945HS版本。结果刚买完今天就推出了9955HX的版本，我恨啊。**
@@ -234,7 +234,7 @@ Memory Mark:                       3215
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Fri Aug 01 2025 15:51:29 - 16:19:51
+BenchMark Run: Fri Aug 01 2025 15:51:29 - 16:19:51
 16 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       79452358.6 lps   (10.0 s, 7 samples)
@@ -250,7 +250,7 @@ Shell Scripts (1 concurrent)                  15686.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  13344.1 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1729726.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   79452358.6   6808.3
 Double-Precision Whetstone                       55.0      13053.3   2373.3
 Execl Throughput                                 43.0       4753.6   1105.5
@@ -264,10 +264,10 @@ Shell Scripts (1 concurrent)                     42.4      15686.9   3699.7
 Shell Scripts (8 concurrent)                      6.0      13344.1  22240.1
 System Call Overhead                          15000.0    1729726.8   1153.2
                                                                    ========
-System Benchmarks Index Score                                        2332.7
+System BenchMarks Index Score                                        2332.7
 
 ------------------------------------------------------------------------
-Benchmark Run: Fri Aug 01 2025 16:19:51 - 16:47:50
+BenchMark Run: Fri Aug 01 2025 16:19:51 - 16:47:50
 16 CPUs in system; running 16 parallel copies of tests
 
 Dhrystone 2 using register variables      863607160.4 lps   (10.0 s, 7 samples)
@@ -283,7 +283,7 @@ Shell Scripts (1 concurrent)                 141846.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  18441.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                       21024722.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  863607160.4  74002.3
 Double-Precision Whetstone                       55.0     165555.6  30101.0
 Execl Throughput                                 43.0      50815.4  11817.5
@@ -297,5 +297,5 @@ Shell Scripts (1 concurrent)                     42.4     141846.2  33454.3
 Shell Scripts (8 concurrent)                      6.0      18441.2  30735.3
 System Call Overhead                          15000.0   21024722.8  14016.5
                                                                    ========
-System Benchmarks Index Score                                       20548.0
+System BenchMarks Index Score                                       20548.0
 ```

@@ -2,7 +2,7 @@
 title: "Hetzner Dedicated 测评"
 published: 2023-08-23
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 套餐价格
@@ -81,7 +81,7 @@ Clouvider       | NYC, NY, US (10G)         | busy            | 119 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 45.7 Mbits/sec  | 204 Mbits/sec   | 57.8 ms        
 Clouvider       | Los Angeles, CA, US (10G) | 151 Mbits/sec   | 318 Mbits/sec   | 26.5 ms        
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -496,7 +496,7 @@ Read       | 4.11 GB/s     (8.0k) | 4.38 GB/s     (4.2k)
 Write      | 4.32 GB/s     (8.4k) | 4.67 GB/s     (4.5k)
 Total      | 8.43 GB/s    (16.4k) | 9.05 GB/s     (8.8k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

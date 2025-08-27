@@ -2,7 +2,7 @@
 title: "Hybula 荷兰预售 AMD EPYC™ Genoa 9554 测评"
 published: 2023-11-30
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 Hybula的新套餐，路由和网络都很不错，除了价格较贵，其他没啥缺点。
@@ -126,7 +126,7 @@ Read       | 6.40 GB/s    (12.5k) | 6.18 GB/s     (6.0k)
 Write      | 6.74 GB/s    (13.1k) | 6.59 GB/s     (6.4k)
 Total      | 13.14 GB/s   (25.6k) | 12.78 GB/s   (12.4k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -172,7 +172,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat.blog: GNU/Linux
    OS: GNU/Linux -- 6.1.0-9-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)
@@ -189,7 +189,7 @@ Geekbench 5 测试结果
    09:24:02 up  1:34,  3 users,  load average: 0.93, 0.81, 0.56; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Thu Nov 30 2023 09:24:02 - 09:51:58
+BenchMark Run: Thu Nov 30 2023 09:24:02 - 09:51:58
 4 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       57383695.1 lps   (10.0 s, 7 samples)
@@ -205,7 +205,7 @@ Shell Scripts (1 concurrent)                  16804.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4400.1 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2907664.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   57383695.1   4917.2
 Double-Precision Whetstone                       55.0       8938.1   1625.1
 Execl Throughput                                 43.0       4354.6   1012.7
@@ -219,10 +219,10 @@ Shell Scripts (1 concurrent)                     42.4      16804.9   3963.4
 Shell Scripts (8 concurrent)                      6.0       4400.1   7333.4
 System Call Overhead                          15000.0    2907664.4   1938.4
                                                                    ========
-System Benchmarks Index Score                                        2241.5
+System BenchMarks Index Score                                        2241.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Thu Nov 30 2023 09:51:58 - 10:19:55
+BenchMark Run: Thu Nov 30 2023 09:51:58 - 10:19:55
 4 CPUs in system; running 4 parallel copies of tests
 
 Dhrystone 2 using register variables      228106264.9 lps   (10.0 s, 7 samples)
@@ -238,7 +238,7 @@ Shell Scripts (1 concurrent)                  35707.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4940.9 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3711258.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  228106264.9  19546.4
 Double-Precision Whetstone                       55.0      35795.0   6508.2
 Execl Throughput                                 43.0      12201.0   2837.4
@@ -252,7 +252,7 @@ Shell Scripts (1 concurrent)                     42.4      35707.4   8421.6
 Shell Scripts (8 concurrent)                      6.0       4940.9   8234.8
 System Call Overhead                          15000.0    3711258.9   2474.2
                                                                    ========
-System Benchmarks Index Score                                        4362.6
+System BenchMarks Index Score                                        4362.6
 
 ======= Script description and score comparison completed! ======= 
 ```
@@ -571,7 +571,7 @@ Speedtest.net	 1996.10 Mbps	 1925.37 Mbps	 0.57	  NULL
  ASN & ISP    : AS35133, Hybula B.V. / Hybula B.V
 ---------------------------------------------------------------------------
 
- ## Geekbench v6 CPU Benchmark:
+ ## Geekbench v6 CPU BenchMark:
 
   Single Core : 2151  (THE BEAST)
    Multi Core : 6903

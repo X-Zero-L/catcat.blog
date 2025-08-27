@@ -2,7 +2,7 @@
 title: "WebNX 万兆 AMD 9950X 杜甫测试"
 published: 2025-06-08
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 **WebNX是我一直在购买的商家，目前运营了犹他州奥格登和洛杉矶还有****纽约****三个地区，WebNX是 Equinix LA3 最大的客户之一，目前拥有超过 200 个机架和 5 个机柜。值得一提的是他们对外的[SLA](https://webnx.com/service-level-agreement)号称是100%，每15分钟的停机计算为1天。同时商家具有自助安装系统的功能，非常完善，省下了很多工单安装系统撕逼的时间。**
@@ -129,7 +129,7 @@ Read       | 2.53 GB/s     (4.9k) | 2.68 GB/s     (2.6k)
 Write      | 2.66 GB/s     (5.2k) | 2.86 GB/s     (2.7k)
 Total      | 5.19 GB/s    (10.1k) | 5.54 GB/s     (5.4k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -422,7 +422,7 @@ Free_fr   ✘     ✔     ✔     ✘     ✔     ✘
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Sun Jun 08 2025 10:08:57 - 10:37:14
+BenchMark Run: Sun Jun 08 2025 10:08:57 - 10:37:14
 32 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables      108770446.3 lps   (10.0 s, 7 samples)
@@ -438,7 +438,7 @@ Shell Scripts (1 concurrent)                  21359.1 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  15878.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4761892.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  108770446.3   9320.5
 Double-Precision Whetstone                       55.0      13857.3   2519.5
 Execl Throughput                                 43.0      11303.6   2628.7
@@ -452,10 +452,10 @@ Shell Scripts (1 concurrent)                     42.4      21359.1   5037.5
 Shell Scripts (8 concurrent)                      6.0      15878.6  26464.4
 System Call Overhead                          15000.0    4761892.9   3174.6
                                                                    ========
-System Benchmarks Index Score                                        4581.2
+System BenchMarks Index Score                                        4581.2
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Jun 08 2025 10:37:14 - 11:05:11
+BenchMark Run: Sun Jun 08 2025 10:37:14 - 11:05:11
 32 CPUs in system; running 32 parallel copies of tests
 
 Dhrystone 2 using register variables     1912344068.2 lps   (10.0 s, 7 samples)
@@ -471,7 +471,7 @@ Shell Scripts (1 concurrent)                 217218.6 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  26890.0 lpm   (60.0 s, 2 samples)
 System Call Overhead                      113879309.5 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0 1912344068.2 163868.4
 Double-Precision Whetstone                       55.0     377354.4  68609.9
 Execl Throughput                                 43.0      56131.1  13053.8
@@ -485,7 +485,7 @@ Shell Scripts (1 concurrent)                     42.4     217218.6  51230.8
 Shell Scripts (8 concurrent)                      6.0      26890.0  44816.6
 System Call Overhead                          15000.0  113879309.5  75919.5
                                                                    ========
-System Benchmarks Index Score                                       48548.0
+System BenchMarks Index Score                                       48548.0
 ```
 
 ### PassMark PerformanceTest Linux

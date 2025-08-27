@@ -104,7 +104,7 @@ Read       | 4.92 GB/s     (9.6k) | 7.71 GB/s     (7.5k)
 Write      | 5.18 GB/s    (10.1k) | 8.23 GB/s     (8.0k)
 Total      | 10.10 GB/s   (19.7k) | 15.94 GB/s   (15.5k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

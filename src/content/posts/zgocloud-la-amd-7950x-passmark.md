@@ -2,7 +2,7 @@
 title: "ZgoCloud 洛杉矶 AMD 7950X 测试"
 published: 2023-12-16
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 
@@ -86,7 +86,7 @@ Read       | 4.63 GB/s     (9.0k) | 4.47 GB/s     (4.3k)
 Write      | 4.87 GB/s     (9.5k) | 4.76 GB/s     (4.6k)
 Total      | 9.51 GB/s    (18.5k) | 9.23 GB/s     (9.0k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -504,7 +504,7 @@ Read       | 1.85 GB/s     (3.6k) | 2.16 GB/s     (2.1k)
 Write      | 1.94 GB/s     (3.8k) | 2.30 GB/s     (2.2k)
 Total      | 3.79 GB/s     (7.4k) | 4.46 GB/s     (4.3k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -589,7 +589,7 @@ Read       | 2.06 GB/s     (4.0k) | 2.17 GB/s     (2.1k)
 Write      | 2.17 GB/s     (4.2k) | 2.31 GB/s     (2.2k)
 Total      | 4.24 GB/s     (8.2k) | 4.49 GB/s     (4.3k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -905,7 +905,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes packets
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat.blog: GNU/Linux
    OS: GNU/Linux -- 6.1.46-x64v4-xanmod1 -- #0~20230816.g11dcd23 SMP PREEMPT_DYNAMIC Thu Aug 17 03:15:33 UTC
@@ -918,7 +918,7 @@ traceroute to 211.136.25.153, 30 hops max, 52 bytes packets
    13:02:20 up 8 days,  2:07,  1 user,  load average: 0.09, 0.14, 0.19; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sat Jan 13 2024 13:02:20 - 13:30:14
+BenchMark Run: Sat Jan 13 2024 13:02:20 - 13:30:14
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       75162471.5 lps   (10.0 s, 7 samples)
@@ -934,7 +934,7 @@ Shell Scripts (1 concurrent)                  14498.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   2630.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1460688.3 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   75162471.5   6440.7
 Double-Precision Whetstone                       55.0      12193.2   2216.9
 Execl Throughput                                 43.0       4548.0   1057.7
@@ -948,10 +948,10 @@ Shell Scripts (1 concurrent)                     42.4      14498.2   3419.4
 Shell Scripts (8 concurrent)                      6.0       2630.7   4384.5
 System Call Overhead                          15000.0    1460688.3    973.8
                                                                    ========
-System Benchmarks Index Score                                        1885.2
+System BenchMarks Index Score                                        1885.2
 
 ------------------------------------------------------------------------
-Benchmark Run: Sat Jan 13 2024 13:30:14 - 13:58:11
+BenchMark Run: Sat Jan 13 2024 13:30:14 - 13:58:11
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables      143405916.2 lps   (10.0 s, 7 samples)
@@ -967,7 +967,7 @@ Shell Scripts (1 concurrent)                  20219.0 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   2587.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2879556.7 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  143405916.2  12288.4
 Double-Precision Whetstone                       55.0      24240.2   4407.3
 Execl Throughput                                 43.0       8094.2   1882.4
@@ -981,7 +981,7 @@ Shell Scripts (1 concurrent)                     42.4      20219.0   4768.6
 Shell Scripts (8 concurrent)                      6.0       2587.2   4312.0
 System Call Overhead                          15000.0    2879556.7   1919.7
                                                                    ========
-System Benchmarks Index Score                                        3304.6
+System BenchMarks Index Score                                        3304.6
 
 ======= Script description and score comparison completed! =======
 

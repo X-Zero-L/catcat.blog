@@ -2,7 +2,7 @@
 title: "Faconhost 新加坡 CN2 测评"
 published: 2024-04-27
 tags: [新加坡]
-category: Benchmark
+category: BenchMark
 ---
 
 - **高严格 TOS，不建议购买！！！避坑！！！**
@@ -108,7 +108,7 @@ Read       | 2.22 GB/s     (4.3k) | 2.33 GB/s     (2.2k)
 Write      | 2.33 GB/s     (4.5k) | 2.49 GB/s     (2.4k)
 Total      | 4.55 GB/s     (8.9k) | 4.83 GB/s     (4.7k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

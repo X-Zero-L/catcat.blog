@@ -2,7 +2,7 @@
 title: "罗马尼亚6T超大盘鸡测评"
 published: 2023-05-15
 tags: [罗马尼亚,存储服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 ```shell
@@ -244,7 +244,7 @@ Clouvider       | NYC, NY, US (10G)         | 450 Mbits/sec   | 340 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 368 Mbits/sec   | 321 Mbits/sec   | 142 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 347 Mbits/sec   | 289 Mbits/sec   | 168 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

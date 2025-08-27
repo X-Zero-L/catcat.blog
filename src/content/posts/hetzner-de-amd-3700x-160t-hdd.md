@@ -2,7 +2,7 @@
 title: "Hetzner 德国 AMD 3700X 160T 存储测评"
 published: 2025-05-20
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 机器配置
@@ -168,7 +168,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 797 Mbits/sec   | 438 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 854 Mbits/sec   | 657 Mbits/sec   | 96.6 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 730 Mbits/sec   | 312 Mbits/sec   | 202 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

@@ -2,7 +2,7 @@
 title: "Spaceberg 促销 7T存储 50G口下行不限流量测评"
 published: 2023-06-17
 tags: [Spaceberg,存储服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 ```shell
@@ -301,7 +301,7 @@ Clouvider       | NYC, NY, US (10G)         | 1.57 Gbits/sec  | 240 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 1.31 Gbits/sec  | 771 Mbits/sec   | 115 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 1.14 Gbits/sec  | 737 Mbits/sec   | 136 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

@@ -2,7 +2,7 @@
 title: "Sharon 新站 GoMami 香港 AMD 9950X 测评"
 published: 2025-08-13
 tags: [香港]
-category: Benchmark
+category: BenchMark
 ---
 
 相关前言可以见 [Sharon 新站 GoMami 香港 AMD 7763 测评](https://catcat.blog/sharon-gomami-amd-7763-benchamark.html)
@@ -81,7 +81,7 @@ Read       | 520.34 MB/s   (1.0k) | 561.11 MB/s    (547)
 Write      | 547.99 MB/s   (1.0k) | 598.48 MB/s    (584)
 Total      | 1.06 GB/s     (2.0k) | 1.15 GB/s     (1.1k)
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -89,7 +89,7 @@ Single Core     | 2566
 Multi Core      | 4520                          
 Full Test       | https://browser.geekbench.com/v5/cpu/23723730
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -131,7 +131,7 @@ Memory Mark:                       2058
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 6.0.0)
+   BYTE UNIX BenchMarks (Version 6.0.0)
 
    System: catcat.blog: GNU/Linux
    OS: GNU/Linux -- 6.1.0-9-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)
@@ -144,7 +144,7 @@ Memory Mark:                       2058
    11:23:12 up 44 min,  2 users,  load average: 0.00, 0.13, 0.17; runlevel 2025-08-13
 
 ------------------------------------------------------------------------
-Benchmark Run: Wed Aug 13 2025 11:23:12 - 11:51:30
+BenchMark Run: Wed Aug 13 2025 11:23:12 - 11:51:30
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables      106400208.4 lps   (10.0 s, 7 samples)
@@ -160,7 +160,7 @@ Shell Scripts (1 concurrent)                  28053.5 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5735.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4178434.1 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  106400208.4   9117.4
 Double-Precision Whetstone                       55.0      13708.8   2492.5
 Execl Throughput                                 43.0       8881.1   2065.4
@@ -174,10 +174,10 @@ Shell Scripts (1 concurrent)                     42.4      28053.5   6616.4
 Shell Scripts (8 concurrent)                      6.0       5735.7   9559.5
 System Call Overhead                          15000.0    4178434.1   2785.6
                                                                    ========
-System Benchmarks Index Score                                        3988.6
+System BenchMarks Index Score                                        3988.6
 
 ------------------------------------------------------------------------
-Benchmark Run: Wed Aug 13 2025 11:51:30 - 12:19:48
+BenchMark Run: Wed Aug 13 2025 11:51:30 - 12:19:48
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables      210625400.2 lps   (10.0 s, 7 samples)
@@ -193,7 +193,7 @@ Shell Scripts (1 concurrent)                  43194.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5899.4 lpm   (60.0 s, 2 samples)
 System Call Overhead                        8260592.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  210625400.2  18048.4
 Double-Precision Whetstone                       55.0      27238.4   4952.4
 Execl Throughput                                 43.0      16785.1   3903.5
@@ -207,7 +207,7 @@ Shell Scripts (1 concurrent)                     42.4      43194.2  10187.3
 Shell Scripts (8 concurrent)                      6.0       5899.4   9832.3
 System Call Overhead                          15000.0    8260592.4   5507.1
                                                                    ========
-System Benchmarks Index Score                                        7398.1
+System BenchMarks Index Score                                        7398.1
 ```
 
 ### IO测试

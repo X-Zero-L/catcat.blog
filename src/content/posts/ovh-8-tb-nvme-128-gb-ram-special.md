@@ -2,7 +2,7 @@
 title: "OVH 8 TB NVMe - 128 GB RAM - SPECIAL"
 published: 2023-07-18
 tags: [法国,OVH]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 套餐配置
@@ -127,7 +127,7 @@ Clouvider       | NYC, NY, US (10G)         | 1.63 Gbits/sec  | 238 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 1.33 Gbits/sec  | 1.49 Gbits/sec  | 128 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 1.18 Gbits/sec  | 1.31 Gbits/sec  | 136 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -478,7 +478,7 @@ Speedtest.net    3013.89 Mbps    6233.02 Mbps    5.21     0.0%
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Tue Jul 18 2023 17:27:09 - 17:55:09
+BenchMark Run: Tue Jul 18 2023 17:27:09 - 17:55:09
 16 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       40002099.3 lps   (10.0 s, 7 samples)
@@ -494,7 +494,7 @@ Shell Scripts (1 concurrent)                   5147.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   2837.0 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1612809.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   40002099.3   3427.8
 Double-Precision Whetstone                       55.0       7272.3   1322.2
 Execl Throughput                                 43.0       2799.2    651.0
@@ -508,10 +508,10 @@ Shell Scripts (1 concurrent)                     42.4       5147.8   1214.1
 Shell Scripts (8 concurrent)                      6.0       2837.0   4728.3
 System Call Overhead                          15000.0    1612809.8   1075.2
                                                                    ========
-System Benchmarks Index Score                                        1132.5
+System BenchMarks Index Score                                        1132.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Jul 18 2023 17:55:09 - 18:23:13
+BenchMark Run: Tue Jul 18 2023 17:55:09 - 18:23:13
 16 CPUs in system; running 16 parallel copies of tests
 
 Dhrystone 2 using register variables      638847500.4 lps   (10.0 s, 7 samples)
@@ -527,7 +527,7 @@ Shell Scripts (1 concurrent)                  59491.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   7910.6 lpm   (60.1 s, 2 samples)
 System Call Overhead                        2965300.5 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  638847500.4  54742.7
 Double-Precision Whetstone                       55.0     115990.1  21089.1
 Execl Throughput                                 43.0      17476.1   4064.2
@@ -541,7 +541,7 @@ Shell Scripts (1 concurrent)                     42.4      59491.8  14031.1
 Shell Scripts (8 concurrent)                      6.0       7910.6  13184.3
 System Call Overhead                          15000.0    2965300.5   1976.9
                                                                    ========
-System Benchmarks Index Score                                        5507.1
+System BenchMarks Index Score                                        5507.1
 
 ======= Script description and score comparison completed! ======= 
 ```

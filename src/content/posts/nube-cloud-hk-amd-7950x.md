@@ -2,7 +2,7 @@
 title: "Nube Cloud 香港 AMD 7950X 独立服务器 测评"
 published: 2024-04-21
 tags: [香港]
-category: Benchmark
+category: BenchMark
 ---
 
 来自牛肉佬的免费测试玩具,原价268美元。机器很不错，奈何囊肿羞涩。
@@ -150,7 +150,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 991 Mbits/sec   | 1.27 Gbits/sec  
 Leaseweb        | NYC, NY, US (10G)         | 3.13 Gbits/sec  | 3.02 Gbits/sec  | 226 ms         
 Edgoo           | Sao Paulo, BR (1G)        | busy            | 765 Kbits/sec   | 383 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -269,7 +269,7 @@ Memory Mark:                       3351
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: eons-supero-ryzen-2: GNU/Linux
    OS: GNU/Linux -- 5.15.0-105-generic -- #115-Ubuntu SMP Mon Apr 15 09:52:04 UTC 2024
@@ -342,7 +342,7 @@ Memory Mark:                       3351
    10:35:15 up  1:33,  1 user,  load average: 3.96, 6.42, 3.89; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Apr 21 2024 10:35:15 - 11:03:35
+BenchMark Run: Sun Apr 21 2024 10:35:15 - 11:03:35
 32 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       80967723.4 lps   (10.0 s, 7 samples)
@@ -358,7 +358,7 @@ Shell Scripts (1 concurrent)                  21776.0 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  11026.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3135299.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   80967723.4   6938.1
 Double-Precision Whetstone                       55.0      13071.1   2376.6
 Execl Throughput                                 43.0      10713.4   2491.5
@@ -372,10 +372,10 @@ Shell Scripts (1 concurrent)                     42.4      21776.0   5135.8
 Shell Scripts (8 concurrent)                      6.0      11026.2  18377.1
 System Call Overhead                          15000.0    3135299.6   2090.2
                                                                    ========
-System Benchmarks Index Score                                        3733.8
+System BenchMarks Index Score                                        3733.8
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Apr 21 2024 11:03:35 - 11:03:35
+BenchMark Run: Sun Apr 21 2024 11:03:35 - 11:03:35
 32 CPUs in system; running 32 parallel copies of tests
 ```
 

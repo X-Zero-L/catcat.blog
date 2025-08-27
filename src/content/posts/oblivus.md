@@ -2,7 +2,7 @@
 title: "Oblivus 芝加哥 纽约 拉斯维加斯测评"
 published: 2023-08-05
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 机器配置
@@ -356,7 +356,7 @@ Clouvider       | NYC, NY, US (10G)         | busy            | 7.61 Gbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 5.64 Gbits/sec  | 7.19 Gbits/sec  | 33.1 ms        
 Clouvider       | Los Angeles, CA, US (10G) | 2.94 Gbits/sec  | 1.53 Gbits/sec  | 63.3 ms        
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -617,7 +617,7 @@ Clouvider       | NYC, NY, US (10G)         | 1.81 Gbits/sec  | 501 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 4.58 Gbits/sec  | 7.20 Gbits/sec  | 32.8 ms        
 Clouvider       | Los Angeles, CA, US (10G) | 8.39 Gbits/sec  | 8.84 Gbits/sec  | 5.73 ms        
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -934,7 +934,7 @@ Clouvider       | NYC, NY, US (10G)         | 6.43 Gbits/sec  | busy            
 Clouvider       | Dallas, TX, US (10G)      | busy            | 8.83 Gbits/sec  | 21.2 ms        
 Clouvider       | Los Angeles, CA, US (10G) | 2.55 Gbits/sec  | 3.86 Gbits/sec  | 59.4 ms        
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

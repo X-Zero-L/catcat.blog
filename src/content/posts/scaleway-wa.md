@@ -2,7 +2,7 @@
 title: "Scaleway 波兰测评"
 published: 2023-09-16
 tags: [波兰]
-category: Benchmark
+category: BenchMark
 ---
 
 ### 融合怪脚本测试

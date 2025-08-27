@@ -2,7 +2,7 @@
 title: "ZgoCloud 大阪 AMD 9004 测评"
 published: 2023-06-23
 tags: [日本]
-category: Benchmark
+category: BenchMark
 ---
 
 此版本中的线路商家已经不在提供，仅做参考
@@ -334,7 +334,7 @@ Clouvider       | NYC, NY, US (10G)         | 743 Mbits/sec   | 617 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 777 Mbits/sec   | 675 Mbits/sec   | 148 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 798 Mbits/sec   | 697 Mbits/sec   | 111 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

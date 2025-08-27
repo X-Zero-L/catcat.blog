@@ -2,7 +2,7 @@
 title: "Hetzner 25欧杜甫测试"
 published: 2023-08-23
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 ## SSD 测试
@@ -107,7 +107,7 @@ Clouvider       | NYC, NY, US (10G)         | 655 Mbits/sec   | busy            
 Clouvider       | Dallas, TX, US (10G)      | 30.3 Mbits/sec  | 47.1 Mbits/sec  | 126 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 22.4 Mbits/sec  | 38.6 Mbits/sec  | 156 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

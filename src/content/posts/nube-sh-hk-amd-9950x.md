@@ -2,7 +2,7 @@
 title: "Nube.SH 香港 AMD 9950X 裸金属服务器测评"
 published: 2024-11-03
 tags: [香港]
-category: Benchmark
+category: BenchMark
 ---
 
 更新了一些测试的指标和内容。
@@ -166,7 +166,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 1.09 Gbits/sec  | 1.11 Gbits/sec  
 Leaseweb        | NYC, NY, US (10G)         | 2.06 Gbits/sec  | 60.0 Mbits/sec  | 213 ms         
 Edgoo           | Sao Paulo, BR (1G)        | 2.19 Gbits/sec  | 3.03 Gbits/sec  | 328 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -234,7 +234,7 @@ YABS completed in 8 min 20 sec
 ----------------------------------------------------------------------
 ```
 
-### X265 Benchmark
+### X265 BenchMark
 
 <picture>
     <source srcset="https://s3.catcat.blog/images/2024/11/ea38e426d53eeac97960577f913da924.avif" type="image/avif">
@@ -242,7 +242,7 @@ YABS completed in 8 min 20 sec
     <img src="https://s3.catcat.blog/images/2024/11/ea38e426d53eeac97960577f913da924.jpg" alt="" loading="lazy">
 </picture>
 
-### X264 Benchmark
+### X264 BenchMark
 
 <picture>
     <source srcset="https://s3.catcat.blog/images/2024/11/ffc1b9274f681b815959f2455c350dad.avif" type="image/avif">

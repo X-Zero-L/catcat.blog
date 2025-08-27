@@ -2,7 +2,7 @@
 title: "SpeedyPage 美国阿什本高性能7950x服务器"
 published: 2023-03-28
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 1.介绍

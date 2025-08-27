@@ -2,7 +2,7 @@
 title: "YXVM SG Hybrid测评 +原生 IP配置解锁"
 published: 2024-08-13
 tags: [新加坡]
-category: Benchmark
+category: BenchMark
 ---
 
 之前没买到，今天终于补货买到了。老朋友，不再赘述。这款是在优化线路的基础上，加一刀可以附加一个流媒体解锁IP。只要设置中国优化IP入，流媒体解锁IP出，就可以实现高速+流媒体解锁。还是挺有性价比的，有 ip 需求的还是可以的。

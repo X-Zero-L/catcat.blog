@@ -134,7 +134,7 @@ Clouvider       | NYC, NY, US (10G)         | busy            | 958 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 1.11 Gbits/sec  | 813 Mbits/sec   | 23.5 ms        
 Clouvider       | Los Angeles, CA, US (10G) | 1.08 Gbits/sec  | 225 Mbits/sec   | 55.8 ms        
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -449,7 +449,7 @@ Memory Mark:                       1098
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat.blog: GNU/Linux
    OS: GNU/Linux -- 6.1.46-x64v4-xanmod1 -- #0~20230816.g11dcd23 SMP PREEMPT_DYNAMIC Thu Aug 17 03:15:33 UTC
@@ -460,7 +460,7 @@ Memory Mark:                       1098
    15:22:44 up 41 min,  1 user,  load average: 0.49, 0.36, 0.26; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Oct 08 2023 15:22:44 - 15:51:04
+BenchMark Run: Sun Oct 08 2023 15:22:44 - 15:51:04
 1 CPU in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       81089030.2 lps   (10.0 s, 7 samples)
@@ -476,7 +476,7 @@ Shell Scripts (1 concurrent)                  12936.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   1719.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1544519.5 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   81089030.2   6948.5
 Double-Precision Whetstone                       55.0      13139.7   2389.0
 Execl Throughput                                 43.0       4578.5   1064.8
@@ -490,7 +490,7 @@ Shell Scripts (1 concurrent)                     42.4      12936.2   3051.0
 Shell Scripts (8 concurrent)                      6.0       1719.3   2865.5
 System Call Overhead                          15000.0    1544519.5   1029.7
                                                                    ========
-System Benchmarks Index Score                                        1970.8
+System BenchMarks Index Score                                        1970.8
 
 ======= Script description and score comparison completed! ======= 
 ```
@@ -671,7 +671,7 @@ root@catcat:~# speedtest   Speedtest by Ookla      Server: Kansas Research 
 
  1 Thread Test:                 6311 Scores
 
-Geekbench 4 Benchmark Test:
+Geekbench 4 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -679,7 +679,7 @@ Single Core     | 10123
 Multi Core      | 9017                          
 Full Test       | https://browser.geekbench.com/v4/cpu/16881509
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

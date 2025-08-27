@@ -2,7 +2,7 @@
 title: "Leaseweb Intel E-2388G 性能测试"
 published: 2025-03-28
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 Leaseweb 在PT刷子圈可是赫赫有名，独一档和连接性和1G/10G的带宽打的其他盒子毫无还手之力。不过常见以来这家一直不欢迎中国人也不欢迎个人用户，想直接买到官方的还是蛮困难的，需要企业和预存资金。大部分时候都是可以从他们二次代理拿货，性价比更好，往往比官网的更好。不过买这个的目的还是为了这个Intel E-2388G ，得益于 Rocket Lake 架构，E-2388G 在单核性能方面表现出色，还配有集显。表现很不错。
@@ -143,7 +143,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 822 Mbits/sec   | 269 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 882 Mbits/sec   | 630 Mbits/sec   | 78.3 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 704 Mbits/sec   | 250 Mbits/sec   | 209 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

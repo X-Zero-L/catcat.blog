@@ -2,7 +2,7 @@
 title: "[全网首发]腾讯云 SA9 AMD EPYC Turin 机器测试"
 published: 2025-04-23
 tags: [大陆服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 <picture>
@@ -172,7 +172,7 @@ Total      | 739.47 MB/s   (1.4k) | 733.78 MB/s    (715)
 ### UnixBench
 
 ```shell
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: VM-0-4-debian: GNU/Linux
    OS: GNU/Linux -- 6.1.0-28-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.119-1 (2024-11-22)
@@ -213,7 +213,7 @@ Total      | 739.47 MB/s   (1.4k) | 733.78 MB/s    (715)
    16:48:35 up 28 min,  3 users,  load average: 0.07, 0.29, 0.41; runlevel 2025-04-23
 
 ------------------------------------------------------------------------
-Benchmark Run: Wed Apr 23 2025 16:48:35 - 17:16:31
+BenchMark Run: Wed Apr 23 2025 16:48:35 - 17:16:31
 16 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       73344241.6 lps   (10.0 s, 7 samples)
@@ -229,7 +229,7 @@ Shell Scripts (1 concurrent)                  21967.6 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  14023.4 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3218339.2 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   73344241.6   6284.9
 Double-Precision Whetstone                       55.0       9195.8   1672.0
 Execl Throughput                                 43.0       6080.5   1414.1
@@ -243,10 +243,10 @@ Shell Scripts (1 concurrent)                     42.4      21967.6   5181.0
 Shell Scripts (8 concurrent)                      6.0      14023.4  23372.4
 System Call Overhead                          15000.0    3218339.2   2145.6
                                                                    ========
-System Benchmarks Index Score                                        3458.9
+System BenchMarks Index Score                                        3458.9
 
 ------------------------------------------------------------------------
-Benchmark Run: Wed Apr 23 2025 17:16:31 - 17:44:32
+BenchMark Run: Wed Apr 23 2025 17:16:31 - 17:44:32
 16 CPUs in system; running 16 parallel copies of tests
 
 Dhrystone 2 using register variables      791604941.5 lps   (10.0 s, 7 samples)
@@ -262,7 +262,7 @@ Shell Scripts (1 concurrent)                 161233.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  21065.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                       42985767.0 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  791604941.5  67832.5
 Double-Precision Whetstone                       55.0     136753.8  24864.3
 Execl Throughput                                 43.0      55427.1  12890.0
@@ -276,7 +276,7 @@ Shell Scripts (1 concurrent)                     42.4     161233.9  38026.9
 Shell Scripts (8 concurrent)                      6.0      21065.6  35109.3
 System Call Overhead                          15000.0   42985767.0  28657.2
                                                                    ========
-System Benchmarks Index Score                                       28574.9
+System BenchMarks Index Score                                       28574.9
 ```
 
 ### PassMark PerformanceTest Linux

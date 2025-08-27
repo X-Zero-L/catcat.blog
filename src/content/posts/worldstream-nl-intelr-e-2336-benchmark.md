@@ -2,7 +2,7 @@
 title: "Worldstream 荷兰万兆 Intel(R) E-2336 测评"
 published: 2025-06-27
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 **机器来自朋友，待测，感谢提供。**
@@ -97,7 +97,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 892 Mbits/sec   | 865 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 1.76 Gbits/sec  | 2.49 Gbits/sec  | 78.2 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 749 Mbits/sec   | 638 Mbits/sec   | 223 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -154,7 +154,7 @@ Geekbench 5 测试结果
 ### UnixBench
 
 ```shell
-Benchmark Run: Fri Jun 27 2025 14:15:25 - 14:43:30
+BenchMark Run: Fri Jun 27 2025 14:15:25 - 14:43:30
 12 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       42452751.3 lps   (10.0 s, 7 samples)
@@ -171,7 +171,7 @@ Shell Scripts (8 concurrent)                   7681.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1478988.2 lps   (10.0 s, 7 samples)
 
 fei xue DC1, [2025/6/27 21:17]
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   42452751.3   3637.8
 Double-Precision Whetstone                       55.0       6506.1   1182.9
 Execl Throughput                                 43.0       3998.5    929.9
@@ -185,10 +185,10 @@ Shell Scripts (1 concurrent)                     42.4       4769.4   1124.9
 Shell Scripts (8 concurrent)                      6.0       7681.3  12802.1
 System Call Overhead                          15000.0    1478988.2    986.0
                                                                    ========
-System Benchmarks Index Score                                        1807.5
+System BenchMarks Index Score                                        1807.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Fri Jun 27 2025 14:43:30 - 15:11:38
+BenchMark Run: Fri Jun 27 2025 14:43:30 - 15:11:38
 12 CPUs in system; running 12 parallel copies of tests
 
 Dhrystone 2 using register variables      265845204.8 lps   (10.0 s, 7 samples)
@@ -204,7 +204,7 @@ Shell Scripts (1 concurrent)                  71885.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   9580.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                       11854090.7 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  265845204.8  22780.2
 Double-Precision Whetstone                       55.0      70732.0  12860.4
 Execl Throughput                                 43.0      28593.5   6649.7
@@ -218,7 +218,7 @@ Shell Scripts (1 concurrent)                     42.4      71885.9  16954.2
 Shell Scripts (8 concurrent)                      6.0       9580.6  15967.7
 System Call Overhead                          15000.0   11854090.7   7902.7
                                                                    ========
-System Benchmarks Index Score                                       11713.9
+System BenchMarks Index Score                                       11713.9
 ```
 
 ### PassMark PerformanceTest Linux

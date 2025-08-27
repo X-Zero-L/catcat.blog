@@ -126,7 +126,7 @@ Clouvider       | NYC, NY, US (10G)         | 565 Mbits/sec   | busy            
 Clouvider       | Dallas, TX, US (10G)      | 609 Mbits/sec   | 450 Mbits/sec   | 253 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 1.02 Gbits/sec  | 824 Mbits/sec   | 167 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -406,7 +406,7 @@ Speedtest.net	 4097.96 Mbps	 6957.79 Mbps	 14.88	  0.0%
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: s9662: GNU/Linux
    OS: GNU/Linux -- 6.1.0-13-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.55-1 (2023-09-29)
@@ -419,7 +419,7 @@ Speedtest.net	 4097.96 Mbps	 6957.79 Mbps	 14.88	  0.0%
    11:40:14 up 4 days,  2:46,  1 user,  load average: 0.40, 0.36, 0.34; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Nov 26 2023 11:40:14 - 12:08:12
+BenchMark Run: Sun Nov 26 2023 11:40:14 - 12:08:12
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       49734458.7 lps   (10.0 s, 7 samples)
@@ -435,7 +435,7 @@ Shell Scripts (1 concurrent)                   8316.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   1517.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1033873.5 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   49734458.7   4261.7
 Double-Precision Whetstone                       55.0       8403.9   1528.0
 Execl Throughput                                 43.0       2796.9    650.4
@@ -449,10 +449,10 @@ Shell Scripts (1 concurrent)                     42.4       8316.9   1961.5
 Shell Scripts (8 concurrent)                      6.0       1517.2   2528.6
 System Call Overhead                          15000.0    1033873.5    689.2
                                                                    ========
-System Benchmarks Index Score                                        1118.0
+System BenchMarks Index Score                                        1118.0
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun Nov 26 2023 12:08:12 - 12:36:13
+BenchMark Run: Sun Nov 26 2023 12:08:12 - 12:36:13
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables       91990818.6 lps   (10.0 s, 7 samples)
@@ -468,7 +468,7 @@ Shell Scripts (1 concurrent)                  13430.3 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   1665.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1944451.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   91990818.6   7882.7
 Double-Precision Whetstone                       55.0      15649.8   2845.4
 Execl Throughput                                 43.0       4486.8   1043.5
@@ -482,7 +482,7 @@ Shell Scripts (1 concurrent)                     42.4      13430.3   3167.5
 Shell Scripts (8 concurrent)                      6.0       1665.5   2775.8
 System Call Overhead                          15000.0    1944451.8   1296.3
                                                                    ========
-System Benchmarks Index Score                                        2140.6
+System BenchMarks Index Score                                        2140.6
 
 ======= Script description and score comparison completed! ======= 
 ```

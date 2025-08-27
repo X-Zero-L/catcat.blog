@@ -2,7 +2,7 @@
 title: "SpeedyPage 新加坡5950x测评"
 published: 2023-03-05
 tags: [新加坡]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 1.官方网站

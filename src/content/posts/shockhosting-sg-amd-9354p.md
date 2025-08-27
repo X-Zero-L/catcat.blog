@@ -2,7 +2,7 @@
 title: "ShockHosting 新加坡 AMD 9354P 测评"
 published: 2024-05-26
 tags: [新加坡]
-category: Benchmark
+category: BenchMark
 ---
 
 最近在寻找亚洲的高配服务器（要去亚洲数据中心，三代EPYC or 四代EPYC以上），非常幸运，捡到宝了。根据介绍，商家成立于2013年，目前经营11个地区，主要有新加坡，日本，荷兰，洛杉矶等。机器性能可以说非常优秀。他们的销售也挺耐心的，因为我在网上找了一圈也没找到他们9354P node的测评，最后还怕我不相信，说可以带我实地查看或者是IPML的截图。新加坡数据中心位于 RacksCentral。IP质量一般，很经典的电信，联通绕美走cogentco，移动直连。观察一段时间，考虑是否换掉Hybula的位置。
@@ -120,7 +120,7 @@ Read       | 22.20 GB/s   (43.3k) | 10.85 GB/s   (10.5k)
 Write      | 23.38 GB/s   (45.6k) | 11.57 GB/s   (11.3k)
 Total      | 45.59 GB/s   (89.0k) | 22.42 GB/s   (21.9k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -473,7 +473,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat.blog: GNU/Linux
    OS: GNU/Linux -- 6.1.0-9-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)
@@ -490,7 +490,7 @@ Geekbench 5 测试结果
    01:06:39 up  2:06,  2 users,  load average: 0.40, 0.29, 0.18; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun May 26 2024 01:06:39 - 01:34:35
+BenchMark Run: Sun May 26 2024 01:06:39 - 01:34:35
 4 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       58037665.6 lps   (10.0 s, 7 samples)
@@ -506,7 +506,7 @@ Shell Scripts (1 concurrent)                  15253.0 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4455.1 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2945436.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   58037665.6   4973.2
 Double-Precision Whetstone                       55.0       9066.2   1648.4
 Execl Throughput                                 43.0       4945.8   1150.2
@@ -520,10 +520,10 @@ Shell Scripts (1 concurrent)                     42.4      15253.0   3597.4
 Shell Scripts (8 concurrent)                      6.0       4455.1   7425.2
 System Call Overhead                          15000.0    2945436.8   1963.6
                                                                    ========
-System Benchmarks Index Score                                        2518.4
+System BenchMarks Index Score                                        2518.4
 
 ------------------------------------------------------------------------
-Benchmark Run: Sun May 26 2024 01:34:35 - 02:02:32
+BenchMark Run: Sun May 26 2024 01:34:35 - 02:02:32
 4 CPUs in system; running 4 parallel copies of tests
 
 Dhrystone 2 using register variables      233438082.2 lps   (10.0 s, 7 samples)
@@ -539,7 +539,7 @@ Shell Scripts (1 concurrent)                  36976.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5073.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3740961.0 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  233438082.2  20003.3
 Double-Precision Whetstone                       55.0      36269.2   6594.4
 Execl Throughput                                 43.0      13626.2   3168.9
@@ -553,7 +553,7 @@ Shell Scripts (1 concurrent)                     42.4      36976.7   8720.9
 Shell Scripts (8 concurrent)                      6.0       5073.7   8456.2
 System Call Overhead                          15000.0    3740961.0   2494.0
                                                                    ========
-System Benchmarks Index Score                                        5052.9
+System BenchMarks Index Score                                        5052.9
 
 ======= Script description and score comparison completed! ======= 
 ```
@@ -639,7 +639,7 @@ Memory Mark:                       2651
  ASN & ISP    : AS395092, Shock Hosting LLC / Shock
 ---------------------------------------------------------------------------
 
- ## Geekbench v6 CPU Benchmark:
+ ## Geekbench v6 CPU BenchMark:
 
   Single Core : 2181  (THE BEAST)
    Multi Core : 7004

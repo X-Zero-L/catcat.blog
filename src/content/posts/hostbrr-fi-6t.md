@@ -2,7 +2,7 @@
 title: "Hostbrr 芬兰周年庆6T存储优惠 测评"
 published: 2024-05-14
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 前几天周年庆又抢到一台闪购6T,美滋滋。这次是芬兰，EPYC的cpu，和之前销售的芬兰存储不一样了。新母鸡是Hetzner 前几天推出的SX295。全新硬盘，很爽。
@@ -97,7 +97,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 759 Mbits/sec   | 296 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 844 Mbits/sec   | 626 Mbits/sec   | 92.5 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 709 Mbits/sec   | 127 Mbits/sec   | 169 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

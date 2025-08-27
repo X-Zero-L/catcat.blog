@@ -125,7 +125,7 @@ Clouvider       | Los Angeles, CA, US (10G) | busy            | 2.60 Mbits/sec  
 Leaseweb        | NYC, NY, US (10G)         | 2.11 Gbits/sec  | 2.45 Gbits/sec  | 74.6 ms
 Edgoo           | Sao Paulo, BR (1G)        | 880 Mbits/sec   | 1.08 Gbits/sec  | 165 ms
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value
                 |

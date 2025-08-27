@@ -2,7 +2,7 @@
 title: "Hostbrr 德国周年庆6T存储优惠 测评"
 published: 2024-05-03
 tags: [德国,存储服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 HostBrr目前已经开业一周年，作为Hetzner的二道贩子目前在LowEndTalk口碑非常不错。他的存储产品，大内存产品性价比很棒。虽然最近一个月频频遭到网络攻击，但Hostbrr给人的态度感觉很不错(用他们家产品一年了)。又是迁移机房，升级ddos保护，各种补偿升级CPU。官方在4月22号开启了官方闪购和大内存促销，有幸半夜三点抢到了一台(仅限8台，无补货可能)。
@@ -70,7 +70,7 @@ Read       | 2.11 GB/s     (4.1k) | 2.09 GB/s     (2.0k)
 Write      | 2.22 GB/s     (4.3k) | 2.23 GB/s     (2.1k)
 Total      | 4.33 GB/s     (8.4k) | 4.33 GB/s     (4.2k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

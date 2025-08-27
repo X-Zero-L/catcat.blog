@@ -83,7 +83,7 @@ Clouvider       | NYC, NY, US (10G)         | 42.5 Mbits/sec  | 53.8 Mbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 26.6 Mbits/sec  | 52.7 Mbits/sec  | 113 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 20.0 Mbits/sec  | 34.1 Mbits/sec  | 137 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -554,7 +554,7 @@ Read       | 5.04 GB/s     (9.8k) | 3.00 GB/s     (2.9k)
 Write      | 5.31 GB/s    (10.3k) | 3.20 GB/s     (3.1k)
 Total      | 10.35 GB/s   (20.2k) | 6.20 GB/s     (6.0k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -603,7 +603,7 @@ Read       | 2.85 GB/s     (5.5k) | 6.24 GB/s     (6.0k)
 Write      | 3.00 GB/s     (5.8k) | 6.66 GB/s     (6.5k)
 Total      | 5.85 GB/s    (11.4k) | 12.90 GB/s   (12.6k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

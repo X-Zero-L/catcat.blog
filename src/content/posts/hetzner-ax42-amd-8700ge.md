@@ -2,7 +2,7 @@
 title: "Hetzner AX42 AMD 8700GE 测评"
 published: 2024-07-01
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 - 为了隆重庆祝欧洲足球锦标赛，Hetzner 开启了他们的世界杯促销。AX42 当红系列和他们的托管服务器产品线全部免安装费，活动持续到 2024 年 7 月 12 日。AMD Ryzen™ 7 PRO 8700GE 拥有Radeon 780M Graphics 核显，可以作为编解码机器。由于是 Hetzner 刚上新不久的新产品线，硬盘很大概率都是新的，有需要的人不要错过哦。
@@ -131,7 +131,7 @@ Read       | 3.60 GB/s     (7.0k) | 3.78 GB/s     (3.6k)
 Write      | 3.80 GB/s     (7.4k) | 4.03 GB/s     (3.9k)
 Total      | 7.41 GB/s    (14.4k) | 7.82 GB/s     (7.6k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -253,7 +253,7 @@ Memory Mark:                       3460
 ### byte-unixbench 性能测试
 
 ```shell
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: Hetzner-AX42: GNU/Linux
    OS: GNU/Linux -- 6.1.0-21-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.90-1 (2024-05-03)
@@ -294,7 +294,7 @@ Memory Mark:                       3460
    09:53:00 up 31 min,  1 user,  load average: 0.17, 1.75, 1.46; runlevel 2024-07-02
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Jul 02 2024 09:53:00 - 10:21:25
+BenchMark Run: Tue Jul 02 2024 09:53:00 - 10:21:25
 16 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       78803894.7 lps   (10.0 s, 7 samples)
@@ -310,7 +310,7 @@ Shell Scripts (1 concurrent)                  12146.6 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  11314.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1680808.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   78803894.7   6752.7
 Double-Precision Whetstone                       55.0      12869.6   2339.9
 Execl Throughput                                 43.0       4777.2   1111.0
@@ -324,10 +324,10 @@ Shell Scripts (1 concurrent)                     42.4      12146.6   2864.8
 Shell Scripts (8 concurrent)                      6.0      11314.7  18857.8
 System Call Overhead                          15000.0    1680808.6   1120.5
                                                                    ========
-System Benchmarks Index Score                                        2318.0
+System BenchMarks Index Score                                        2318.0
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Jul 02 2024 10:21:25 - 10:49:25
+BenchMark Run: Tue Jul 02 2024 10:21:25 - 10:49:25
 16 CPUs in system; running 16 parallel copies of tests
 
 Dhrystone 2 using register variables      750185316.3 lps   (10.0 s, 7 samples)
@@ -343,7 +343,7 @@ Shell Scripts (1 concurrent)                 110774.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  14339.0 lpm   (60.0 s, 2 samples)
 System Call Overhead                       18841208.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  750185316.3  64283.2
 Double-Precision Whetstone                       55.0     152712.2  27765.9
 Execl Throughput                                 43.0      41389.0   9625.4
@@ -357,7 +357,7 @@ Shell Scripts (1 concurrent)                     42.4     110774.7  26126.1
 Shell Scripts (8 concurrent)                      6.0      14339.0  23898.3
 System Call Overhead                          15000.0   18841208.4  12560.8
                                                                    ========
-System Benchmarks Index Score                                       18458.6
+System BenchMarks Index Score                                       18458.6
 ```
 
 ### 通电检测

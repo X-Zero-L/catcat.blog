@@ -2,7 +2,7 @@
 title: "Sharon JP SG Standard 测评"
 published: 2024-06-29
 tags: [日本,新加坡]
-category: Benchmark
+category: BenchMark
 ---
 
 - 蚌，老板滞销，推出了首月 1 折优惠，买来图一乐，顺便记录一下。
@@ -50,7 +50,7 @@ Read       | 146.90 MB/s    (286) | 145.09 MB/s    (141)
 Write      | 154.71 MB/s    (302) | 154.75 MB/s    (151)
 Total      | 301.61 MB/s    (588) | 299.84 MB/s    (292)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -722,7 +722,7 @@ Read       | 246.01 MB/s    (480) | 243.00 MB/s    (237)
 Write      | 259.08 MB/s    (506) | 259.18 MB/s    (253)
 Total      | 505.09 MB/s    (986) | 502.19 MB/s    (490)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

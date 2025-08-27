@@ -2,7 +2,7 @@
 title: "自组 H3C 4900G5 Intel 双路 5318Y 测试"
 published: 2025-06-23
 tags: [大陆服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 **业务扩容需要，买了几台，做个赛博测试。品牌机，懂得都懂哈。**
@@ -74,7 +74,7 @@ Total      | 3.70 GB/s     (7.2k) | 3.97 GB/s     (3.8k)
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Mon Jun 23 2025 17:57:42 - 18:25:46
+BenchMark Run: Mon Jun 23 2025 17:57:42 - 18:25:46
 96 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       37731747.9 lps   (10.0 s, 7 samples)
@@ -90,7 +90,7 @@ Shell Scripts (1 concurrent)                  10897.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   9137.8 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1431165.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   37731747.9   3233.2
 Double-Precision Whetstone                       55.0       5778.5   1050.6
 Execl Throughput                                 43.0       3598.4    836.8
@@ -104,10 +104,10 @@ Shell Scripts (1 concurrent)                     42.4      10897.8   2570.2
 Shell Scripts (8 concurrent)                      6.0       9137.8  15229.6
 System Call Overhead                          15000.0    1431165.4    954.1
                                                                    ========
-System Benchmarks Index Score                                        1731.5
+System BenchMarks Index Score                                        1731.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Jun 23 2025 18:25:46 - 18:54:04
+BenchMark Run: Mon Jun 23 2025 18:25:46 - 18:54:04
 96 CPUs in system; running 96 parallel copies of tests
 
 Dhrystone 2 using register variables     1942250052.6 lps   (10.0 s, 7 samples)
@@ -123,7 +123,7 @@ Shell Scripts (1 concurrent)                 163630.0 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  22374.9 lpm   (60.1 s, 2 samples)
 System Call Overhead                       85921923.3 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0 1942250052.6 166431.0
 Double-Precision Whetstone                       55.0     502401.8  91345.8
 Execl Throughput                                 43.0      31730.2   7379.1
@@ -137,5 +137,5 @@ Shell Scripts (1 concurrent)                     42.4     163630.0  38592.0
 Shell Scripts (8 concurrent)                      6.0      22374.9  37291.6
 System Call Overhead                          15000.0   85921923.3  57281.3
                                                                    ========
-System Benchmarks Index Score                                       48433.0
+System BenchMarks Index Score                                       48433.0
 ```

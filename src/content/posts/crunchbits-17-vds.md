@@ -90,7 +90,7 @@ Clouvider       | NYC, NY, US (10G)         | 2.61 Gbits/sec  | 879 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 2.40 Gbits/sec  | 1.79 Gbits/sec  | 66.9 ms        
 Clouvider       | Los Angeles, CA, US (10G) | 2.65 Gbits/sec  | 1.67 Gbits/sec  | 40.5 ms 
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -151,7 +151,7 @@ Shell Scripts (1 concurrent)                  22165.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4482.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4751109.0 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   79349675.4   6799.5
 Double-Precision Whetstone                       55.0      13716.5   2493.9
 Execl Throughput                                 43.0       9492.4   2207.5
@@ -165,7 +165,7 @@ Shell Scripts (1 concurrent)                     42.4      22165.4   5227.7
 Shell Scripts (8 concurrent)                      6.0       4482.5   7470.8
 System Call Overhead                          15000.0    4751109.0   3167.4
                                                                    ========
-System Benchmarks Index Score                                        3428.3
+System BenchMarks Index Score                                        3428.3
 
 ------------------------------------------------------------------------
 
@@ -182,7 +182,7 @@ Shell Scripts (1 concurrent)                  31465.0 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4587.1 lpm   (60.0 s, 2 samples)
 System Call Overhead                        9623453.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  160737649.8  13773.6
 Double-Precision Whetstone                       55.0      27170.9   4940.2
 Execl Throughput                                 43.0      10767.6   2504.1
@@ -196,7 +196,7 @@ Shell Scripts (1 concurrent)                     42.4      31465.0   7421.0
 Shell Scripts (8 concurrent)                      6.0       4587.1   7645.1
 System Call Overhead                          15000.0    9623453.8   6415.6
                                                                    ========
-System Benchmarks Index Score                                        6832.6
+System BenchMarks Index Score                                        6832.6
 ```
 
 ### PerformanceTest测试
@@ -371,7 +371,7 @@ Clouvider       | Dallas, TX, US (10G)      | 60.5 Mbits/sec  | 186 Mbits/sec   
 Clouvider       | Los Angeles, CA, US (10G) | 101 Mbits/sec   | 210 Mbits/sec   | 36.9 ms        
 Biznet          | Jakarta, ID (10G)         | busy            | busy            | -- 
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

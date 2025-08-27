@@ -2,7 +2,7 @@
 title: "DutchIS  荷兰 AMD EPYC Milan 7313  测评"
 published: 2023-10-06
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 荷兰的商家，主要经营vps和独立服务器两种分类，商家注册严格，需要先花1欧进行身份验证，后台是商家自研面板，颜值还算可以。vps主要是标准版EPYC和高性能版5950X两种。商家还提供免费的10G **SpeedIX**的对等连接(条件必须是自己也是SpeedIX的会员)。
@@ -110,7 +110,7 @@ Clouvider       | NYC, NY, US (10G)         | 911 Mbits/sec   | 937 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 672 Mbits/sec   | 924 Mbits/sec   | 114 ms
 Clouvider       | Los Angeles, CA, US (10G) | 691 Mbits/sec   | 880 Mbits/sec   | 153 ms
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -211,7 +211,7 @@ Shell Scripts (1 concurrent)                  16400.6 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3019.1 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1904415.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   50783651.2   4351.6
 Double-Precision Whetstone                       55.0       8978.2   1632.4
 Execl Throughput                                 43.0       5209.7   1211.6
@@ -225,7 +225,7 @@ Shell Scripts (1 concurrent)                     42.4      16400.6   3868.1
 Shell Scripts (8 concurrent)                      6.0       3019.1   5031.9
 System Call Overhead                          15000.0    1904415.4   1269.6
                                                                    ========
-System Benchmarks Index Score                                        2030.5
+System BenchMarks Index Score                                        2030.5
 
 ------------------------------------------------------------------------
 
@@ -244,7 +244,7 @@ Shell Scripts (1 concurrent)                  21472.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3069.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3803274.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  100943856.8   8649.9
 Double-Precision Whetstone                       55.0      17952.5   3264.1
 Execl Throughput                                 43.0       8106.1   1885.2
@@ -258,7 +258,7 @@ Shell Scripts (1 concurrent)                     42.4      21472.2   5064.2
 Shell Scripts (8 concurrent)                      6.0       3069.2   5115.3
 System Call Overhead                          15000.0    3803274.9   2535.5
                                                                    ========
-System Benchmarks Index Score                                        3983.3
+System BenchMarks Index Score                                        3983.3
 ```
 
 ### SpeedTest

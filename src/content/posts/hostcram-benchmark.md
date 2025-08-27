@@ -2,7 +2,7 @@
 title: "HostCram  独立日促销"
 published: 2023-07-05
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 套餐配置
@@ -69,7 +69,7 @@ Clouvider       | NYC, NY, US (10G)         | 912 Mbits/sec   | 351 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 941 Mbits/sec   | 940 Mbits/sec   | 1.67 ms
 Clouvider       | Los Angeles, CA, US (10G) | 919 Mbits/sec   | 597 Mbits/sec   | 31.9 ms
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value
                 |

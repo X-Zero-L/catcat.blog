@@ -2,7 +2,7 @@
 title: "Entrywan 美国 AMD EPYC 9124 测评"
 published: 2024-05-16
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 来自美国的商家，机器是白嫖来的。老板的官网和控制面板非常抽象，什么CSS装饰都没有，纯正原生API，满满的灵车味道。目前经营有虚拟机，Kubernetes,对象存储等，IP倒是很干净。
@@ -139,7 +139,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 889 Mbits/sec   | 913 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 904 Mbits/sec   | 926 Mbits/sec   | 34.9 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 583 Mbits/sec   | 864 Mbits/sec   | 128 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -224,7 +224,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: Entrywan: GNU/Linux
    OS: GNU/Linux -- 6.1.0-21-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.90-1 (2024-05-03)
@@ -235,7 +235,7 @@ Geekbench 5 测试结果
    02:02:12 up 19:23,  2 users,  load average: 0.25, 0.37, 0.30; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Thu May 16 2024 02:02:12 - 02:30:09
+BenchMark Run: Thu May 16 2024 02:02:12 - 02:30:09
 1 CPU in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       56823720.3 lps   (10.0 s, 7 samples)
@@ -251,7 +251,7 @@ Shell Scripts (1 concurrent)                   8113.5 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   1086.4 lpm   (60.0 s, 2 samples)
 System Call Overhead                         786218.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   56823720.3   4869.2
 Double-Precision Whetstone                       55.0       8815.9   1602.9
 Execl Throughput                                 43.0       2878.1    669.3
@@ -265,7 +265,7 @@ Shell Scripts (1 concurrent)                     42.4       8113.5   1913.6
 Shell Scripts (8 concurrent)                      6.0       1086.4   1810.7
 System Call Overhead                          15000.0     786218.6    524.1
                                                                    ========
-System Benchmarks Index Score                                        1241.5
+System BenchMarks Index Score                                        1241.5
 
 ======= Script description and score comparison completed! ======= 
 ```

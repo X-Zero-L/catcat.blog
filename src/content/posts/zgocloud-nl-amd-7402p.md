@@ -2,7 +2,7 @@
 title: "Zgocloud 荷兰AMD 7402P测评"
 published: 2023-09-08
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 总结：没啥性价比，流量过小，性能一般。欧洲荷兰只给2T流量真挺莫名其妙的。
@@ -295,7 +295,7 @@ Clouvider       | NYC, NY, US (10G)         | 13.6 Mbits/sec  | 46.7 Mbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 32.8 Mbits/sec  | 88.8 Mbits/sec  | 194 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 29.6 Mbits/sec  | 43.6 Mbits/sec  | 173 ms 
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 --------------------------------- 
 Test            | Value                         
                 |                               

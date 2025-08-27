@@ -2,7 +2,7 @@
 title: "Hostaris 德国 AMD 5950X 测试"
 published: 2023-09-13
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 > ## 套餐
@@ -83,7 +83,7 @@ Clouvider       | NYC, NY, US (10G)         | 41.7 Mbits/sec  | 31.8 Mbits/sec  
 Clouvider       | Dallas, TX, US (10G)      | 31.4 Mbits/sec  | 40.3 Mbits/sec  | 123 ms         
 Clouvider       | Los Angeles, CA, US (10G) | 25.6 Mbits/sec  | busy            | 149 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -405,7 +405,7 @@ Memory Mark:                       1337
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Wed Sep 13 2023 01:52:29 - 02:20:25
+BenchMark Run: Wed Sep 13 2023 01:52:29 - 02:20:25
 1 CPU in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       57403106.1 lps   (10.0 s, 7 samples)
@@ -421,7 +421,7 @@ Shell Scripts (1 concurrent)                  12809.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   1714.4 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2710202.5 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   57403106.1   4918.9
 Double-Precision Whetstone                       55.0      10798.3   1963.3
 Execl Throughput                                 43.0       5224.9   1215.1
@@ -435,7 +435,7 @@ Shell Scripts (1 concurrent)                     42.4      12809.2   3021.0
 Shell Scripts (8 concurrent)                      6.0       1714.4   2857.4
 System Call Overhead                          15000.0    2710202.5   1806.8
                                                                    ========
-System Benchmarks Index Score                                        2440.2
+System BenchMarks Index Score                                        2440.2
 
 ======= Script description and score comparison completed! ======= 
 ```

@@ -176,7 +176,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 871 Mbits/sec   | 1.17 Gbits/sec  
 Leaseweb        | NYC, NY, US (10G)         | 1.77 Gbits/sec  | 2.21 Gbits/sec  | 84.6 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 716 Mbits/sec   | 926 Mbits/sec   | 191 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -220,7 +220,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat: GNU/Linux
    OS: GNU/Linux -- 6.1.0-32-cloud-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.129-1 (2025-03-06)
@@ -235,7 +235,7 @@ Geekbench 5 测试结果
    06:33:11 up 52 min,  3 users,  load average: 0.11, 0.07, 0.18; runlevel Mar
 
 ------------------------------------------------------------------------
-Benchmark Run: Sat Mar 29 2025 06:33:11 - 07:01:06
+BenchMark Run: Sat Mar 29 2025 06:33:11 - 07:01:06
 3 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       87834313.3 lps   (10.0 s, 7 samples)
@@ -251,7 +251,7 @@ Shell Scripts (1 concurrent)                  22584.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5975.8 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3769905.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   87834313.3   7526.5
 Double-Precision Whetstone                       55.0      11092.3   2016.8
 Execl Throughput                                 43.0       8089.9   1881.4
@@ -265,10 +265,10 @@ Shell Scripts (1 concurrent)                     42.4      22584.7   5326.6
 Shell Scripts (8 concurrent)                      6.0       5975.8   9959.7
 System Call Overhead                          15000.0    3769905.8   2513.3
                                                                    ========
-System Benchmarks Index Score                                        3267.5
+System BenchMarks Index Score                                        3267.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sat Mar 29 2025 07:01:06 - 07:29:01
+BenchMark Run: Sat Mar 29 2025 07:01:06 - 07:29:01
 3 CPUs in system; running 3 parallel copies of tests
 
 Dhrystone 2 using register variables      262037231.4 lps   (10.0 s, 7 samples)
@@ -284,7 +284,7 @@ Shell Scripts (1 concurrent)                  45277.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   6502.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                       11311022.7 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  262037231.4  22453.9
 Double-Precision Whetstone                       55.0      33254.9   6046.3
 Execl Throughput                                 43.0      15084.9   3508.1
@@ -298,7 +298,7 @@ Shell Scripts (1 concurrent)                     42.4      45277.7  10678.7
 Shell Scripts (8 concurrent)                      6.0       6502.3  10837.2
 System Call Overhead                          15000.0   11311022.7   7540.7
                                                                    ========
-System Benchmarks Index Score                                        9573.3
+System BenchMarks Index Score                                        9573.3
 ```
 
 ## [PerformanceTest Linux](https://www.passmark.com/products/pt_linux/download.php) 测试

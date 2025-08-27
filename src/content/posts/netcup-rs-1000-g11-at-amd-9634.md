@@ -2,7 +2,7 @@
 title: "Netcup RS 1000 G11 维也纳 AMD  9634 测评"
 published: 2024-05-14
 tags: [奥地利]
-category: Benchmark
+category: BenchMark
 ---
 
 今天闲来无事，第一次尝试注册Netcup。一次成功，用时6个小时，完成了开号，免税，机器激活一条路服务。似乎难度比想象中的简单的多。首月用了5欧优惠券，实付5.69欧，随机开的地区是维也纳。
@@ -153,7 +153,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 1.01 Gbits/sec  | 507 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 2.38 Gbits/sec  | 2.09 Gbits/sec  | 98.7 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 2.23 Gbits/sec  | 1.09 Gbits/sec  | 191 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -285,7 +285,7 @@ Shell Scripts (1 concurrent)                  15876.1 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5153.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1440742.3 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   55525369.7   4758.0
 Double-Precision Whetstone                       55.0       9111.2   1656.6
 Execl Throughput                                 43.0       4996.3   1161.9
@@ -299,7 +299,7 @@ Shell Scripts (1 concurrent)                     42.4      15876.1   3744.4
 Shell Scripts (8 concurrent)                      6.0       5153.7   8589.5
 System Call Overhead                          15000.0    1440742.3    960.5
                                                                    ========
-System Benchmarks Index Score                                        1856.8
+System BenchMarks Index Score                                        1856.8
 
 ------------------------------------------------------------------------
 4 CPUs in system; running 4 parallel copies of tests
@@ -317,7 +317,7 @@ Shell Scripts (1 concurrent)                  38368.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5553.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        5839018.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  218616179.7  18733.2
 Double-Precision Whetstone                       55.0      36405.8   6619.2
 Execl Throughput                                 43.0      14158.7   3292.7
@@ -331,7 +331,7 @@ Shell Scripts (1 concurrent)                     42.4      38368.4   9049.2
 Shell Scripts (8 concurrent)                      6.0       5553.2   9255.3
 System Call Overhead                          15000.0    5839018.9   3892.7
                                                                    ========
-System Benchmarks Index Score                                        6605.3
+System BenchMarks Index Score                                        6605.3
 ```
 
 ### 融合怪脚本测试

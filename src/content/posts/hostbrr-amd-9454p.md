@@ -2,7 +2,7 @@
 title: "Hostbrr 德国 AMD 9454P 测评"
 published: 2024-03-09
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 这家是Hetzner的转销商，活跃挺久了，感觉不出服务商清退的意外，能一直做下去。配置和价格都非常诱人，尤其是大盘鸡，单价每T2刀左右。原套餐为5950X，今天说由于销售过于火爆，更换到9454P服务器（两个U性能差不多），价格不变，不过HZ不含IP的成本，机器原件是209欧，价格公开，实际也能粗略估计节点情况。感觉上来说，之前的大内存促销那么多商家里，各有优劣吧。如果是需要大内存的机型来说，值得入手。
@@ -142,7 +142,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 769 Mbits/sec   | 365 Mbits/sec   
 Leaseweb        | NYC, NY, US (10G)         | 853 Mbits/sec   | 652 Mbits/sec   | 99.7 ms        
 Edgoo           | Sao Paulo, BR (1G)        | 783 Mbits/sec   | 213 Mbits/sec   | 157 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -446,7 +446,7 @@ Memory Mark:                       2764
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: HostBrr: GNU/Linux
    OS: GNU/Linux -- 6.1.0-9-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)
@@ -467,7 +467,7 @@ Memory Mark:                       2764
    15:04:11 up 45 min,  1 user,  load average: 0.77, 1.06, 0.63; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Sat Mar 09 2024 15:04:11 - 15:32:08
+BenchMark Run: Sat Mar 09 2024 15:04:11 - 15:32:08
 6 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       57801178.1 lps   (10.0 s, 7 samples)
@@ -483,7 +483,7 @@ Shell Scripts (1 concurrent)                   8969.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   5482.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2947872.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   57801178.1   4953.0
 Double-Precision Whetstone                       55.0       9088.2   1652.4
 Execl Throughput                                 43.0       5229.1   1216.1
@@ -497,10 +497,10 @@ Shell Scripts (1 concurrent)                     42.4       8969.7   2115.5
 Shell Scripts (8 concurrent)                      6.0       5482.7   9137.9
 System Call Overhead                          15000.0    2947872.6   1965.2
                                                                    ========
-System Benchmarks Index Score                                        2322.7
+System BenchMarks Index Score                                        2322.7
 
 ------------------------------------------------------------------------
-Benchmark Run: Sat Mar 09 2024 15:32:08 - 16:00:06
+BenchMark Run: Sat Mar 09 2024 15:32:08 - 16:00:06
 6 CPUs in system; running 6 parallel copies of tests
 
 Dhrystone 2 using register variables      347926571.9 lps   (10.0 s, 7 samples)
@@ -516,7 +516,7 @@ Shell Scripts (1 concurrent)                  50040.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   6945.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                        4057446.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  347926571.9  29813.8
 Double-Precision Whetstone                       55.0      54549.4   9918.1
 Execl Throughput                                 43.0      16208.3   3769.4
@@ -530,7 +530,7 @@ Shell Scripts (1 concurrent)                     42.4      50040.4  11802.0
 Shell Scripts (8 concurrent)                      6.0       6945.6  11575.9
 System Call Overhead                          15000.0    4057446.4   2705.0
                                                                    ========
-System Benchmarks Index Score                                        5662.4
+System BenchMarks Index Score                                        5662.4
 
 ======= Script description and score comparison completed! ======= 
 ```

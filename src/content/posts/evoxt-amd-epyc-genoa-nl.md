@@ -2,7 +2,7 @@
 title: "Evoxt AMD EPYC-Genoa 荷兰测评"
 published: 2025-01-21
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 最近 Evoxt 上新地区真勤快，继上次波兰之后又上了荷兰，加拿大，澳洲地区。这四个机房都是基于 AMD EPYC+NVMe SSD硬盘，接入的是1Gbps带宽。网络不算优质，机器质量可以，附赠备份。看机器后台有了私有网络，也许可以不同地区组内网互联。网络方面都是纯国际线路，还不错。
@@ -200,7 +200,7 @@ Leaseweb        | NYC, NY, US (10G)         | 1.24 Gbits/sec  | 2.47 Gbits/sec  
 root@catcat:~/byte-unixbench/UnixBench/results# ls
 catcat.evoxt-2025-01-20-01  catcat.evoxt-2025-01-20-01.html  catcat.evoxt-2025-01-20-01.log
 root@catcat:~/byte-unixbench/UnixBench/results# cat catcat.evoxt-2025-01-20-01
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat.evoxt: GNU/Linux
    OS: GNU/Linux -- 6.1.0-9-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)
@@ -213,7 +213,7 @@ root@catcat:~/byte-unixbench/UnixBench/results# cat catcat.evoxt-2025-01-20-01
    21:23:34 up 30 min,  3 users,  load average: 0.17, 0.32, 0.26; runlevel 2025-01-20
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Jan 20 2025 21:23:34 - 21:51:37
+BenchMark Run: Mon Jan 20 2025 21:23:34 - 21:51:37
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       73400346.2 lps   (10.0 s, 7 samples)
@@ -229,7 +229,7 @@ Shell Scripts (1 concurrent)                  19553.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4175.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3462441.0 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   73400346.2   6289.7
 Double-Precision Whetstone                       55.0      12439.2   2261.7
 Execl Throughput                                 43.0       6135.2   1426.8
@@ -243,10 +243,10 @@ Shell Scripts (1 concurrent)                     42.4      19553.9   4611.8
 Shell Scripts (8 concurrent)                      6.0       4175.3   6958.8
 System Call Overhead                          15000.0    3462441.0   2308.3
                                                                    ========
-System Benchmarks Index Score                                        2945.5
+System BenchMarks Index Score                                        2945.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Jan 20 2025 21:51:37 - 22:19:34
+BenchMark Run: Mon Jan 20 2025 21:51:37 - 22:19:34
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables      146899052.4 lps   (10.0 s, 7 samples)
@@ -262,7 +262,7 @@ Shell Scripts (1 concurrent)                  32087.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3812.0 lpm   (60.0 s, 2 samples)
 System Call Overhead                        7229037.1 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  146899052.4  12587.8
 Double-Precision Whetstone                       55.0      24841.9   4516.7
 Execl Throughput                                 43.0      10004.8   2326.7
@@ -276,7 +276,7 @@ Shell Scripts (1 concurrent)                     42.4      32087.4   7567.8
 Shell Scripts (8 concurrent)                      6.0       3812.0   6353.4
 System Call Overhead                          15000.0    7229037.1   4819.4
                                                                    ========
-System Benchmarks Index Score                                        5742.2
+System BenchMarks Index Score                                        5742.2
 ```
 
 ### Bench

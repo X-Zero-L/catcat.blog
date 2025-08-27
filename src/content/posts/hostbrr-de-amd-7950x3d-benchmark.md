@@ -2,7 +2,7 @@
 title: "Hostbrr DE AMD 7950X3D 测评"
 published: 2023-10-05
 tags: [德国]
-category: Benchmark
+category: BenchMark
 ---
 
 商家最近推出了下单3倍CPU的7950X3D活动，对于这个u来说，这个促销无疑是超售了。卖家是Hetzner的经销商，没有自己机房，以低价和促销在low上有名。个人不推荐为了性能买这家，谨慎上车。
@@ -117,7 +117,7 @@ Read       | 1.03 GB/s     (2.0k) | 949.72 MB/s    (927)
 Write      | 1.08 GB/s     (2.1k) | 1.01 GB/s      (989)
 Total      | 2.12 GB/s     (4.1k) | 1.96 GB/s     (1.9k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -404,7 +404,7 @@ Memory Mark:                       2415
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Thu Oct 05 2023 09:13:19 - 09:41:12
+BenchMark Run: Thu Oct 05 2023 09:13:19 - 09:41:12
 9 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       71137060.2 lps   (10.0 s, 7 samples)
@@ -420,7 +420,7 @@ Shell Scripts (1 concurrent)                  15425.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   6356.8 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2258717.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   71137060.2   6095.7
 Double-Precision Whetstone                       55.0      11511.4   2093.0
 Execl Throughput                                 43.0       5628.0   1308.8
@@ -434,10 +434,10 @@ Shell Scripts (1 concurrent)                     42.4      15425.7   3638.1
 Shell Scripts (8 concurrent)                      6.0       6356.8  10594.7
 System Call Overhead                          15000.0    2258717.8   1505.8
                                                                    ========
-System Benchmarks Index Score                                        2571.2
+System BenchMarks Index Score                                        2571.2
 
 ------------------------------------------------------------------------
-Benchmark Run: Thu Oct 05 2023 09:41:12 - 10:09:10
+BenchMark Run: Thu Oct 05 2023 09:41:12 - 10:09:10
 9 CPUs in system; running 9 parallel copies of tests
 
 Dhrystone 2 using register variables      571646844.7 lps   (10.0 s, 7 samples)
@@ -453,7 +453,7 @@ Shell Scripts (1 concurrent)                  71073.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   9727.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                        9243136.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  571646844.7  48984.3
 Double-Precision Whetstone                       55.0      99427.5  18077.7
 Execl Throughput                                 43.0      27302.2   6349.4
@@ -467,5 +467,5 @@ Shell Scripts (1 concurrent)                     42.4      71073.8  16762.7
 Shell Scripts (8 concurrent)                      6.0       9727.6  16212.7
 System Call Overhead                          15000.0    9243136.6   6162.1
                                                                    ========
-System Benchmarks Index Score                                        8608.7
+System BenchMarks Index Score                                        8608.7
 ```

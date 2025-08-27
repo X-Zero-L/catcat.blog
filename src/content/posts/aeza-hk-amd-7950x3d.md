@@ -113,7 +113,7 @@ Read       | 2.03 GB/s     (3.9k) | 2.22 GB/s     (2.1k)
 Write      | 2.14 GB/s     (4.1k) | 2.37 GB/s     (2.3k)
 Total      | 4.18 GB/s     (8.1k) | 4.59 GB/s     (4.4k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -410,7 +410,7 @@ IP类型: Data Center/Web Hosting/Transit⑤
  ASN & ISP    : , TestForEva / TestForEva
 ---------------------------------------------------------------------------
 
- ## Geekbench v6 CPU Benchmark:
+ ## Geekbench v6 CPU BenchMark:
 
   Single Core : 2542  (THE BEAST)
    Multi Core : 4455

@@ -2,7 +2,7 @@
 title: "Sharon HK Infinite(CN2+9929+CMIN2)测评"
 published: 2024-06-08
 tags: [香港]
-category: Benchmark
+category: BenchMark
 ---
 
 > **我们仍然所未知道，Sharon的极限在哪里？****伟大无需多言！**
@@ -125,7 +125,7 @@ Read       | 809.38 MB/s   (1.5k) | 801.56 MB/s    (782)
 Write      | 852.38 MB/s   (1.6k) | 854.95 MB/s    (834)
 Total      | 1.66 GB/s     (3.2k) | 1.65 GB/s     (1.6k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

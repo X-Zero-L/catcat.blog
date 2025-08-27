@@ -63,7 +63,7 @@ Read       | 3.74 GB/s     (7.3k) | 3.95 GB/s     (3.8k)
 Write      | 3.94 GB/s     (7.6k) | 4.21 GB/s     (4.1k)
 Total      | 7.68 GB/s    (15.0k) | 8.17 GB/s     (7.9k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -366,7 +366,7 @@ Speedtest.net    6717.63 Mbps    5905.11 Mbps    11.25    0.0%
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Sat Sep 30 2023 15:01:04 - 15:29:03
+BenchMark Run: Sat Sep 30 2023 15:01:04 - 15:29:03
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       40436139.5 lps   (10.0 s, 7 samples)
@@ -382,7 +382,7 @@ Shell Scripts (1 concurrent)                   9095.6 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   1757.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1353747.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   40436139.5   3465.0
 Double-Precision Whetstone                       55.0       7380.5   1341.9
 Execl Throughput                                 43.0       2762.0    642.3
@@ -396,10 +396,10 @@ Shell Scripts (1 concurrent)                     42.4       9095.6   2145.2
 Shell Scripts (8 concurrent)                      6.0       1757.5   2929.2
 System Call Overhead                          15000.0    1353747.8    902.5
                                                                    ========
-System Benchmarks Index Score                                        1241.0
+System BenchMarks Index Score                                        1241.0
 
 ------------------------------------------------------------------------
-Benchmark Run: Sat Sep 30 2023 15:29:03 - 15:57:03
+BenchMark Run: Sat Sep 30 2023 15:29:03 - 15:57:03
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables       81128417.5 lps   (10.0 s, 7 samples)
@@ -415,7 +415,7 @@ Shell Scripts (1 concurrent)                  13709.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   1834.8 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2529640.3 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   81128417.5   6951.9
 Double-Precision Whetstone                       55.0      14829.8   2696.3
 Execl Throughput                                 43.0       5223.1   1214.7
@@ -429,7 +429,7 @@ Shell Scripts (1 concurrent)                     42.4      13709.8   3233.5
 Shell Scripts (8 concurrent)                      6.0       1834.8   3058.0
 System Call Overhead                          15000.0    2529640.3   1686.4
                                                                    ========
-System Benchmarks Index Score                                        2523.3
+System BenchMarks Index Score                                        2523.3
 
 ======= Script description and score comparison completed! ======= 
 ```

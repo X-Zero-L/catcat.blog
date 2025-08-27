@@ -2,7 +2,7 @@
 title: "Nube 香港 Intel D-1747NTE 测试"
 published: 2025-08-05
 tags: [香港]
-category: Benchmark
+category: BenchMark
 ---
 
 **最近牛老板上线了一批特价香港杜甫，长租最低68刀每月。机器硬件都是全新的，通电不足100h，固态均属于刚开封的状态。网络没啥好说的，国际网络，想买来跑国内的几乎不用想了，除非去加钱。特别要注意的是采用95计费，这点跑国际带宽的需要额外注意。机器没有硬raid，做的是软raid。**
@@ -103,7 +103,7 @@ Read       | 1.50 GB/s     (2.9k) | 1.53 GB/s     (1.4k)
 Write      | 1.58 GB/s     (3.0k) | 1.63 GB/s     (1.5k)
 Total      | 3.09 GB/s     (6.0k) | 3.17 GB/s     (3.0k)
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -116,7 +116,7 @@ Full Test       | https://browser.geekbench.com/v5/cpu/23708944
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Tue Aug 05 2025 08:25:08 - 08:53:13
+BenchMark Run: Tue Aug 05 2025 08:25:08 - 08:53:13
 20 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       44236503.5 lps   (10.0 s, 7 samples)
@@ -132,7 +132,7 @@ Shell Scripts (1 concurrent)                  12673.0 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   8603.2 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1529717.3 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   44236503.5   3790.6
 Double-Precision Whetstone                       55.0       6787.6   1234.1
 Execl Throughput                                 43.0       3872.9    900.7
@@ -146,10 +146,10 @@ Shell Scripts (1 concurrent)                     42.4      12673.0   2988.9
 Shell Scripts (8 concurrent)                      6.0       8603.2  14338.6
 System Call Overhead                          15000.0    1529717.3   1019.8
                                                                    ========
-System Benchmarks Index Score                                        1901.5
+System BenchMarks Index Score                                        1901.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Aug 05 2025 08:53:13 - 09:21:18
+BenchMark Run: Tue Aug 05 2025 08:53:13 - 09:21:18
 20 CPUs in system; running 20 parallel copies of tests
 
 Dhrystone 2 using register variables      596659274.7 lps   (10.0 s, 7 samples)
@@ -165,7 +165,7 @@ Shell Scripts (1 concurrent)                  92669.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  12127.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                       20120782.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  596659274.7  51127.6
 Double-Precision Whetstone                       55.0     122851.3  22336.6
 Execl Throughput                                 43.0      35692.1   8300.5
@@ -179,7 +179,7 @@ Shell Scripts (1 concurrent)                     42.4      92669.2  21855.9
 Shell Scripts (8 concurrent)                      6.0      12127.6  20212.7
 System Call Overhead                          15000.0   20120782.9  13413.9
                                                                    ========
-System Benchmarks Index Score                                       16632.6
+System BenchMarks Index Score                                       16632.6
 ```
 
 ### IP质量

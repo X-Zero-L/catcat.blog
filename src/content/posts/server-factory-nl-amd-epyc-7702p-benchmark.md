@@ -2,7 +2,7 @@
 title: "server-factory 荷兰 AMD EPYC™ 7702P 测评"
 published: 2023-10-13
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 套餐
@@ -103,7 +103,7 @@ Read       | 4.16 GB/s     (8.1k) | 5.57 GB/s     (5.4k)
 Write      | 4.38 GB/s     (8.5k) | 5.94 GB/s     (5.8k)
 Total      | 8.54 GB/s    (16.6k) | 11.52 GB/s   (11.2k)
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -191,7 +191,7 @@ Memory Mark:                       1289
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Fri Oct 13 2023 03:09:15 - 03:37:13
+BenchMark Run: Fri Oct 13 2023 03:09:15 - 03:37:13
 1 CPU in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       41228549.5 lps   (10.0 s, 7 samples)
@@ -207,7 +207,7 @@ Shell Scripts (1 concurrent)                   8490.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   1139.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1593115.3 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   41228549.5   3532.9
 Double-Precision Whetstone                       55.0       7266.2   1321.1
 Execl Throughput                                 43.0       3233.1    751.9
@@ -221,7 +221,7 @@ Shell Scripts (1 concurrent)                     42.4       8490.7   2002.5
 Shell Scripts (8 concurrent)                      6.0       1139.5   1899.1
 System Call Overhead                          15000.0    1593115.3   1062.1
                                                                    ========
-System Benchmarks Index Score                                        1491.2
+System BenchMarks Index Score                                        1491.2
 ```
 
 ### 融合怪脚本测试

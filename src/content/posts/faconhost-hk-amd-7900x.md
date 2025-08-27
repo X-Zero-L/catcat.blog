@@ -2,7 +2,7 @@
 title: "Faconhost 香港 AMD 7900X 测评"
 published: 2024-01-25
 tags: [香港]
-category: Benchmark
+category: BenchMark
 ---
 
 - **高严格 TOS，不建议购买！！！避坑！！！**
@@ -130,7 +130,7 @@ Read       | 5.03 GB/s     (9.8k) | 4.93 GB/s     (4.8k)
 Write      | 5.29 GB/s    (10.3k) | 5.26 GB/s     (5.1k)
 Total      | 10.33 GB/s   (20.1k) | 10.20 GB/s    (9.9k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -228,7 +228,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: yuri-ly: GNU/Linux
    OS: GNU/Linux -- 5.10.0-20-amd64 -- #1 SMP Debian 5.10.158-2 (2022-12-13)
@@ -241,7 +241,7 @@ Geekbench 5 测试结果
    13:30:51 up  1:29,  1 user,  load average: 0.13, 0.50, 0.41; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Thu Jan 25 2024 13:30:51 - 13:59:10
+BenchMark Run: Thu Jan 25 2024 13:30:51 - 13:59:10
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       77136553.8 lps   (10.0 s, 7 samples)
@@ -257,7 +257,7 @@ Shell Scripts (1 concurrent)                  23813.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4021.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                        5364240.9 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   77136553.8   6609.8
 Double-Precision Whetstone                       55.0      12733.1   2315.1
 Execl Throughput                                 43.0      12613.1   2933.3
@@ -271,10 +271,10 @@ Shell Scripts (1 concurrent)                     42.4      23813.2   5616.3
 Shell Scripts (8 concurrent)                      6.0       4021.6   6702.6
 System Call Overhead                          15000.0    5364240.9   3576.2
                                                                    ========
-System Benchmarks Index Score                                        3502.7
+System BenchMarks Index Score                                        3502.7
 
 ------------------------------------------------------------------------
-Benchmark Run: Thu Jan 25 2024 13:59:10 - 14:27:31
+BenchMark Run: Thu Jan 25 2024 13:59:10 - 14:27:31
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables      154822688.2 lps   (10.0 s, 7 samples)
@@ -290,7 +290,7 @@ Shell Scripts (1 concurrent)                  30023.0 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4181.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3921485.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  154822688.2  13266.7
 Double-Precision Whetstone                       55.0      25400.2   4618.2
 Execl Throughput                                 43.0      13339.0   3102.1
@@ -304,7 +304,7 @@ Shell Scripts (1 concurrent)                     42.4      30023.0   7080.9
 Shell Scripts (8 concurrent)                      6.0       4181.3   6968.9
 System Call Overhead                          15000.0    3921485.4   2614.3
                                                                    ========
-System Benchmarks Index Score                                        4463.3
+System BenchMarks Index Score                                        4463.3
 
 ======= Script description and score comparison completed! ======= 
 ```
@@ -329,7 +329,7 @@ System Benchmarks Index Score                                        4463.3
  ASN & ISP    : AS55933, Cloudie Limited / Hebei Jiateng Electronics and Technology Co., Ltd
 ---------------------------------------------------------------------------
 
- ## Geekbench v5 CPU Benchmark:
+ ## Geekbench v5 CPU BenchMark:
 
   Single Core : 2077  (MONSTER)
    Multi Core : 4050

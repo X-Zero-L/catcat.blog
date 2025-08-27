@@ -2,7 +2,7 @@
 title: "Faconhost 荷兰 AMD 7950X 测评"
 published: 2023-12-19
 tags: [荷兰]
-category: Benchmark
+category: BenchMark
 ---
 
 - **高严格 TOS，不建议购买！！！避坑！！！**
@@ -134,7 +134,7 @@ Read       | 5.23 GB/s    (10.2k) | 5.16 GB/s     (5.0k)
 Write      | 5.51 GB/s    (10.7k) | 5.50 GB/s     (5.3k)
 Total      | 10.75 GB/s   (21.0k) | 10.67 GB/s   (10.4k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -226,7 +226,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: yuri-ly: GNU/Linux
    OS: GNU/Linux -- 5.10.0-20-amd64 -- #1 SMP Debian 5.10.158-2 (2022-12-13)
@@ -239,7 +239,7 @@ Geekbench 5 测试结果
    07:58:53 up 51 min,  2 users,  load average: 0.20, 0.38, 0.32; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Dec 19 2023 07:58:53 - 08:27:13
+BenchMark Run: Tue Dec 19 2023 07:58:53 - 08:27:13
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       79260016.7 lps   (10.0 s, 7 samples)
@@ -255,7 +255,7 @@ Shell Scripts (1 concurrent)                  25223.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4103.5 lpm   (60.0 s, 2 samples)
 System Call Overhead                        5626858.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   79260016.7   6791.8
 Double-Precision Whetstone                       55.0      13062.0   2374.9
 Execl Throughput                                 43.0      12739.1   2962.6
@@ -269,10 +269,10 @@ Shell Scripts (1 concurrent)                     42.4      25223.7   5949.0
 Shell Scripts (8 concurrent)                      6.0       4103.5   6839.2
 System Call Overhead                          15000.0    5626858.6   3751.2
                                                                    ========
-System Benchmarks Index Score                                        3716.4
+System BenchMarks Index Score                                        3716.4
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Dec 19 2023 08:27:13 - 08:55:33
+BenchMark Run: Tue Dec 19 2023 08:27:13 - 08:55:33
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables      161170985.7 lps   (10.0 s, 7 samples)
@@ -288,7 +288,7 @@ Shell Scripts (1 concurrent)                  30496.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   4282.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3630498.7 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  161170985.7  13810.7
 Double-Precision Whetstone                       55.0      26011.9   4729.4
 Execl Throughput                                 43.0      13894.6   3231.3
@@ -302,7 +302,7 @@ Shell Scripts (1 concurrent)                     42.4      30496.2   7192.5
 Shell Scripts (8 concurrent)                      6.0       4282.3   7137.1
 System Call Overhead                          15000.0    3630498.7   2420.3
                                                                    ========
-System Benchmarks Index Score                                        4566.9
+System BenchMarks Index Score                                        4566.9
 
 ======= Script description and score comparison completed! ======= 
 ```
@@ -327,7 +327,7 @@ System Benchmarks Index Score                                        4566.9
  ASN & ISP    : AS3214, xTom GmbH / xTom GmbH
 ---------------------------------------------------------------------------
 
- ## Geekbench v5 CPU Benchmark:
+ ## Geekbench v5 CPU BenchMark:
 
   Single Core : 2058  (MONSTER)
    Multi Core : 3951

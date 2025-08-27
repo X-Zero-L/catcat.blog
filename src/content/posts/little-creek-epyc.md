@@ -2,7 +2,7 @@
 title: "Little Creek  Epyc测试"
 published: 2023-08-30
 tags: [美国]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 套餐
@@ -68,7 +68,7 @@ Clouvider       | NYC, NY, US (10G)         | 181 Mbits/sec   | 150 Mbits/sec   
 Clouvider       | Dallas, TX, US (10G)      | 62.0 Mbits/sec  | 234 Mbits/sec   | 38.4 ms        
 Clouvider       | Los Angeles, CA, US (10G) | 53.8 Mbits/sec  | 175 Mbits/sec   | 64.3 ms        
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

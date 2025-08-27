@@ -49,7 +49,7 @@ Read       | 184.69 MB/s    (360) | 249.73 MB/s    (243)
 Write      | 194.50 MB/s    (379) | 266.36 MB/s    (260)
 Total      | 379.19 MB/s    (739) | 516.09 MB/s    (503)
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -101,7 +101,7 @@ Read       | 2.74 GB/s     (5.3k) | 3.33 GB/s     (3.2k)
 Write      | 2.89 GB/s     (5.6k) | 3.56 GB/s     (3.4k)
 Total      | 5.63 GB/s    (11.0k) | 6.89 GB/s     (6.7k)
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -152,7 +152,7 @@ Read       | 2.48 GB/s     (4.8k) | 2.48 GB/s     (2.4k)
 Write      | 2.62 GB/s     (5.1k) | 2.64 GB/s     (2.5k)
 Total      | 5.10 GB/s     (9.9k) | 5.13 GB/s     (5.0k)
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -203,7 +203,7 @@ Read       | 4.79 GB/s     (9.3k) | 5.11 GB/s     (4.9k)
 Write      | 5.05 GB/s     (9.8k) | 5.45 GB/s     (5.3k)
 Total      | 9.84 GB/s    (19.2k) | 10.56 GB/s   (10.3k)
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -254,7 +254,7 @@ Read       | 16.74 GB/s   (32.7k) | 31.22 GB/s   (30.4k)
 Write      | 17.63 GB/s   (34.4k) | 33.30 GB/s   (32.5k)
 Total      | 34.37 GB/s   (67.1k) | 64.52 GB/s   (63.0k)
 
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -305,7 +305,7 @@ Read       | 6.40 GB/s    (12.5k) | 6.18 GB/s     (6.0k)
 Write      | 6.74 GB/s    (13.1k) | 6.59 GB/s     (6.4k)
 Total      | 13.14 GB/s   (25.6k) | 12.78 GB/s   (12.4k)
  
-Geekbench 5 Benchmark Test:
+Geekbench 5 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               

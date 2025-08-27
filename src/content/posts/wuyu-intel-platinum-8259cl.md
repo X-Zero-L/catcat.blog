@@ -2,7 +2,7 @@
 title: "物语云 浙江 Intel Platinum 双路8259CL 测评"
 published: 2024-12-27
 tags: [大陆服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 **这个商家我了解不多，目前来看已在NodeSeek活跃一年之久，有小道消息称是雨云的上游。增值电信业务许可证齐全（B1-20213942、京B2-20220324）。工单响应速度确实可以，前几天还找他们定了一台9950X服务器。这次开启了促销，机器性价比还可以，框框挺多，还有电信500M下50M上的无限流量。CPU应该大概率来自AWS，内存是三星DDR4，硬盘是 PM983 PCIE3.0 ，我是真想买个盘过去换掉，通电2w小时。**
@@ -351,7 +351,7 @@ Speedtest.net   47.42 Mbps      474.46 Mbps     5.21 ms         Not available.
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Fri Dec 27 2024 10:41:21 - 11:09:23
+BenchMark Run: Fri Dec 27 2024 10:41:21 - 11:09:23
 96 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       40897244.8 lps   (10.0 s, 7 samples)
@@ -367,7 +367,7 @@ Shell Scripts (1 concurrent)                   4666.8 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3622.4 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2055616.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   40897244.8   3504.5
 Double-Precision Whetstone                       55.0       6749.2   1227.1
 Execl Throughput                                 43.0       4032.8    937.9
@@ -381,10 +381,10 @@ Shell Scripts (1 concurrent)                     42.4       4666.8   1100.7
 Shell Scripts (8 concurrent)                      6.0       3622.4   6037.3
 System Call Overhead                          15000.0    2055616.6   1370.4
                                                                    ========
-System Benchmarks Index Score                                        1550.5
+System BenchMarks Index Score                                        1550.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Fri Dec 27 2024 11:09:23 - 11:37:38
+BenchMark Run: Fri Dec 27 2024 11:09:23 - 11:37:38
 96 CPUs in system; running 96 parallel copies of tests
 
 Dhrystone 2 using register variables     2169956173.4 lps   (10.0 s, 7 samples)
@@ -400,7 +400,7 @@ Shell Scripts (1 concurrent)                 119530.7 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  16134.8 lpm   (60.1 s, 2 samples)
 System Call Overhead                      128487839.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0 2169956173.4 185943.1
 Double-Precision Whetstone                       55.0     556601.7 101200.3
 Execl Throughput                                 43.0      23277.2   5413.3
@@ -414,7 +414,7 @@ Shell Scripts (1 concurrent)                     42.4     119530.7  28191.2
 Shell Scripts (8 concurrent)                      6.0      16134.8  26891.3
 System Call Overhead                          15000.0  128487839.4  85658.6
                                                                    ========
-System Benchmarks Index Score                                       37999.6
+System BenchMarks Index Score                                       37999.6
 ```
 
 ### X265 BenchMark

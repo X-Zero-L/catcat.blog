@@ -2,7 +2,7 @@
 title: "Scaleway 巴黎 ARM 实例测试"
 published: 2024-01-12
 tags: [巴黎,ARM]
-category: Benchmark
+category: BenchMark
 ---
 
 昨晚打开邮箱，发现Scaleway发来了他们的ARM促销邮件。Scaleway 引入了采用基于 ARM 的 Ampere® Altra® 处理器的服务器，目前仅仅在Paris:PAR 2可用。目前有50%的折扣优惠码可用，**COPARM50**，有效期至 2024 年 1 月 31 日。从各种角度来说，和其他厂商的ARM没有啥可比性。不推荐。Scaleway还是就用用星尘系列吧。
@@ -111,7 +111,7 @@ Read       | 38.04 MB/s      (74) | 37.05 MB/s      (36)
 Write      | 41.30 MB/s      (80) | 41.33 MB/s      (40)
 Total      | 79.35 MB/s     (154) | 78.39 MB/s      (76)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -198,7 +198,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat: GNU/Linux
    OS: GNU/Linux -- 6.1.0-13-cloud-arm64 -- #1 SMP Debian 6.1.55-1 (2023-09-29)
@@ -207,7 +207,7 @@ Geekbench 5 测试结果
    03:51:44 up 39 min,  1 user,  load average: 0.48, 0.32, 0.43; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Fri Jan 12 2024 03:51:44 - 04:19:44
+BenchMark Run: Fri Jan 12 2024 03:51:44 - 04:19:44
 0 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       45951677.5 lps   (10.0 s, 7 samples)
@@ -223,7 +223,7 @@ Shell Scripts (1 concurrent)                   5925.4 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                    768.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1130971.7 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   45951677.5   3937.6
 Double-Precision Whetstone                       55.0       8430.3   1532.8
 Execl Throughput                                 43.0       2730.6    635.0
@@ -237,7 +237,7 @@ Shell Scripts (1 concurrent)                     42.4       5925.4   1397.5
 Shell Scripts (8 concurrent)                      6.0        768.6   1281.0
 System Call Overhead                          15000.0    1130971.7    754.0
                                                                    ========
-System Benchmarks Index Score                                        1327.7
+System BenchMarks Index Score                                        1327.7
 
 ```
 

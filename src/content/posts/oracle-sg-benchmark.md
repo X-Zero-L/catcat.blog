@@ -2,7 +2,7 @@
 title: "Oracle 测评"
 published: 2023-05-23
 tags: [甲骨文,新加坡,日本]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 新加坡AMD

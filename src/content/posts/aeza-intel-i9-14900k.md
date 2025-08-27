@@ -117,7 +117,7 @@ Read       | 5.72 GB/s    (11.1k) | 6.54 GB/s     (6.3k)
 Write      | 6.02 GB/s    (11.7k) | 6.98 GB/s     (6.8k)
 Total      | 11.74 GB/s   (22.9k) | 13.53 GB/s   (13.2k)
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -449,7 +449,7 @@ Memory Mark:                       2013
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: husky-cattle.aeza.network: GNU/Linux
    OS: GNU/Linux -- 6.1.0-10-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.38-2 (2023-07-27)
@@ -462,7 +462,7 @@ Memory Mark:                       2013
    00:37:22 up 26 min,  1 user,  load average: 0.85, 0.66, 0.43; runlevel 5
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Feb 13 2024 00:37:22 - 01:05:43
+BenchMark Run: Tue Feb 13 2024 00:37:22 - 01:05:43
 2 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       87325907.0 lps   (10.0 s, 7 samples)
@@ -478,7 +478,7 @@ Shell Scripts (1 concurrent)                  14563.1 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3034.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                        3299329.4 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   87325907.0   7482.9
 Double-Precision Whetstone                       55.0      12796.7   2326.7
 Execl Throughput                                 43.0       6716.7   1562.0
@@ -492,10 +492,10 @@ Shell Scripts (1 concurrent)                     42.4      14563.1   3434.7
 Shell Scripts (8 concurrent)                      6.0       3034.7   5057.9
 System Call Overhead                          15000.0    3299329.4   2199.6
                                                                    ========
-System Benchmarks Index Score                                        2816.5
+System BenchMarks Index Score                                        2816.5
 
 ------------------------------------------------------------------------
-Benchmark Run: Tue Feb 13 2024 01:05:43 - 01:33:59
+BenchMark Run: Tue Feb 13 2024 01:05:43 - 01:33:59
 2 CPUs in system; running 2 parallel copies of tests
 
 Dhrystone 2 using register variables      168585066.4 lps   (10.0 s, 7 samples)
@@ -511,7 +511,7 @@ Shell Scripts (1 concurrent)                  26936.2 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3639.3 lpm   (60.0 s, 2 samples)
 System Call Overhead                        5494523.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  168585066.4  14446.0
 Double-Precision Whetstone                       55.0      25450.2   4627.3
 Execl Throughput                                 43.0      10544.4   2452.2
@@ -525,7 +525,7 @@ Shell Scripts (1 concurrent)                     42.4      26936.2   6352.9
 Shell Scripts (8 concurrent)                      6.0       3639.3   6065.6
 System Call Overhead                          15000.0    5494523.6   3663.0
                                                                    ========
-System Benchmarks Index Score                                        5447.7
+System BenchMarks Index Score                                        5447.7
 
 ======= Script description and score comparison completed! ======= 
 ```

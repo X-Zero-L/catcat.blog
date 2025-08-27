@@ -2,7 +2,7 @@
 title: "server-factory 瑞典ipv6测评"
 published: 2023-07-23
 tags: [瑞典]
-category: Benchmark
+category: BenchMark
 ---
 
 ## 套餐配置
@@ -376,7 +376,7 @@ Network Performance Test (Region: Mixed)
 
 ```shell
 ------------------------------------------------------------------------
-Benchmark Run: Sun Jul 23 2023 16:21:45 - 16:49:43
+BenchMark Run: Sun Jul 23 2023 16:21:45 - 16:49:43
 1 CPU in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       41854819.6 lps   (10.0 s, 7 samples)
@@ -392,7 +392,7 @@ Shell Scripts (1 concurrent)                   8809.0 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   1179.1 lpm   (60.0 s, 2 samples)
 System Call Overhead                        1647071.1 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   41854819.6   3586.5
 Double-Precision Whetstone                       55.0       7356.3   1337.5
 Execl Throughput                                 43.0       3447.4    801.7
@@ -406,7 +406,7 @@ Shell Scripts (1 concurrent)                     42.4       8809.0   2077.6
 Shell Scripts (8 concurrent)                      6.0       1179.1   1965.2
 System Call Overhead                          15000.0    1647071.1   1098.0
                                                                    ========
-System Benchmarks Index Score                                        1534.3
+System BenchMarks Index Score                                        1534.3
 ```
 
 ## LemonBench

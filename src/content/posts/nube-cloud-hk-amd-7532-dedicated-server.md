@@ -2,7 +2,7 @@
 title: "Nube Cloud 香港 AMD  7532 独立服务器 测评"
 published: 2024-10-01
 tags: [香港]
-category: Benchmark
+category: BenchMark
 ---
 
 ### 服务器套餐
@@ -134,7 +134,7 @@ Clouvider       | Los Angeles, CA, US (10G) | 1.06 Gbits/sec  | 1.36 Gbits/sec  
 Leaseweb        | NYC, NY, US (10G)         | 3.78 Gbits/sec  | 5.33 Gbits/sec  | 215 ms         
 Edgoo           | Sao Paulo, BR (1G)        | busy            | 221 Mbits/sec   | 327 ms         
 
-Geekbench 6 Benchmark Test:
+Geekbench 6 BenchMark Test:
 ---------------------------------
 Test            | Value                         
                 |                               
@@ -255,7 +255,7 @@ Memory Mark:                       2850
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: pve: GNU/Linux
    OS: GNU/Linux -- 6.8.12-2-pve -- #1 SMP PREEMPT_DYNAMIC PMX 6.8.12-2 (2024-09-05T10:03Z)
@@ -269,7 +269,7 @@ Memory Mark:                       2850
    16:27:54 up  5:16,  3 users,  load average: 0.04, 0.03, 0.08; runlevel Sep
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Sep 30 2024 16:27:54 - 16:55:53
+BenchMark Run: Mon Sep 30 2024 16:27:54 - 16:55:53
 64 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       40931407.9 lps   (10.0 s, 7 samples)
@@ -285,7 +285,7 @@ Shell Scripts (1 concurrent)                   8297.6 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   6567.6 lpm   (60.0 s, 2 samples)
 System Call Overhead                         903085.0 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   40931407.9   3507.4
 Double-Precision Whetstone                       55.0       7253.8   1318.9
 Execl Throughput                                 43.0       2148.9    499.8
@@ -299,10 +299,10 @@ Shell Scripts (1 concurrent)                     42.4       8297.6   1957.0
 Shell Scripts (8 concurrent)                      6.0       6567.6  10946.0
 System Call Overhead                          15000.0     903085.0    602.1
                                                                    ========
-System Benchmarks Index Score                                        1089.2
+System BenchMarks Index Score                                        1089.2
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Sep 30 2024 16:55:53 - 17:24:00
+BenchMark Run: Mon Sep 30 2024 16:55:53 - 17:24:00
 64 CPUs in system; running 64 parallel copies of tests
 
 Dhrystone 2 using register variables     1661375039.2 lps   (10.0 s, 7 samples)
@@ -318,7 +318,7 @@ Shell Scripts (1 concurrent)                  96497.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                  11778.0 lpm   (60.1 s, 2 samples)
 System Call Overhead                       46105721.5 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0 1661375039.2 142362.9
 Double-Precision Whetstone                       55.0     384663.4  69938.8
 Execl Throughput                                 43.0      19708.2   4583.3
@@ -332,7 +332,7 @@ Shell Scripts (1 concurrent)                     42.4      96497.9  22758.9
 Shell Scripts (8 concurrent)                      6.0      11778.0  19629.9
 System Call Overhead                          15000.0   46105721.5  30737.1
                                                                    ========
-System Benchmarks Index Score                                       27317.3
+System BenchMarks Index Score                                       27317.3
 ```
 
 ### SysBench 测试

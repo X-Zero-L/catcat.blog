@@ -2,7 +2,7 @@
 title: "Evoxt AMD EPYC-Genoa 东京测评"
 published: 2025-02-28
 tags: [日本]
-category: Benchmark
+category: BenchMark
 ---
 
 Evoxt 是一家成立于 2020 年的 VPS 提供商，旨在以竞争力的价格提供高性能虚拟机，专注于改变云虚拟机行业的高价和低性能现状。他们使用 KVM 超管理程序和企业级硬件，确保性能和可靠性。服务包括虚拟机管理（如监控、IP 地址管理、防火墙、克隆、子账户、备份、VNC 和 API）、安全功能（如隔离环境、三层防火墙、DDoS 保护和每周自动异地备份）以及全球可用性，覆盖 14 个地区，包括洛杉矶、蒙特利尔、纽约、伦敦、阿姆斯特丹、法兰克福、苏黎世、吉隆坡、悉尼、香港、大阪和东京。
@@ -193,7 +193,7 @@ Geekbench 5 测试结果
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: zero.evoxt: GNU/Linux
    OS: GNU/Linux -- 6.1.0-9-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.27-1 (2023-05-08)
@@ -204,7 +204,7 @@ Geekbench 5 测试结果
    20:48:25 up 21:24,  5 users,  load average: 0.26, 0.77, 0.69; runlevel 2025-02-26
 
 ------------------------------------------------------------------------
-Benchmark Run: Thu Feb 27 2025 20:48:25 - 21:16:28
+BenchMark Run: Thu Feb 27 2025 20:48:25 - 21:16:28
 1 CPU in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       66822795.7 lps   (10.0 s, 7 samples)
@@ -220,7 +220,7 @@ Shell Scripts (1 concurrent)                   1680.2 lpm   (60.1 s, 2 samples)
 Shell Scripts (8 concurrent)                    451.2 lpm   (60.1 s, 2 samples)
 System Call Overhead                         828588.6 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   66822795.7   5726.0
 Double-Precision Whetstone                       55.0      11342.6   2062.3
 Execl Throughput                                 43.0       5138.8   1195.1
@@ -234,7 +234,7 @@ Shell Scripts (1 concurrent)                     42.4       1680.2    396.3
 Shell Scripts (8 concurrent)                      6.0        451.2    752.0
 System Call Overhead                          15000.0     828588.6    552.4
                                                                    ========
-System Benchmarks Index Score                                         954.7
+System BenchMarks Index Score                                         954.7
 ```
 
 ### Bench

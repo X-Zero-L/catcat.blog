@@ -2,7 +2,7 @@
 title: "腾讯云内测SA5 AMD EPYC Bergamo 机器测试"
 published: 2025-01-20
 tags: [大陆服务器]
-category: Benchmark
+category: BenchMark
 ---
 
 <picture>
@@ -135,7 +135,7 @@ Total      | 732.37 MB/s   (1.4k) | 724.90 MB/s    (707)
 
 ```shell
 ========================================================================
-   BYTE UNIX Benchmarks (Version 5.1.3)
+   BYTE UNIX BenchMarks (Version 5.1.3)
 
    System: catcat: GNU/Linux
    OS: GNU/Linux -- 6.1.0-28-amd64 -- #1 SMP PREEMPT_DYNAMIC Debian 6.1.119-1 (2024-11-22)
@@ -152,7 +152,7 @@ Total      | 732.37 MB/s   (1.4k) | 724.90 MB/s    (707)
    19:49:45 up 15 min,  3 users,  load average: 0.06, 0.60, 0.49; runlevel 2025-01-20
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Jan 20 2025 19:49:45 - 20:17:44
+BenchMark Run: Mon Jan 20 2025 19:49:45 - 20:17:44
 4 CPUs in system; running 1 parallel copy of tests
 
 Dhrystone 2 using register variables       47480938.2 lps   (10.0 s, 7 samples)
@@ -168,7 +168,7 @@ Shell Scripts (1 concurrent)                  10363.6 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   2922.7 lpm   (60.0 s, 2 samples)
 System Call Overhead                         656248.8 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0   47480938.2   4068.6
 Double-Precision Whetstone                       55.0       7733.9   1406.2
 Execl Throughput                                 43.0       2515.7    585.0
@@ -182,10 +182,10 @@ Shell Scripts (1 concurrent)                     42.4      10363.6   2444.2
 Shell Scripts (8 concurrent)                      6.0       2922.7   4871.1
 System Call Overhead                          15000.0     656248.8    437.5
                                                                    ========
-System Benchmarks Index Score                                        1095.6
+System BenchMarks Index Score                                        1095.6
 
 ------------------------------------------------------------------------
-Benchmark Run: Mon Jan 20 2025 20:17:44 - 20:45:44
+BenchMark Run: Mon Jan 20 2025 20:17:44 - 20:45:44
 4 CPUs in system; running 4 parallel copies of tests
 
 Dhrystone 2 using register variables      149907300.9 lps   (10.0 s, 7 samples)
@@ -201,7 +201,7 @@ Shell Scripts (1 concurrent)                  22972.9 lpm   (60.0 s, 2 samples)
 Shell Scripts (8 concurrent)                   3069.1 lpm   (60.0 s, 2 samples)
 System Call Overhead                        2257445.7 lps   (10.0 s, 7 samples)
 
-System Benchmarks Index Values               BASELINE       RESULT    INDEX
+System BenchMarks Index Values               BASELINE       RESULT    INDEX
 Dhrystone 2 using register variables         116700.0  149907300.9  12845.5
 Double-Precision Whetstone                       55.0      26056.5   4737.6
 Execl Throughput                                 43.0       7819.7   1818.5
@@ -215,7 +215,7 @@ Shell Scripts (1 concurrent)                     42.4      22972.9   5418.1
 Shell Scripts (8 concurrent)                      6.0       3069.1   5115.1
 System Call Overhead                          15000.0    2257445.7   1505.0
                                                                    ========
-System Benchmarks Index Score                                        3389.8
+System BenchMarks Index Score                                        3389.8
 ```
 
 ### 融合怪Go测试
