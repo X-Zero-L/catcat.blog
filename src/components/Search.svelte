@@ -54,6 +54,17 @@ const search = async (keyword: string, isDesktop: boolean): Promise<void> => {
 		return;
 	}
 
+	// 懒加载 Pagefind
+	if (import.meta.env.PROD && !window.pagefind) {
+		try {
+			if (window.loadPagefindLazy) {
+				await window.loadPagefindLazy();
+			}
+		} catch (error) {
+			console.error('Failed to load Pagefind during search:', error);
+		}
+	}
+
 	if (!initialized) {
 		return;
 	}
@@ -144,14 +155,27 @@ $: if (initialized && keywordMobile) {
       dark:bg-white/5 dark:hover:bg-white/10 dark:focus-within:bg-white/10
 ">
     <Icon icon="material-symbols:search" class="absolute text-[1.25rem] pointer-events-none ml-3 transition my-auto text-black/30 dark:text-white/30"></Icon>
-    <input placeholder="{i18n(I18nKey.search)}" bind:value={keywordDesktop} on:focus={() => search(keywordDesktop, true)}
+    <input placeholder="{i18n(I18nKey.search)}" bind:value={keywordDesktop} 
+           on:focus={async () => {
+               // 预加载 Pagefind
+               if (import.meta.env.PROD && !window.pagefind && window.loadPagefindLazy) {
+                   window.loadPagefindLazy().catch(console.error);
+               }
+               search(keywordDesktop, true);
+           }}
            class="transition-all pl-10 text-sm bg-transparent outline-0
          h-full w-40 active:w-60 focus:w-60 text-black/50 dark:text-white/50"
     >
 </div>
 
 <!-- toggle btn for phone/tablet view -->
-<button on:click={togglePanel} aria-label="Search Panel" id="search-switch"
+<button on:click={async () => {
+           // 预加载 Pagefind
+           if (import.meta.env.PROD && !window.pagefind && window.loadPagefindLazy) {
+               window.loadPagefindLazy().catch(console.error);
+           }
+           togglePanel();
+       }} aria-label="Search Panel" id="search-switch"
         class="btn-plain scale-animation lg:!hidden rounded-lg w-11 h-11 active:scale-90">
     <Icon icon="material-symbols:search" class="text-[1.25rem]"></Icon>
 </button>
