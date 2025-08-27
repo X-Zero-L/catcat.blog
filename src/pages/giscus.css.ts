@@ -132,6 +132,22 @@ function cssFor(h: number, mode: 'light' | 'dark') {
       color: #24292f !important;
     }
     
+    /* 修复 GitHub 登录按钮的白边 */
+    .gsc-social-reaction-summary-item {
+      border: none !important;
+    }
+    
+    /* GitHub 登录按钮样式 */
+    button[class*="color-btn-primary"] {
+      background-color: #24292f !important;
+      color: white !important;
+      border: none !important;
+    }
+    
+    button[class*="color-btn-primary"]:hover {
+      background-color: #1a1e22 !important;
+    }
+    
     /* 表情反应菜单背景 */
     .gsc-reactions-popover {
       background-color: ${bgOverlay} !important;
@@ -267,6 +283,22 @@ function cssFor(h: number, mode: 'light' | 'dark') {
     .gsc-comment-reactions-count,
     .gsc-replies-count {
       color: #ffffff !important;
+    }
+    
+    /* 修复 GitHub 登录按钮的白边 */
+    .gsc-social-reaction-summary-item {
+      border: none !important;
+    }
+    
+    /* GitHub 登录按钮样式 - 暗色模式 */
+    button[class*="color-btn-primary"] {
+      background-color: var(--color-accent-fg) !important;
+      color: var(--color-canvas-default) !important;
+      border: none !important;
+    }
+    
+    button[class*="color-btn-primary"]:hover {
+      background-color: var(--color-accent-emphasis) !important;
     }
     
     /* 表情反应菜单背景 - 使用主题色 */
