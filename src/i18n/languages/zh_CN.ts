@@ -36,4 +36,11 @@ export const zh_CN: Translation = {
 	[Key.publishedAt]: "发布于",
 	[Key.license]: "许可协议",
 	[Key.friends]: "友链",
+	
+	// SEO descriptions
+	[Key.siteDescription]: "猫猫博客致力于为动画爱好者提供高质量的BDRIP和Blu-ray Remux资源，分享Emby服务器使用指南、PT下载经验、VPS推荐和服务器测评等内容。",
+	[Key.aboutDescription]: "了解猫猫博客的创建者，分享动画资源、Emby使用指南、PT下载经验等内容",
+	[Key.friendsDescription]: "猫猫博客的友情链接，欢迎互链交流",
+	[Key.archiveDescription]: "博客文章归档，按时间顺序展示所有文章",
+	[Key.pageDescription]: "博客文章列表 - 第{page}页",
 };

@@ -1,0 +1,138 @@
+---
+import { profileConfig, siteConfig } from "@/config";
+import { formatDateToYYYYMMDD } from "@utils/date-utils";
+import I18nKey from "@i18n/i18nKey";
+import { i18n } from "@i18n/translation";
+
+interface Props {
+  title?: string;
+  description?: string;
+  published?: Date;
+  updated?: Date;
+  tags?: string[];
+  category?: string;
+  lang?: string;
+  image?: string;
+  type?: "website" | "article";
+}
+
+const {
+  title,
+  description,
+  published,
+  updated,
+  tags,
+  category,
+  lang = siteConfig.lang,
+  image,
+  type = "website",
+} = Astro.props;
+
+// pageTitle 已在 Layout.astro 中处理
+
+const pageDescription = description || i18n(I18nKey.siteDescription);
+const siteLang = lang.replace("_", "-");
+
+// 构建结构化数据
+let jsonLd: any = {
+  "@context": "https://schema.org",
+};
+
+if (type === "article" && published) {
+  jsonLd = {
+    ...jsonLd,
+    "@type": "BlogPosting",
+    headline: title || siteConfig.title,
+    description: pageDescription,
+    author: {
+      "@type": "Person",
+      name: profileConfig.name,
+      url: Astro.site?.toString(),
+    },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.title,
+      logo: {
+        "@type": "ImageObject",
+        url: profileConfig.avatar && profileConfig.avatar.startsWith('http') 
+          ? profileConfig.avatar 
+          : (profileConfig.avatar && Astro.site ? new URL(profileConfig.avatar, Astro.site).href : profileConfig.avatar || ''),
+      },
+    },
+    datePublished: formatDateToYYYYMMDD(published),
+    dateModified: updated ? formatDateToYYYYMMDD(updated) : formatDateToYYYYMMDD(published),
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": Astro.url.toString(),
+    },
+    inLanguage: siteLang,
+  };
+
+  // 添加关键词
+  if (tags && tags.length > 0) {
+    jsonLd.keywords = tags.join(", ");
+  }
+
+  // 添加分类
+  if (category) {
+    jsonLd.articleSection = category;
+  }
+
+  // 添加图片
+  if (image) {
+    jsonLd.image = {
+      "@type": "ImageObject",
+      url: new URL(image, Astro.site).href,
+    };
+  }
+} else {
+  // 网站首页或普通页面
+  jsonLd = {
+    ...jsonLd,
+    "@type": "WebSite",
+    name: siteConfig.title,
+    description: i18n(I18nKey.siteDescription),
+    url: Astro.site?.toString(),
+    author: {
+      "@type": "Person",
+      name: profileConfig.name,
+      url: Astro.site?.toString(),
+    },
+    inLanguage: siteLang,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${Astro.site}?search={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
+
+// 添加面包屑导航结构化数据
+const breadcrumbList = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "首页",
+      item: Astro.site?.toString(),
+    },
+  ],
+};
+
+if (type === "article" && title) {
+  breadcrumbList.itemListElement.push({
+    "@type": "ListItem",
+    position: 2,
+    name: title,
+    item: Astro.url.toString(),
+  });
+}
+---
+
+<script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+<script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbList)} />

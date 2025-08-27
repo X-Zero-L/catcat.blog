@@ -2,7 +2,10 @@
 import "@fontsource-variable/jetbrains-mono";
 
 import ConfigCarrier from "@components/ConfigCarrier.astro";
+import Seo from "@components/Seo.astro";
 import { profileConfig, siteConfig } from "@/config";
+import I18nKey from "@i18n/i18nKey";
+import { i18n } from "@i18n/translation";
 import Analytics from '@vercel/analytics/astro';
 import {
 	AUTO_MODE,
@@ -25,9 +28,13 @@ interface Props {
 	description?: string;
 	lang?: string;
 	setOGTypeArticle?: boolean;
+	published?: Date;
+	updated?: Date;
+	tags?: string[];
+	category?: string;
 }
 
-let { title, banner, description, lang, setOGTypeArticle } = Astro.props;
+let { title, banner, description, lang, setOGTypeArticle, published, updated, tags, category } = Astro.props;
 
 // apply a class to the body element to decide the height of the banner, only used for initial page load
 // Swup can update the body for each page visit, but it's after the page transition, causing a delay for banner height change
@@ -50,7 +57,7 @@ let pageTitle: string;
 if (title) {
 	pageTitle = `${title} - ${siteConfig.title}`;
 } else {
-	pageTitle = `${siteConfig.title} - ${siteConfig.subtitle}`;
+	pageTitle = siteConfig.title;
 }
 
 const favicons: Favicon[] =
@@ -80,23 +87,33 @@ const bannerOffset =
 		<title>{pageTitle}</title>
 
 		<meta charset="UTF-8" />
-		<meta name="description" content={description || pageTitle}>
+		<meta name="description" content={description || i18n(I18nKey.siteDescription)}>
 		<meta name="author" content={profileConfig.name}>
 
 		<meta property="og:site_name" content={siteConfig.title}>
 		<meta property="og:url" content={Astro.url}>
 		<meta property="og:title" content={pageTitle}>
-		<meta property="og:description" content={description || pageTitle}>
+		<meta property="og:description" content={description || i18n(I18nKey.siteDescription)}>
 		{setOGTypeArticle ? (
         <meta property="og:type" content="article" />
         ) : (
         <meta property="og:type" content="website" />
         )}
 
-		<meta name="twitter:card" content="summary_large_image">
+		{banner && (
+		<>
+		<meta property="og:image" content={new URL(banner, Astro.site).href} />
+		<meta property="og:image:alt" content={title || siteConfig.title} />
+		<meta name="twitter:image" content={new URL(banner, Astro.site).href} />
+		</>
+		)}
+
+		<meta name="twitter:card" content={banner ? "summary_large_image" : "summary"}>
 		<meta property="twitter:url" content={Astro.url}>
 		<meta name="twitter:title" content={pageTitle}>
-		<meta name="twitter:description" content={description || pageTitle}>
+		<meta name="twitter:description" content={description || i18n(I18nKey.siteDescription)}>
+		<meta name="twitter:site" content={`@${profileConfig.name}`} />
+		<meta name="twitter:creator" content={`@${profileConfig.name}`} />
 
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
@@ -141,6 +158,18 @@ const bannerOffset =
 			'page-width': `${PAGE_WIDTH}rem`,
 		}}></style>  <!-- defines global css variables. This will be applied to <html> <body> and some other elements idk why -->
 
+
+		<Seo 
+			title={title}
+			description={description}
+			published={published}
+			updated={updated}
+			tags={tags}
+			category={category}
+			lang={lang}
+			image={banner}
+			type={setOGTypeArticle ? "article" : "website"}
+		/>
 
 		<slot name="head"></slot>
 

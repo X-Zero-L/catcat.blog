@@ -35,4 +35,13 @@ export const id: Translation = {
 	[Key.author]: "Penulis",
 	[Key.publishedAt]: "Diterbitkan pada",
 	[Key.license]: "Lisensi",
+
+	[Key.friends]: "Tautan",
+	
+	// SEO descriptions - 使用英文作為默認値
+	[Key.siteDescription]: "Cat Cat Blog provides high-quality BDRIP and Blu-ray Remux resources for anime enthusiasts, sharing Emby server guides, PT download experience, VPS recommendations and server reviews.",
+	[Key.aboutDescription]: "Learn about the creator of Cat Cat Blog, sharing anime resources, Emby guides, PT download experience and more",
+	[Key.friendsDescription]: "Cat Cat Blog's friend links, welcome to exchange links",
+	[Key.archiveDescription]: "Blog post archive, showing all posts in chronological order",
+	[Key.pageDescription]: "Blog posts - Page {page}",
 };
