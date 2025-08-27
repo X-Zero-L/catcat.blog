@@ -7,32 +7,6 @@ category: Emby
 pinned: true
 ---
 
-\[timeline\] 2024-12-22 |弄这么久,头一回遇到这么恶心的 \[/timeline\]
-
-<picture>
-    <source srcset="https://s3.catcat.blog/images/2024/08/b22b1aaecb30cf72073e230949c4cb4e.avif" type="image/avif">
-    <source srcset="https://s3.catcat.blog/images/2024/08/b22b1aaecb30cf72073e230949c4cb4e.webp" type="image/webp">
-    <img src="https://s3.catcat.blog/images/2024/08/b22b1aaecb30cf72073e230949c4cb4e.jpg" alt="" loading="lazy">
-</picture>
-
-<picture>
-    <source srcset="https://s3.catcat.blog/images/2024/08/f41b45f907fbca9d1ed5b5ae4b8a0752.avif" type="image/avif">
-    <source srcset="https://s3.catcat.blog/images/2024/08/f41b45f907fbca9d1ed5b5ae4b8a0752.webp" type="image/webp">
-    <img src="https://s3.catcat.blog/images/2024/08/f41b45f907fbca9d1ed5b5ae4b8a0752.jpg" alt="" loading="lazy">
-</picture>
-
-<picture>
-    <source srcset="https://s3.catcat.blog/images/2024/08/742408719f180157d21758703d05625d.avif" type="image/avif">
-    <source srcset="https://s3.catcat.blog/images/2024/08/742408719f180157d21758703d05625d.webp" type="image/webp">
-    <img src="https://s3.catcat.blog/images/2024/08/742408719f180157d21758703d05625d.jpg" alt="" loading="lazy">
-</picture>
-
-<picture>
-    <source srcset="https://s3.catcat.blog/images/2024/08/45e38df26f528e3768ce19a0909ad507.avif" type="image/avif">
-    <source srcset="https://s3.catcat.blog/images/2024/08/45e38df26f528e3768ce19a0909ad507.webp" type="image/webp">
-    <img src="https://s3.catcat.blog/images/2024/08/45e38df26f528e3768ce19a0909ad507.jpg" alt="" loading="lazy">
-</picture>
-
 ```shell
 做这个媒体库初衷是：给朋友分享一些BDRIP方便观看，不会因此影响画质，后来经过大佬的介绍，学习了很多相关的知识。
 ```
