@@ -138,14 +138,20 @@ function cssFor(h: number, mode: 'light' | 'dark') {
     }
     
     /* GitHub 登录按钮样式 */
+    .btn-primary, 
+    a.btn-primary,
     button[class*="color-btn-primary"] {
       background-color: #24292f !important;
       color: white !important;
       border: none !important;
+      box-shadow: none !important;
     }
     
+    .btn-primary:hover,
+    a.btn-primary:hover,
     button[class*="color-btn-primary"]:hover {
       background-color: #1a1e22 !important;
+      border: none !important;
     }
     
     /* 表情反应菜单背景 */
@@ -291,14 +297,20 @@ function cssFor(h: number, mode: 'light' | 'dark') {
     }
     
     /* GitHub 登录按钮样式 - 暗色模式 */
+    .btn-primary,
+    a.btn-primary,
     button[class*="color-btn-primary"] {
       background-color: var(--color-accent-fg) !important;
       color: var(--color-canvas-default) !important;
       border: none !important;
+      box-shadow: none !important;
     }
     
+    .btn-primary:hover,
+    a.btn-primary:hover,
     button[class*="color-btn-primary"]:hover {
       background-color: var(--color-accent-emphasis) !important;
+      border: none !important;
     }
     
     /* 表情反应菜单背景 - 使用主题色 */
