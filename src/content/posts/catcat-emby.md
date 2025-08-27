@@ -4,6 +4,7 @@ published: 2024-08-06
 image: "https://s3.catcat.blog/emby.webp"
 tags: [Emby]
 category: Emby
+description: "做这个媒体库初衷是：给朋友分享一些BDRIP方便观看，不会因此影响画质，后来经过大佬的介绍，学习了很多相关的知识。"
 pinned: true
 ---
 
