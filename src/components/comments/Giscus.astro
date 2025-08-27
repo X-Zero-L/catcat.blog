@@ -1,0 +1,100 @@
+---
+import I18nKey from "@/i18n/i18nKey";
+import { i18n } from "@/i18n/translation";
+---
+<section id="comments" class="card-base px-6 py-5 mt-4">
+  <div class="flex items-center mb-3 gap-2">
+    <div class="h-6 w-1 rounded bg-[var(--primary)]"></div>
+    <h2 class="font-bold text-black/75 dark:text-white/75">{i18n(I18nKey.comments)}</h2>
+  </div>
+  <div id="giscus_thread" class="giscus-container"></div>
+</section>
+
+<script>
+  const GISCUS_ORIGIN = 'https://giscus.app';
+
+  function currentHue() {
+    const v = getComputedStyle(document.documentElement).getPropertyValue('--hue').trim();
+    return encodeURIComponent(v || '60');
+  }
+
+  function isDark() {
+    return document.documentElement.classList.contains('dark');
+  }
+
+  function buildThemeUrl() {
+    const origin = window.location.origin;
+    const mode = isDark() ? 'dark' : 'light';
+    return `${origin}/giscus.css?h=${currentHue()}&mode=${mode}`;
+  }
+
+  function injectGiscus() {
+    const container = document.getElementById('giscus_thread');
+    if (!container) return;
+
+    // avoid duplicate
+    if (container.querySelector('iframe.giscus-frame')) return;
+
+    const s = document.createElement('script');
+    s.src = `${GISCUS_ORIGIN}/client.js`;
+
+    // Required giscus config
+    s.setAttribute('data-repo', 'Yuri-NagaSaki/catcat.blog');
+    s.setAttribute('data-repo-id', 'R_kgDOPkUodA');
+    s.setAttribute('data-category', 'Announcements');
+    s.setAttribute('data-category-id', 'DIC_kwDOPkUodM4CuqUJ');
+    s.setAttribute('data-mapping', 'pathname');
+    s.setAttribute('data-strict', '0');
+    s.setAttribute('data-reactions-enabled', '1');
+    s.setAttribute('data-emit-metadata', '0');
+    s.setAttribute('data-input-position', 'top');
+    s.setAttribute('data-lang', 'zh-CN');
+    s.setAttribute('data-loading', 'lazy');
+
+    // Custom theme that matches site hue + mode
+    s.setAttribute('data-theme', buildThemeUrl());
+
+    s.crossOrigin = 'anonymous';
+    s.async = true;
+    container.appendChild(s);
+  }
+
+  function updateGiscusTheme() {
+    const iframe = document.querySelector('iframe.giscus-frame') as HTMLIFrameElement | null;
+    if (!iframe) return;
+    iframe.contentWindow?.postMessage({
+      giscus: {
+        setConfig: { theme: buildThemeUrl() }
+      }
+    }, GISCUS_ORIGIN);
+  }
+
+  // init
+  injectGiscus();
+
+  // Watch for theme (class) and hue (style) change
+  const observer = new MutationObserver((mutations) => {
+    for (const m of mutations) {
+      if (m.type === 'attributes' && (m.attributeName === 'class' || m.attributeName === 'style')) {
+        updateGiscusTheme();
+      }
+    }
+  });
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class', 'style'] });
+
+  // Also update after page transitions
+  if (window?.swup?.hooks) {
+    window.swup.hooks.on('page:view', () => updateGiscusTheme());
+  } else {
+    document.addEventListener('swup:enable', () => updateGiscusTheme());
+  }
+</script>
+
+<style>
+  /* Make the iframe feel native inside our card */
+  .giscus-container {
+    --comments-radius: var(--radius-large);
+    border-radius: var(--comments-radius);
+  }
+</style>
+
