@@ -1,5 +1,4 @@
 ---
-tags: [docker, laboratory]
 title: "Chevereto v4 专业版搭建个人图床教程以及问题排查"
 published: 2023-03-20
 tags: [Chevereto, Docker]
