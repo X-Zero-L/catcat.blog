@@ -10,15 +10,15 @@ function clampHue(v: number) {
 function cssFor(h: number, mode: 'light' | 'dark') {
   const hue = clampHue(h);
   
-  // 基于你的主题色调生成边框颜色 - 更柔和的边框
-  const borderColor = mode === 'dark' ? `oklch(0.30 0 0)` : `oklch(0.90 0 0)`;
-  const borderMuted = mode === 'dark' ? `oklch(0.25 0 0)` : `oklch(0.94 0 0)`;
+  // 基于你的主题色调生成边框颜色 - 与网站一致
+  const borderColor = mode === 'dark' ? `oklch(0.35 0.02 ${hue})` : `oklch(0.90 0.02 ${hue})`;
+  const borderMuted = mode === 'dark' ? `oklch(0.30 0.015 ${hue})` : `oklch(0.93 0.015 ${hue})`;
   
-  // 生成不同明度的背景 - 与卡片背景一致，不使用饱和度
-  const bgDefault = mode === 'dark' ? `oklch(0.18 0 0)` : `oklch(1 0 0)`;  // 纯白/深灰
-  const bgSubtle = mode === 'dark' ? `oklch(0.20 0 0)` : `oklch(0.97 0 0)`;  // 略深/略浅用于输入框
-  const bgInset = mode === 'dark' ? `oklch(0.16 0 0)` : `oklch(1 0 0)`;
-  const bgOverlay = mode === 'dark' ? `oklch(0.22 0 0)` : `oklch(0.95 0 0)`;
+  // 使用与网站卡片完全一致的背景色
+  const bgDefault = mode === 'dark' ? `oklch(0.23 0.015 ${hue})` : `white`;  // 卡片背景
+  const bgSubtle = mode === 'dark' ? `oklch(0.27 0.02 ${hue})` : `oklch(0.95 0.025 ${hue})`;  // 按钮/输入框背景
+  const bgInset = mode === 'dark' ? `oklch(0.19 0.015 ${hue})` : `white`;  // 浮动面板背景
+  const bgOverlay = mode === 'dark' ? `oklch(0.30 0.025 ${hue})` : `oklch(0.90 0.03 ${hue})`;  // hover状态
   
   const light = `
     /*! Giscus Custom Theme - Light */
