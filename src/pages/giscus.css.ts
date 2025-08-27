@@ -11,14 +11,14 @@ function cssFor(h: number, mode: 'light' | 'dark') {
   const hue = clampHue(h);
   
   // 基于你的主题色调生成边框颜色 - 更柔和的边框
-  const borderColor = mode === 'dark' ? `oklch(0.35 0.04 ${hue})` : `oklch(0.88 0.04 ${hue})`;
-  const borderMuted = mode === 'dark' ? `oklch(0.30 0.03 ${hue})` : `oklch(0.92 0.03 ${hue})`;
+  const borderColor = mode === 'dark' ? `oklch(0.30 0 0)` : `oklch(0.90 0 0)`;
+  const borderMuted = mode === 'dark' ? `oklch(0.25 0 0)` : `oklch(0.94 0 0)`;
   
-  // 生成不同明度的主题色背景 - 更协调的背景层次
-  const bgDefault = mode === 'dark' ? `oklch(0.18 0.02 ${hue})` : `oklch(0.98 0.01 ${hue})`;
-  const bgSubtle = mode === 'dark' ? `oklch(0.22 0.03 ${hue})` : `oklch(0.96 0.02 ${hue})`;
-  const bgInset = mode === 'dark' ? `oklch(0.15 0.02 ${hue})` : `oklch(0.99 0.005 ${hue})`;
-  const bgOverlay = mode === 'dark' ? `oklch(0.25 0.04 ${hue})` : `oklch(0.94 0.03 ${hue})`;
+  // 生成不同明度的背景 - 与卡片背景一致，不使用饱和度
+  const bgDefault = mode === 'dark' ? `oklch(0.18 0 0)` : `oklch(1 0 0)`;  // 纯白/深灰
+  const bgSubtle = mode === 'dark' ? `oklch(0.20 0 0)` : `oklch(0.97 0 0)`;  // 略深/略浅用于输入框
+  const bgInset = mode === 'dark' ? `oklch(0.16 0 0)` : `oklch(1 0 0)`;
+  const bgOverlay = mode === 'dark' ? `oklch(0.22 0 0)` : `oklch(0.95 0 0)`;
   
   const light = `
     /*! Giscus Custom Theme - Light */
