@@ -33,6 +33,13 @@ enum I18nKey {
 	publishedAt = "publishedAt",
 	license = "license",
 	friends = "friends",
+	
+	// SEO descriptions
+	siteDescription = "siteDescription",
+	aboutDescription = "aboutDescription",
+	friendsDescription = "friendsDescription",
+	archiveDescription = "archiveDescription",
+	pageDescription = "pageDescription",
 }
 
 export default I18nKey;
