@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Upstream 英国 AMD EPYC 73F3 测评"
 published: 2024-02-11
+tags: [英国]
+category: Benchmark
 ---
 
 这个机器是回帖抽奖送的免费一年，没有购买。Upstream Network原名ZHNET，之前在nodeseek也有入驻，但是风评不是很好的样子（了解不是很多，听说之前还有预售英国cmin2）。目前商家有三地（日本7950X，英国73F3，美国ARM），反正白嫖的免费一年，用着玩玩（仅图一乐）。

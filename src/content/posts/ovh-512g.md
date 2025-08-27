@@ -1,7 +1,8 @@
 ---
-tags: [strong-server, eu-server]
 title: "Spaceberg 4C6G512G 150T"
 published: 2023-07-07
+tags: [Spaceberg,存储服务器]
+category: Benchmark
 ---
 
 ## 配置

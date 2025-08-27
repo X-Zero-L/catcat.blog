@@ -1,8 +1,8 @@
 ---
-tags: [sg-server]
 title: "ShockHosting 新加坡 AMD 9354P 测评"
 published: 2024-05-26
-coverImage: "image-49.png"
+tags: [新加坡]
+category: Benchmark
 ---
 
 最近在寻找亚洲的高配服务器（要去亚洲数据中心，三代EPYC or 四代EPYC以上），非常幸运，捡到宝了。根据介绍，商家成立于2013年，目前经营11个地区，主要有新加坡，日本，荷兰，洛杉矶等。机器性能可以说非常优秀。他们的销售也挺耐心的，因为我在网上找了一圈也没找到他们9354P node的测评，最后还怕我不相信，说可以带我实地查看或者是IPML的截图。新加坡数据中心位于 RacksCentral。IP质量一般，很经典的电信，联通绕美走cogentco，移动直连。观察一段时间，考虑是否换掉Hybula的位置。

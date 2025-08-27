@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Evoxt AMD EPYC-Genoa 荷兰测评"
 published: 2025-01-21
+tags: [荷兰]
+category: Benchmark
 ---
 
 最近 Evoxt 上新地区真勤快，继上次波兰之后又上了荷兰，加拿大，澳洲地区。这四个机房都是基于 AMD EPYC+NVMe SSD硬盘，接入的是1Gbps带宽。网络不算优质，机器质量可以，附赠备份。看机器后台有了私有网络，也许可以不同地区组内网互联。网络方面都是纯国际线路，还不错。

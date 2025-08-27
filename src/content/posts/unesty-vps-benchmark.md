@@ -1,7 +1,8 @@
 ---
-tags: [eu, eu-server]
 title: "Unesty 春季促销 高配德国vps"
 published: 2023-04-02
+tags: [德国]
+category: Benchmark
 ---
 
 1.价格

@@ -1,10 +1,13 @@
 ---
-tags: [jp-server]
 title: "ZgoCloud 大阪 AMD 9004 测评"
 published: 2023-06-23
+tags: [日本]
+category: Benchmark
 ---
 
 此版本中的线路商家已经不在提供，仅做参考
+
+**不推荐购买这家，稳定性极差**
 
 ## 融合怪脚本测试
 

@@ -1,7 +1,8 @@
 ---
-tags: [strong-server, eu-server]
 title: "罗马尼亚6T超大盘鸡测评"
 published: 2023-05-15
+tags: [罗马尼亚,存储服务器]
+category: Benchmark
 ---
 
 ```shell

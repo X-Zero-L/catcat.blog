@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "Entrywan 美国 AMD EPYC 9124 测评"
 published: 2024-05-16
+tags: [美国]
+category: Benchmark
 ---
 
 来自美国的商家，机器是白嫖来的。老板的官网和控制面板非常抽象，什么CSS装饰都没有，纯正原生API，满满的灵车味道。目前经营有虚拟机，Kubernetes,对象存储等，IP倒是很干净。

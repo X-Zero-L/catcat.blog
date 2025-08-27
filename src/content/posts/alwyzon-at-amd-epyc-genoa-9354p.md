@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Alwyzon 维也纳 AMD EPYC™ Genoa 9354P 测评"
 published: 2023-10-23
+tags: [奥地利]
+category: BenchMark
 ---
 
 一个字，性能炸裂（gb6 单核已经和5950x持平了）。目前接触到的第三家使用到Genoa的商家，第一家是Zgo（9354P）(看上去由于技术还是什么原因，ZGO的表现远远不如Awyzon),第二家是Hetzner（但由于供应问题，一直开不出9654）。Alwyzon 其实没啥好说的，欧洲维也纳的老牌商家，在奥地利最大互联网中心 Interxion 园区内运营所有服务器。欧洲对等互联优秀。特别适合欧洲业务使用。我的评价是**100分！**

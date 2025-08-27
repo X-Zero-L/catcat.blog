@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "Debian 11 上使用 Minicube 部署 Kubernetes 集群"
 published: 2023-09-07
+tags: [Debian, Kubernetes]
+category: 教程
 ---
 
 我这边采用的是Hetzner的独立服务器配置，VPS也能部署

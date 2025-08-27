@@ -1,7 +1,8 @@
 ---
-tags: [knowledge]
 title: "在ubuntu上通关mosh替代ssh连接解决vps延迟高的问题"
 published: 2023-03-14
+tags: [Ubuntu,SSH]
+category: 教程
 ---
 
 Mobile Shell 是一款免费且快速的远程终端应用程序。它允许漫游，支持间歇性连接，并提供用户击键的智能本地回显和行编辑。您已经了解了 SSH。Mosh 旨在支持 SSH 的典型交互使用。由于 Mosh 更健壮且响应更快，尤其是在 Wi-Fi、蜂窝和长距离链路上，因此它被认为是交互式 SSH 终端的良好替代品。Mosh 也几乎适用于所有 GNU/Linux、FreeBSD、Solaris、Mac OS X 和 Android。

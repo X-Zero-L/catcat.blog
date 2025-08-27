@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "v6Node 4 核 AMD 8GB RAM 10g口测评"
 published: 2023-06-07
+tags: [德国]
+category: Benchmark
 ---
 
 ## 套餐价格

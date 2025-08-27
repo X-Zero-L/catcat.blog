@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Server-Factory AMD 7950X 荷兰预售"
 published: 2024-01-10
+tags: [荷兰]
+category: Benchmark
 ---
 
 Server-Factory 这次我是预售48欧买的，结果跳票从瑞典跳到荷兰跳到今年才开机。之前推出的纯ipv6机在MJJ中挺受欢迎的，硬盘IO很不错。据反馈之前的epyc系列和5000系列也非常稳定。**商家不允许退款**，支持使用加密货币和PayPal。服务器位于荷兰 Eygelshoven 的 SkyLink 数据中心。

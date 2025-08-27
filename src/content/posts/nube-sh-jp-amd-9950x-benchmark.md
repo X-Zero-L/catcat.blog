@@ -1,7 +1,8 @@
 ---
-tags: [jp-server]
 title: "Nube.sh 万兆 日本 AMD 9950X 杜甫测试"
 published: 2025-07-22
+tags: [日本]
+category: Benchmark
 ---
 
 **牛老板最近也在他们的日本地区新上了9950X系列，搭载 AMD Ryzen 9 9950X（16 核 32 线程，4.5GHz 基频/5.7GHz Boost）与 10Gbps 网络直连，配备高达 192GB DDR5 ECC 内存和双 10Gb uplink，加上 Nube.sh 自建 BGP 网络骨干——涵盖 PCCWG、Lumen、Cogent、NTT，连通香港、新加坡、日本多个 IXP。牛肉家的杜甫基本上都是采用的 Supermicro 系列，和 [Fiberstate](https://catcat.blog/fiberstate-10g-amd-9950x-benchmark-la.html?swcfpc=1) 同款的高密度方案，但是散热表现明显优于[Fiberstate](https://catcat.blog/fiberstate-10g-amd-9950x-benchmark-la.html?swcfpc=1)，难道说 [Fiberstate](https://catcat.blog/fiberstate-10g-amd-9950x-benchmark-la.html?swcfpc=1) 真不开空调？？？？**

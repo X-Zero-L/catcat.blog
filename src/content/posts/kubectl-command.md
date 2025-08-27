@@ -1,7 +1,8 @@
 ---
-tags: [kubernetes, laboratory]
 title: "Kubectl 常用命令"
 published: 2023-10-07
+tags: [Kubernetes]
+category: 教程
 ---
 
 ## 1\. kubectl 命令摘要

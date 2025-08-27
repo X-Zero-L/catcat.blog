@@ -1,7 +1,8 @@
 ---
-tags: [sg-server]
 title: "AWS Lightsail 新加坡 东京升级款"
 published: 2023-07-03
+tags: [新加坡,东京]
+category: BenchMark
 ---
 
 ## 新加坡

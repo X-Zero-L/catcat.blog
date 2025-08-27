@@ -1,7 +1,8 @@
 ---
-tags: [knowledge]
 title: "对象存储服务商价格对比：1TB存储与1TB流量基准分析"
 published: 2025-03-21
+tags: [对象存储]
+category: 教程
 ---
 
 **注意：本文基于Gemini Deep ReSearch 进行全网搜索分析比对修改。**

@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Hostbrr DE AMD 7950X3D 测评"
 published: 2023-10-05
+tags: [德国]
+category: Benchmark
 ---
 
 商家最近推出了下单3倍CPU的7950X3D活动，对于这个u来说，这个促销无疑是超售了。卖家是Hetzner的经销商，没有自己机房，以低价和促销在low上有名。个人不推荐为了性能买这家，谨慎上车。

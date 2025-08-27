@@ -1,7 +1,8 @@
 ---
-tags: [hk-server]
 title: "Sharon 新站 GoMami 香港 AMD 7763  测评"
 published: 2025-08-12
+tags: [香港]
+category: Benchmark
 ---
 
 **伟大的龙带着他们的新产品线又回来了。这次一共三个系列，分别是GoMami Peak X5 （9950X系列） GoMami Pulse (7763系列) 和 GoMami Forge（杜甫系列）线路都是China Mainland Optimized Pro （163PP / 4837 / 58453），杜甫系列使用 CN2 GIA / 9929 / CMIN2。根据董事长的回复，后续应该会有国内三大的清洗，国际cfmt，gcore，ctc后面也会上。目前只能信用支付，后续会有国内支付方式。**

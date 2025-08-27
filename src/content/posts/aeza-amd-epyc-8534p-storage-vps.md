@@ -1,7 +1,8 @@
 ---
-tags: [strong-server]
 title: "Aeza AMD EPYC 8534P Storage VPS 测试"
 published: 2024-07-09
+tags: [存储服务器,德国]
+category: BenchMark
 ---
 
 毛子商家Aeza 在今天也推出了全新的存储产品线，价格高昂。主机采用CPU为AMD EPYC 8534P,存储阵列才有ZFS Raid.带宽按时间段进行限速。目前配置从4c4g4T 40美元起步开售。这个价位不配个NVME当个系统盘真说不过去，性价比很低。

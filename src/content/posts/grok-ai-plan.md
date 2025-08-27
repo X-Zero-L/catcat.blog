@@ -1,7 +1,8 @@
 ---
-tags: [llm, laboratory]
 title: "Grok AI 冲五刀赠送150刀"
 published: 2025-02-18
+tags: [Grok AI]
+category: 教程
 ---
 
 Grok3今天也要发布了，马斯克又开始送钱了。

@@ -1,7 +1,8 @@
 ---
-tags: [tw-server, sg-server, jp-server, hk-server]
 title: "Google Cloud 测评"
 published: 2023-07-10
+tags: [台湾, 新加坡, 日本, 香港]
+category: Benchmark
 ---
 
 ## GCP 台湾

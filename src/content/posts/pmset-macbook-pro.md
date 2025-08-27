@@ -1,7 +1,8 @@
 ---
-tags: [knowledge]
 title: "pmset 电源管理让 Macbook Pro乖乖小憩"
 published: 2023-03-27
+tags: [Macbook]
+category: 教程
 ---
 
 自从 M1 芯片的 macbook 买到手，搁着不用总是一周就没电了。昨晚充满观察了一下，一夜合盖休眠竟然消耗了 10% 的电。

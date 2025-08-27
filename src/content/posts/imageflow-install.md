@@ -1,8 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "ImageFlow 一款更适合你的图床"
 published: 2025-03-22
-coverImage: "gmonnnuasaahvq3.jpg"
+tags: [Docker,ImageFlow,图床]
+category: 教程
 ---
 
 一直以来我都是用的chevereto来作为图床管理，但是这个作者太脑瘫了。项目越改越辣鸡，经常增加一些虚头八脑的社交之类的功能，导致整个项目越来越臃肿卡顿，至于市面上其他的项目，我也不想再过多尝试，大部分都是基于多用户场景的，和我想要的相违背。本着既然没有，那就自己创造，还能加点我自己喜欢的功能，例如avif和webp格式自动压缩，API自适应横屏竖屏输出。于是 [ImageFlow](https://github.com/Yuri-NagaSaki/ImageFlow/) 就诞生了。

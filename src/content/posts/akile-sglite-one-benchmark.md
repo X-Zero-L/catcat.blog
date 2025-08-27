@@ -1,7 +1,8 @@
 ---
-tags: [sg-server]
 title: "Akile SGLite-One 测评"
 published: 2023-10-03
+tags: [新加坡]
+category: BenchMark
 ---
 
 ## 套餐配置

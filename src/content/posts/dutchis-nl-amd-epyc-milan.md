@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "DutchIS  荷兰 AMD EPYC Milan 7313  测评"
 published: 2023-10-06
+tags: [荷兰]
+category: Benchmark
 ---
 
 荷兰的商家，主要经营vps和独立服务器两种分类，商家注册严格，需要先花1欧进行身份验证，后台是商家自研面板，颜值还算可以。vps主要是标准版EPYC和高性能版5950X两种。商家还提供免费的10G **SpeedIX**的对等连接(条件必须是自己也是SpeedIX的会员)。

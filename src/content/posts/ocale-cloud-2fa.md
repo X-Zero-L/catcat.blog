@@ -1,7 +1,8 @@
 ---
-tags: [knowledge]
 title: "甲骨文云 Ocale Cloud 二步验证丢失解决办法 2024 年 2月测试可行_甲骨文两步验证绕过码"
 published: 2024-02-12
+tags: [甲骨文]
+category: 教程
 ---
 
 ## 仅作记录，以便后续遇到同样丢失二步验证的人参考

@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "NordicVM 英国 AMD 7900 测试"
 published: 2024-01-20
+tags: [英国]
+category: Benchmark
 ---
 
 忘记了什么时候注册的商家（似乎刚成立1年多），今天收到了他们的邮件。新上架了英国7900的服务器，惊奇发现性能还不错,单核性能目前3000分,控制面板采用的是virtfusion。

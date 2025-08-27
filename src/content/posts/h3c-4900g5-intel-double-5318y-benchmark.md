@@ -1,7 +1,8 @@
 ---
-tags: [大陆服务器]
 title: "自组 H3C 4900G5 Intel 双路 5318Y 测试"
 published: 2025-06-23
+tags: [大陆服务器]
+category: Benchmark
 ---
 
 **业务扩容需要，买了几台，做个赛博测试。品牌机，懂得都懂哈。**

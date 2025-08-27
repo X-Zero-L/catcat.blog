@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Hostaris 德国 AMD 5950X 测试"
 published: 2023-09-13
+tags: [德国]
+category: Benchmark
 ---
 
 > ## 套餐

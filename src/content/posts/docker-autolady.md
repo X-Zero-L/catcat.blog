@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "Docker搭建AutoLady订阅\"学习资料\""
 published: 2024-11-19
+tags: [Docker, AutoLady]
+category: 教程
 ---
 
 从 别人看到的项目，发现蛮不错的。来搭建试一下。如果可以的话，整个自动化追剧整理项目就大圆满了。前有 [MoviePilot](https://catcat.blog/docker-moviepilot.html) 刮削整理入库，中后 [ANi-RSS](https://catcat.blog/docker-ani-rss.html) 整理新番，现在最后一块拼图 AutoLady 也就位了。

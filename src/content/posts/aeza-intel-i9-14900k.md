@@ -1,7 +1,8 @@
 ---
-tags: [ru-server]
 title: "Aeza 莫斯科 Intel i9-14900k 测评"
 published: 2024-02-12
+tags: [俄罗斯]
+category: BenchMark
 ---
 
 ## 套餐

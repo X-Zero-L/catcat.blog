@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "WebNX 万兆 AMD 9950X 杜甫测试"
 published: 2025-06-08
+tags: [美国]
+category: Benchmark
 ---
 
 **WebNX是我一直在购买的商家，目前运营了犹他州奥格登和洛杉矶还有****纽约****三个地区，WebNX是 Equinix LA3 最大的客户之一，目前拥有超过 200 个机架和 5 个机柜。值得一提的是他们对外的[SLA](https://webnx.com/service-level-agreement)号称是100%，每15分钟的停机计算为1天。同时商家具有自助安装系统的功能，非常完善，省下了很多工单安装系统撕逼的时间。**

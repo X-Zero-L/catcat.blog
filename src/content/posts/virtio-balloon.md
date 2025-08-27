@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "Virtio-Balloon 原理分析和VPS禁用方法"
 published: 2023-09-19
+tags: [Virtio-Balloon]
+category: 教程
 ---
 
 <picture>

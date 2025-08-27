@@ -1,7 +1,8 @@
 ---
-tags: [server-guide]
 title: "什么值得买-持续更新ing（VPS推荐）"
 published: 2023-07-05
+tags: [什么值得买]
+category: 什么值得买
 ---
 
 > ## 前言

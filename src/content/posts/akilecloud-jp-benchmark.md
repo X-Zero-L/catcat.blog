@@ -1,7 +1,8 @@
 ---
-tags: [jp-server]
 title: "AkileCloud 日本bgp 测试"
 published: 2023-07-24
+tags: [日本]
+category: BenchMark
 ---
 
 ## 融合怪脚本测试

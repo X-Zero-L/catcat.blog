@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "Layer Spokane-WA AMD 7950X 10Gbit  测评"
 published: 2023-09-16
+tags: [美国]
+category: Benchmark
 ---
 
 **来自迪拜的商家，据说从2012年就开始在OCF上提供服务，三年前更名为Layer(一家在迪拜注册的公司，贸易许可证号为 900809，并设有真正的办事处),目前拓展到扩展到华盛顿州斯波坎,硬件性能优秀，自带5个备份插槽，带DDOS防护，综合来说还是不错的。机器使用AMD 7950X+DDR5 内存+PCIE4.0 NVME固态，单核性能GB6接近3000分，在我使用的机器里仅次于Crunchbits的VDS，使用观察中ing.**

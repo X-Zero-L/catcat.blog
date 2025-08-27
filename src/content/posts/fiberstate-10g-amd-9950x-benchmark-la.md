@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "Fiberstate 洛杉矶万兆 AMD 9950x 测评"
 published: 2025-05-06
+tags: [美国]
+category: Benchmark
 ---
 
 \[admonition title="警告" color="red"\]**由于温度过高，散热不佳，我已退款，见文末的温度对比，此外这款机器商家明确说了无法提供其他散热方式**\[/admonition\]

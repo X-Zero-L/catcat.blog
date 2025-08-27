@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Hetzner Dedicated 测评"
 published: 2023-08-23
+tags: [德国]
+category: Benchmark
 ---
 
 ## 套餐价格

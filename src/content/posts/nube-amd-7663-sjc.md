@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "Nube Cloud 美国 AMD 7663 测评"
 published: 2024-07-12
+tags: [美国]
+category: Benchmark
 ---
 
 Nube cloud的第二个节点，上游为Cogent，三网Cogent，然后骨干网直连。和香港计费规则一样，流量只计算出。

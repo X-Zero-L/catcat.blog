@@ -1,7 +1,8 @@
 ---
-tags: [server-guide]
 title: "AMD EPYC 9004 系列常见商家大对比"
 published: 2024-05-30
+tags: [德国,奥地利,荷兰,新加坡,美国,香港,日本,韩国,台湾,中国]
+category: BenchMark
 ---
 
 来个赛博对比。近期上let上有关Root Server的讨论居高不下，具体可见[此贴](https://lowendtalk.com/discussion/195101/avoid-avoro-eu-php-friends-and-dataforest-oversold-root-servers-and-fraudsters/p1)。高性能大鸡的商家遇到了集中扫货，卖独服也不要，只要长期占用的低配置小鸡。根据帖中的描述来看，其实并没有所谓的Root Server（包括Netcup）。都是共享核心，允许别人在你的资源未充分使用前进行占用。

@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Aeza Amusitedan AMD 7950X3D 测评"
 published: 2023-09-10
+tags: [荷兰]
+category: BenchMark
 ---
 
 不测了，这家的鸡有问题，ssh会自动断联，非常的诡异，网络糟糕。

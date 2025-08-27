@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "Crunchbits Special 促销"
 published: 2023-08-07
+tags: [美国]
+category: BenchMark
 ---
 
 ## 配置

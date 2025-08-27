@@ -1,7 +1,8 @@
 ---
-tags: [hk-server]
 title: "腾讯云香港内测款测评"
 published: 2023-07-28
+tags: [香港]
+category: Benchmark
 ---
 
 ## 套餐

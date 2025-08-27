@@ -1,7 +1,8 @@
 ---
-tags: [server-guide]
 title: "Hetzner 独立服务器入坑指南"
 published: 2024-02-13
+tags: [Hetzner]
+category: 教程
 ---
 
 最近闲逛看到Hetzner终于是把AMD Ryzen 5000系列放入了拍卖鸡的行列。不到60欧的价格买到顶配的5950X机器简直血赚。简单介绍一下Hetzner的独立服务器以及一些坑点。

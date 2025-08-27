@@ -1,7 +1,8 @@
 ---
-tags: [kubernetes, laboratory]
 title: "Debian 12 安装 Kubernetes，并配置主从节点（kubeadm方式）"
 published: 2023-09-20
+tags: [kubernetes]
+category: 教程
 ---
 
 记录 Kubernetes 的安装与配置步骤。这次使用 kubeadm。

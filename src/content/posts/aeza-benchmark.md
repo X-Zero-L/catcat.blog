@@ -1,7 +1,8 @@
 ---
 title: "Aeza瑞典 测评"
 published: 2023-07-13
-tags: [eu-server]
+tags: [瑞典]
+category: BenchMark
 ---
 
 ## 融合怪脚本测试

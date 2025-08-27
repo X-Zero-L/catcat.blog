@@ -1,8 +1,8 @@
 ---
-tags: [laboratory]
 title: "Emby客户端推荐"
 published: 2024-05-21
-coverImage: "image-43.png"
+tags: [Emby]
+category: 教程
 ---
 
 ## 安卓

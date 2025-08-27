@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "Nat机部署qbittorrent"
 published: 2023-08-29
+tags: [Nat,qBittorrent]
+category: 教程
 ---
 
 ## 安装qbittorrent

@@ -1,7 +1,8 @@
 ---
-tags: [hk-server]
 title: "Nube Cloud 香港 AMD 7950X 独立服务器 测评"
 published: 2024-04-21
+tags: [香港]
+category: Benchmark
 ---
 
 来自牛肉佬的免费测试玩具,原价268美元。机器很不错，奈何囊肿羞涩。

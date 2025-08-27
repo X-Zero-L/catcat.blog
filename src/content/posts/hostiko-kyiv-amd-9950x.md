@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Hostiko 基辅 AMD 9950X 测评"
 published: 2024-08-25
+tags: [乌克兰]
+category: Benchmark
 ---
 
 除开Hybula(不让我下单，测不了),找好久终于找到了其他销售9950X的商家。商家来自乌克兰，不支持PayPal。本文不构成任何购买建议，仅仅只是为了测试9950X。

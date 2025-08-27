@@ -1,7 +1,8 @@
 ---
-tags: [kubernetes, laboratory]
 title: "kubeadm 方式安装k8s集群"
 published: 2023-12-03
+tags: [Kubernetes]
+category: 教程
 ---
 
 ## 环境准备[](https://learn-k8s-from-scratch.readthedocs.io/en/latest/k8s-install/kubeadm.html#id1)

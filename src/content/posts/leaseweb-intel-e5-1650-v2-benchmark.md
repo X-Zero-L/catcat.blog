@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Leaseweb Intel E5-1650 v2 测试"
 published: 2025-07-08
+tags: [荷兰]
+category: Benchmark
 ---
 
 机器来自阿三的二次转卖，目前已绝版。价格足够便宜和1G不限流量加持，看上去机器的性价比之前40欧的E-2388G高出很多。这应该是市面上最便宜的48TB HDD 35欧了。

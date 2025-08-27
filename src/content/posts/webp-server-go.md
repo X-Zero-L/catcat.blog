@@ -1,7 +1,8 @@
 ---
-tags: [knowledge]
 title: "推荐一个针对单点的 WebP 平滑过渡的工具 WebP-ServerGo"
 published: 2023-04-04
+tags: [WebP]
+category: 教程
 ---
 
 好长时间没有关注 WebP 的支持性了，乍一看欸好像连 QQ 浏览器都能完美支持 WebP 了。很早之前就有关注 WebP-Server 这一过渡工具，恰好最近糖哥送了博主一台腾讯云无忧轻量，在国内的轻量上部署一番，感受一下 WebP 带来的提升。

@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Bero-Host 德国AMD EPYC 7443P 测评"
 published: 2023-12-05
+tags: [德国]
+category: BenchMark
 ---
 
 **挺让人惊喜的商家，本来以为是灵车，没想到完全还可以。本身的性价比就已经足够高了，还多了圣诞节盲盒，打8折续费。这下这个价格真无敌了。提供windows系统有Backup功能，可以创建3个备份。面板可添加任务定时备份，支持自定义ISO安装系统，除了自研的面板还是有些难用之外，其他完全ok。**

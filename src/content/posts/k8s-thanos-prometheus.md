@@ -1,7 +1,8 @@
 ---
-tags: [kubernetes]
 title: "使用 Thanos 管理多 Prometheus 数据实现高可用"
 published: 2024-08-12
+tags: [Kubernetes,Prometheus,Thanos]
+category: 教程
 ---
 
 # 介绍 [](https://blog.men.ci/thanos-low-cost-metrics-on-homelab/#%E4%BB%8B%E7%BB%8D)

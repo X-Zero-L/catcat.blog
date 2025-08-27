@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "AllHost UK AMD EPYC 9454 测评"
 published: 2024-06-18
+tags: [英国]
+category: BenchMark
 ---
 
 **最近运气是真的不错，Let回帖中了好几次奖了，这次也是。英国商家，AS号是 AS42831。后台管理面板采用 VirtFusion。有epyc 和 Ryzen 两个系列。提供BGP会话，一次性设置费5.00 英镑。订单享受72h无理由退款，25邮件端口封闭，单个 6 小时内 CPU 持续平均使用率不得超过 80%。**

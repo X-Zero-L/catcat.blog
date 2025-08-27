@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "Debian11 部署 FullTclash 节点测试工具"
 published: 2023-07-08
+tags: [Debian, FullTclash]
+category: 教程
 ---
 
 ## 介绍

@@ -1,8 +1,8 @@
 ---
-tags: [llm, laboratory]
 title: "DeepSeek-r1:671b满血版在K8S+SGLang架构下的多节点GPU私有化实践"
 published: 2025-02-19
-coverImage: "image-10.png"
+tags: [llm, Kubernetes]
+category: 教程
 ---
 
 ## 应用前景

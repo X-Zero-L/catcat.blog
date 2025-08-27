@@ -1,7 +1,8 @@
 ---
-tags: [server-guide]
 title: "Netcup 注册免税入坑指南"
 published: 2024-05-15
+tags: [德国,Netcup]
+category: 教程
 ---
 
 ## Netcup介绍

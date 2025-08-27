@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "naranjatech 荷兰 AMD EPYC 9554P 测评"
 published: 2023-11-25
+tags: [荷兰]
+category: Benchmark
 ---
 
 naranjatech（官方宣称从2003年就开始搞这行生意），在Low上的口碑很不错，抗投诉能力也很强，其他我对这家的了解就很少了，有待观察吧。

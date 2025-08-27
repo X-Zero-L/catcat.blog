@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Advin Servers 荷兰测评"
 published: 2023-05-12
+tags: [荷兰]
+category: BenchMark
 ---
 
 ## 官网

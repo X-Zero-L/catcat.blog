@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "Docker 部署多节点 Looking Glass 面板NetMirror"
 published: 2025-07-28
+tags: [Docker, NetMirror]
+category: 教程
 ---
 
 **最近因为客户需要做四线监控测试，我们在网上找了一圈 Looking Glass 面板，结果发现市面上现有的项目大多是基于 PHP 的老旧方案，要么界面陈旧、功能有限，要么已经多年无人维护，根本无法满足现代网络运维和多线路展示的需求。**

@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "POVPS 哥本哈根 AMD 7950X 测评"
 published: 2023-10-05
+tags: [哥本哈根]
+category: Benchmark
 ---
 
 新开不久的一个商家,不建议购买，带宽实测跑不到1G。

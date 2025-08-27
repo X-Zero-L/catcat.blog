@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Hetzner ARM 和X86 对比评测"
 published: 2023-05-16
+tags: [Hetzner]
+category: Benchmark
 ---
 
 ## 双方选手

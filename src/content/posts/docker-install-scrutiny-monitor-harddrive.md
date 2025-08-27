@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "Docker 部署 Scrutiny 监控你的硬盘"
 published: 2025-07-26
+tags: [Docker, Scrutiny]
+category: 教程
 ---
 
 在日常使用 NAS、服务器或家用硬盘阵列时，硬盘作为存储的核心，往往是最容易被忽视但最关键的部分。平时运行一切正常，但一块硬盘挂掉时，代价往往是痛的：数据丢失、服务中断、甚至心态崩了。

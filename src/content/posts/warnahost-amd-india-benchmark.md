@@ -1,7 +1,8 @@
 ---
-tags: [india-server]
 title: "WarnaHost AMD 印度服务器测评"
 published: 2023-07-05
+tags: [印度]
+category: Benchmark
 ---
 
 ## **Bench**

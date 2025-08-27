@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "Docker 搭建 Rustdesk 自建中继服务器"
 published: 2025-02-27
+tags: [Docker, RustDesk]
+category: 教程
 ---
 
 RustDesk 是一款开源的远程桌面应用程序，旨在为用户提供简单、安全且高效的远程访问体验。它由 Rust 语言编写（这也是其名称的由来），以轻量化和高性能著称。与传统的远程桌面工具（如 TeamViewer 或 AnyDesk）不同，RustDesk 的最大亮点在于它支持自托管。这意味着你完全可以掌控自己的数据，摆脱对第三方服务器的依赖，同时确保连接的隐私性和安全性。

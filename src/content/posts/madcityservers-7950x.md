@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "Madcityservers 7950x 测评"
 published: 2023-09-04
+tags: [美国]
+category: Benchmark
 ---
 
 > 风评不大好，谨慎购买

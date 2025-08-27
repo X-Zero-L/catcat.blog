@@ -1,7 +1,8 @@
 ---
-tags: [hk, hk-server]
 title: "香港主机 layerstack.com (ARM)"
 published: 2023-03-22
+tags: [香港]
+category: Benchmark
 ---
 
 这次拿到了他的 ARM ，可以到他官网看看（[点我](https://www.layerstack.com/zh-tw/arm-based-cloud-server)），价格便宜很多。

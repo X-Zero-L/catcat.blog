@@ -1,7 +1,8 @@
 ---
-tags: [sg-server]
 title: "Hetzner 新加坡 VDS 测评"
 published: 2024-08-06
+tags: [新加坡]
+category: Benchmark
 ---
 
 期待已久的Hetzner 新加坡终于上线了。只能说，理想很美好，显示很骨感。并没有想象中能够媲美德国的优惠，性价比非常低，带宽属于单向1T，CPU仅有7002，7003起，价格7.4欧起步，属实有点上不起。额外每T的流量 7.40 欧元。

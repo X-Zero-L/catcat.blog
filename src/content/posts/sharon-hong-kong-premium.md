@@ -1,7 +1,8 @@
 ---
-tags: [hk-server]
 title: "Sharon Hong Kong Premium 测试"
 published: 2024-06-01
+tags: [香港]
+category: Benchmark
 ---
 
 今天正值六一，Sharon 在传说中一年的Pre套餐终于迎来的测试。测试期间属于删档，机器持续时间为7天。感谢龙哥送来的六一大礼。线路目前是全网首家的CN2+9929+CMIN2,只能说龙哥还是有实力的，正式价格未知。先图个乐吧，后续正式上线我再买个看看。

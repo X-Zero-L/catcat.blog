@@ -1,7 +1,8 @@
 ---
-tags: [hk-server]
 title: "Alice 新年免费机 测试"
 published: 2025-01-01
+tags: [香港]
+category: BenchMark
 ---
 
 起床看见消息，发现自己居然稀里糊涂又中奖了。无敌，来自Alice 的2c4g 永久免费。我对这个商家了解不多，仅作测试。机器自带全球解锁，貌似挺不错的。

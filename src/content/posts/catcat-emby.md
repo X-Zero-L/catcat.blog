@@ -1,8 +1,10 @@
 ---
-tags: [laboratory]
 title: "猫猫Emby服食用指南"
 published: 2024-08-06
-coverImage: "emby.webp"
+image: "https://s3.catcat.blog/emby.webp"
+tags: [Emby]
+category: Emby
+pinned: true
 ---
 
 \[timeline\] 2024-12-22 |弄这么久,头一回遇到这么恶心的 \[/timeline\]

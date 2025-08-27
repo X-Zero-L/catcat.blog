@@ -1,7 +1,8 @@
 ---
-tags: [kubernetes, laboratory]
 title: "Kubernetes 笔记"
 published: 2023-09-06
+tags: [Kubernetes]
+category: 教程
 ---
 
 # 1\. Kubernetes介绍

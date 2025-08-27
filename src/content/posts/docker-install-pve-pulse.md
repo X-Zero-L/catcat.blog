@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "Docker 搭建 PVE 监控 Pulse"
 published: 2025-08-05
+tags: [Docker, Pulse, PVE]
+category: 教程
 ---
 
 **最近搞PVE的时候偶然发现的项目，发现PVE上完善的监控还是比较少的。只有通过部署PVE-Exporter然后暴露接口给 Prometheus 然后通过Grafana展示。找来找去发现了 Pulse。Pulse 是一个为 Proxmox VE（虚拟环境）和 Proxmox Backup Server（PBS）提供实时监控的开源 Web 应用程序[](https://github.com/rcourtman/Pulse)。之前的版本部署还挺繁琐的（要给PVE点点点增加权限各种各样的），作者新增了命令行一目了然。**

@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "Little Creek  Epyc测试"
 published: 2023-08-30
+tags: [美国]
+category: Benchmark
 ---
 
 ## 套餐

@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "HostCram  独立日促销"
 published: 2023-07-05
+tags: [美国]
+category: Benchmark
 ---
 
 ## 套餐配置

@@ -1,7 +1,8 @@
 ---
-tags: [hk, hk-server]
 title: "Juhost 香港测评（新商家）"
 published: 2023-03-15
+tags: [香港]
+category: Benchmark
 ---
 
 > **官方网站：**[点我](https://members.juhost.com/aff.php?aff=23) (6折循环优惠码：**[helloworld](https://members.juhost.com/aff.php?aff=23)**)

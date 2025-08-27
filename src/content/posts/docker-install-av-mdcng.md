@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "AV刮削终极解决方案-MDCNG"
 published: 2025-08-01
+tags: [Docker, MDCNG]
+category: 教程
 ---
 
 # 前情

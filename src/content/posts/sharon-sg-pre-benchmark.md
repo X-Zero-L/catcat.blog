@@ -1,7 +1,8 @@
 ---
-tags: [sg-server]
 title: "Sharon SG Pre (CN2+9929+CMIN2) 测评"
 published: 2025-07-04
+tags: [新加坡]
+category: Benchmark
 ---
 
 **侥幸和Sharon联动得到的一款，质量相当的nice。目前及之后很长一段时间，Sharon的VPS产品都会完全停止销售，整合后的新产品也只能在群内抽奖和竞捐才能获取。获取渠道只有去群里参加各种活动可以获得，捐款达到一定数额后可以绑定账户，每月领域10刀账户余额可以供机器续费。目前亚洲的优化除了DMIT和Sharon也没其他更好的了，庞大的Y系 YXVM ,ISIF等几乎都是接入的Sharon的线路。**

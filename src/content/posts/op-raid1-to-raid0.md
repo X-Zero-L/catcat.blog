@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "OP杜甫 Raid1改Raid0 折腾记录"
 published: 2023-06-19
+tags: [Raid,OneProvider]
+category: 教程
 ---
 
 <picture>

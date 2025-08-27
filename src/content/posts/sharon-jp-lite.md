@@ -1,7 +1,8 @@
 ---
-tags: [jp-server]
 title: "Sharon JP Lite 玩具鸡"
 published: 2024-02-09
+tags: [日本]
+category: Benchmark
 ---
 
 最近两个月以来最热闹的商家，老板太会整活了，把MJJ耍的团团转（没有路由保证，把用户当斐济杯来玩）。从HK目前扩张到JP,SG。之前HK的时候有过大量攻击，老板居然还做到了全额退款，还不停的戏耍没下车的，吃瓜吃的贼乐呵。拖更了整个一月的HK-PRE之前没上，等的mjj心痒痒。终于在除夕今天，老板放出了JP-lite玩具鸡（终于不用老板手动开机，用上[VirtFusion](https://virtfusion.com/)面板了），一个月后会删鸡，部分路由还没调好。图一乐,据说还能支持HK,JP,SG内网互联。(**不要溢价收，不要溢价收，不要溢价收**)

@@ -1,7 +1,8 @@
 ---
-tags: [jp-server]
 title: "DDPS 日本 AMD 7900X 测评"
 published: 2025-07-13
+tags: [日本]
+category: BenchMark
 ---
 
 DDPS是一家注册在美国的日本商家，日本分部地址在大版府大阪市。2023年12月左右成立，提供高性能或大流量的日本VPS，另有日本独服和机房托管，支持信用卡和PayPal付款。但是注意，机器下单后纯手动开通，我这个下单一个多月机器都没开出来。就算开工单也无任何工单。性能型VPS属于7900X和9900X混开，差距不大。有两个数据中心可以选 MC Digital Realty NRT10（IIJ 10Gbps） 和 国际方向的Datacamp/CDN77 的 Equinix TY8。

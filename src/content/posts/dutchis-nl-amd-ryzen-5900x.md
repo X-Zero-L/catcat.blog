@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "DutchIS 荷兰 AMD Ryzen 5900X 测评"
 published: 2023-10-10
+tags: [荷兰]
+category: Benchmark
 ---
 
 ## 套餐

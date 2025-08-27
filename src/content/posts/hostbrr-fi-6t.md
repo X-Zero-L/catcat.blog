@@ -1,7 +1,8 @@
 ---
-tags: [strong-server]
 title: "Hostbrr 芬兰周年庆6T存储优惠 测评"
 published: 2024-05-14
+tags: [德国]
+category: Benchmark
 ---
 
 前几天周年庆又抢到一台闪购6T,美滋滋。这次是芬兰，EPYC的cpu，和之前销售的芬兰存储不一样了。新母鸡是Hetzner 前几天推出的SX295。全新硬盘，很爽。

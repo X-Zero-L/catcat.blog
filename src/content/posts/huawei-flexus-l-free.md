@@ -1,8 +1,8 @@
 ---
-tags: [knowledge]
 title: "华为云白嫖 9 个月Flexus应用服务器L"
 published: 2024-11-20
-coverImage: "huaweicloud.png"
+tags: [华为云]
+category: 教程
 ---
 
 今天才知道，参加就有送。但是需要定期提交开发环境，华为会定期核实。如果没有相关环境，可能会收回代金券。

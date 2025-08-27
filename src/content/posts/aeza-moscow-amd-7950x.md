@@ -1,7 +1,8 @@
 ---
-tags: [ru-server]
 title: "Aeza Moscow AMD 7950X 测评"
 published: 2023-09-12
+tags: [俄罗斯]
+category: BenchMark
 ---
 
 > ## 套餐

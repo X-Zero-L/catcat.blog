@@ -1,7 +1,8 @@
 ---
-tags: [docker]
 title: "Docker 搭建DeepLX 翻译API"
 published: 2024-02-06
+tags: [Docker, DeepL]
+category: 教程
 ---
 
 ## 为什么搭建 DeepLX

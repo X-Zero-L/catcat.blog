@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "HostBrr DirectAdmin Storage Boxes 图床神器！"
 published: 2024-11-20
+tags: [德国]
+category: Benchmark
 ---
 
 **随着黑五的到来，我的老朋友又推出的新的存储套餐。这次新增了 DirectAdmin 的套餐。其实就是虚拟主机，给的盘挺大的，价格非常优惠。底层仍然是 Hetzner的SX295 机器，Raid6阵列。我也是第一回用，今天略微研究了下，发现搭图床超级方便。**

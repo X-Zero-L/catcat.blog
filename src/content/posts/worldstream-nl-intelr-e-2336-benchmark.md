@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Worldstream 荷兰万兆 Intel(R) E-2336 测评"
 published: 2025-06-27
+tags: [荷兰]
+category: Benchmark
 ---
 
 **机器来自朋友，待测，感谢提供。**

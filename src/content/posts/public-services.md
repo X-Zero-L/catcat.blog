@@ -1,8 +1,8 @@
 ---
-tags: [laboratory]
 title: "公益项目整理"
 published: 2024-07-04
-coverImage: "emby.webp"
+tags: [公益项目]
+category: 公益项目
 ---
 
 \[timeline\]2024-12-6|域名更新| misaka.games 即将替换sakiko.de域名\[/timeline\]

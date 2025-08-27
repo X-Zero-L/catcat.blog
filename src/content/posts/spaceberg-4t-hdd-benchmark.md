@@ -1,7 +1,8 @@
 ---
-tags: [strong-server, eu-server]
 title: "Spaceberg 法国4T 大容量存储服务器测评"
 published: 2023-06-11
+tags: [法国,存储服务器]
+category: Benchmark
 ---
 
 ```shell

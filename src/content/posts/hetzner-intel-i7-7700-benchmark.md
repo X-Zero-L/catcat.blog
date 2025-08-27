@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Hetzner 25欧杜甫测试"
 published: 2023-08-23
+tags: [德国]
+category: Benchmark
 ---
 
 ## SSD 测试

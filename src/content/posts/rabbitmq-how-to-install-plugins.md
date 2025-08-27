@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "Rabbitmq 如何安装插件"
 published: 2023-04-08
+tags: [RabbitMQ]
+category: 教程
 ---
 
 # Rabbitmq 如何安装插件

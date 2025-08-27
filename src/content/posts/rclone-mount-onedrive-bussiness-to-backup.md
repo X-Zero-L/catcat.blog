@@ -1,7 +1,8 @@
 ---
-tags: [laboratory, 教程]
 title: "Rclone远程挂载Onedrive商业版备份"
 published: 2025-07-06
+tags: [Rclone,Onedrive]
+category: 教程
 ---
 
 这两天订阅了一下Onedrive的plan2作为备份使用，于是顺便记录一下商业版的连接方式。

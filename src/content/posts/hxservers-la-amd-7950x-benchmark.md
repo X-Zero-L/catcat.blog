@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "HXServers 洛杉矶 AMD 7950X 测评"
 published: 2023-10-03
+tags: [美国]
+category: Benchmark
 ---
 
 最近在Low上挺火的一个商家，深受mjj的喜爱，是ReliableSite的二次经销商，但具体测试下来，商家的cpu超售的似乎很厉害，技术也存在很大问题，也无ipv6，cpu无法正常识别是7950X(已经和商家确认过，商家的解释是适合迁移?)，单核长期也只有1900分左右(商家解释说是因为大量人在运行yabs导致的)，对于一个7950X来说明显优点糟糕。不是很推荐为了性能而购买。

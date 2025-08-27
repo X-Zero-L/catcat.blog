@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Hetzner AX42 AMD 8700GE 测评"
 published: 2024-07-01
+tags: [德国]
+category: Benchmark
 ---
 
 - 为了隆重庆祝欧洲足球锦标赛，Hetzner 开启了他们的世界杯促销。AX42 当红系列和他们的托管服务器产品线全部免安装费，活动持续到 2024 年 7 月 12 日。AMD Ryzen™ 7 PRO 8700GE 拥有Radeon 780M Graphics 核显，可以作为编解码机器。由于是 Hetzner 刚上新不久的新产品线，硬盘很大概率都是新的，有需要的人不要错过哦。

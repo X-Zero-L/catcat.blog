@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "Atomic_Networks 芝加哥 AMD 7950X 测评"
 published: 2023-10-08
+tags: [美国]
+category: BenchMark
 ---
 
 本次测评将全部采用xanmod Linux 6.1 LTS内核，开启BBRv3，顺便测测服务器。之前测评过他家的7900系列，因为不限流量，网络挺糟糕的，详情可见 [Atomic\_Networks 洛杉矶7900测评](https://catcat.blog/atomic_networks-%E6%B4%9B%E6%9D%89%E7%9F%B67900%E6%B5%8B%E8%AF%84.html)。今天这款芝加哥的7950X似乎同样性能不是很好，IP还被送中了，单核只有2200分，美区的解锁还不错。建议避坑。

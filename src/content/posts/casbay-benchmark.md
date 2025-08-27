@@ -1,7 +1,8 @@
 ---
-tags: [my]
 title: "Casbay马来服务器测评"
 published: 2023-08-30
+tags: [马来西亚]
+category: BenchMark
 ---
 
 ## 商家介绍

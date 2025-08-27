@@ -1,7 +1,8 @@
 ---
-tags: [india-server]
 title: "HostDZire 印度 AMD 7K62 测评"
 published: 2025-07-21
+tags: [印度]
+category: Benchmark
 ---
 
 **HostDZire 是一家总部位于印度比哈尔邦帕特纳（Patna）的私营主机服务提供商，成立于 2013 年左右。此前一直主营的业务是[Leaseweb](https://en.wikipedia.org/wiki/Leaseweb)的杜甫分销业务。由于去年最近**[Leaseweb](https://en.wikipedia.org/wiki/Leaseweb)**推出了全球廉价的vps计划，因而也开始涉及vps相关。但是此次的印度属于HostDZire自运营的，和[Leaseweb](https://en.wikipedia.org/wiki/Leaseweb)无关，稳定性存疑（目前已经炸过几次了）。**目前其他地区的基础套餐已经被 **[Leaseweb](https://en.wikipedia.org/wiki/Leaseweb)** 下架,目前已恢复订购。

@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "lain DE AMD 9950X 测试"
 published: 2024-11-24
+tags: [德国]
+category: Benchmark
 ---
 
 \[tip type="danger" title="注意注意"\]本文不构成任何购买建议,仅仅是看到买来尝试,目前已出\[/tip\]

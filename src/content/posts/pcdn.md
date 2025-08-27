@@ -1,7 +1,8 @@
 ---
-tags: [pt]
 title: "江苏通管局要求运营商不得以 PCDN 整治为由擅自关停用户宽带或降低速率"
 published: 2024-04-25
+tags: [PT,PCDN]
+category: PT
 ---
 
 ## 转发

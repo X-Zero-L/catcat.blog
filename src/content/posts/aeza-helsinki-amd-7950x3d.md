@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Aeza Helsinki AMD 7950X3D 测评"
 published: 2023-09-10
+tags: [芬兰]
+category: BenchMark
 ---
 
 > ## 套餐

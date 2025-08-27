@@ -1,7 +1,8 @@
 ---
-tags: [hk-server]
 title: "Faconhost 香港 AMD 7900X 测评"
 published: 2024-01-25
+tags: [香港]
+category: Benchmark
 ---
 
 - **高严格 TOS，不建议购买！！！避坑！！！**

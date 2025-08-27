@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "teamspeak服务器搭建指南"
 published: 2023-04-07
+tags: [Teamspeak]
+category: 教程
 ---
 
 ## 一、前言

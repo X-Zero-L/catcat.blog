@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "CatServer 美国 AMD 5950X 测评 （斯巴达机房）"
 published: 2024-05-25
+tags: [美国]
+category: BenchMark
 ---
 
 首先商家肯定是Oneman。我没买到过斯巴达的机器(久仰大名)，看见这个，买来先试水看看。为什么会给4核心呢，根据商家的说法是有脚本根据母鸡负载动态控制vCPU quota。母鸡没有满负载前不会限制，vps可以跑满4个物理核心。母鸡满负载后会限制到1个物理核心。和HH的圣诞促销很类似，2c独享。

@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "Docker 部署 Prometheus + Grafana"
 published: 2023-04-21
+tags: [Docker, Prometheus, Grafana]
+category: 教程
 ---
 
 ## 资源清单[#](#3258866673)

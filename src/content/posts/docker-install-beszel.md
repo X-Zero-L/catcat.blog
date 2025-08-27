@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "Docker 部署 Beszel 轻量化监控"
 published: 2024-08-05
+tags: [Docker, Beszel]
+category: 教程
 ---
 
 上周在逛 Reddit 的时候 偶然发现了这个项目，主打一个轻量化监控。可以理解成小号的Prometheus那一套系统，有自动备份到 S3，监控，Docker 统计等一系列功能。部署也比较方便，可以使用 docker 也可以使用 systemctl 方式。

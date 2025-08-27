@@ -1,7 +1,8 @@
 ---
-tags: [server-guide]
 title: "Hetzner服务器使用Bcache和nvme加速HDD"
 published: 2024-06-07
+tags: [Hetzner,Bcache]
+category: 教程
 ---
 
 近期进行大容量下载读取的时候，经常由于hdd的写入瓶颈问题，造成写入速度不稳定。经过从100MB/S直接掉到B/S,也就是我们所称的卡IO。

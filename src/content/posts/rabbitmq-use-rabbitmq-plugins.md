@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "RabbitMQ 使用之 rabbitmq-plugins"
 published: 2023-04-07
+tags: [RabbitMQ]
+category: 教程
 ---
 
 # rabbitmq-plugins

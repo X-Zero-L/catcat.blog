@@ -1,7 +1,8 @@
 ---
-tags: [hk-server]
 title: "Ucloud 香港 AMD EPYC 测评"
 published: 2023-10-12
+tags: [香港]
+category: Benchmark
 ---
 
 总结：性价比不错，性能尚可，应该是和阿里的轻量香港同款，无法原价续费，年抛机。

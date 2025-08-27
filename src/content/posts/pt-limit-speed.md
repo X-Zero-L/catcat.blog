@@ -1,7 +1,8 @@
 ---
-tags: [knowledge]
 title: "PT站点限速表"
 published: 2023-06-24
+tags: [PT]
+category: PT
 ---
 
 <figure>

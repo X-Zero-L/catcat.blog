@@ -1,7 +1,8 @@
 ---
-tags: [hk, hk-server]
 title: "香港evoxt测评（小众商家）"
 published: 2023-03-11
+tags: [香港]
+category: Benchmark
 ---
 
 > 香港vps evoxt.com，托管在 Mega2 机房中，共享 100Mbps 带宽。cpu有3.5 GHz 高频！

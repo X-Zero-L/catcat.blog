@@ -1,7 +1,8 @@
 ---
-tags: [sg-server]
 title: "Vebble 新加坡 AMD  测评"
 published: 2024-02-12
+tags: [新加坡]
+category: Benchmark
 ---
 
 之前论坛送的一款机器，现在应该活动已经没了。WebHorizon的下游应该是，由于免费一个月，体验估计目前很烂。联通黑户，一律连不上。现在商家的官网做的是真好看，比起千篇一律的whmcs舒服多了。

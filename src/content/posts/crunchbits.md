@@ -1,7 +1,8 @@
 ---
-tags: [usa, us-server]
 title: "Crunchbits AMD 5950X 测评"
 published: 2023-02-22
+tags: [美国]
+category: BenchMark
 ---
 
 # 商家介绍

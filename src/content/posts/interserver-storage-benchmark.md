@@ -1,7 +1,8 @@
 ---
-tags: [eu, strong-server, us-server]
 title: "InterServer 大盘鸡测评"
 published: 2023-03-08
+tags: [美国,存储服务器]
+category: Benchmark
 ---
 
 ## 1.官网

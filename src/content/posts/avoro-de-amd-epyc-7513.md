@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Avoro 德国 AMD EPYC 7513 测评"
 published: 2024-02-27
+tags: [德国]
+category: BenchMark
 ---
 
 这家挺多人推荐的，和PHP-Friends 是同一家公司的。不过Avoro不需要合同，PHP-Friends是合同形式进行交付的。CPU是需要抽奖的，有AMD Epyc 7452, AMD Epyc 7513, AMD Epyc 7763这三款。据说是很快会推出四代Epyc。机器性价比还算可以，带一个备份。多核表现真的好，秒杀liteserver同等配置。网站首页价格默认含税，下订单可以免除税。

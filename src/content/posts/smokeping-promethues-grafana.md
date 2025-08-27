@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "基于Smokeping+Promethues+Grafana搭建网络质量监控"
 published: 2024-01-20
+tags: [Docker,Smokeping,Promethues,Grafana]
+category: 教程
 ---
 
 > ### 二、环境准备

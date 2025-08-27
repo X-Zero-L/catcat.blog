@@ -1,7 +1,8 @@
 ---
-tags: [大陆服务器]
 title: "腾讯云内测SA5 AMD EPYC Bergamo 机器测试"
 published: 2025-01-20
+tags: [大陆服务器]
+category: Benchmark
 ---
 
 <picture>

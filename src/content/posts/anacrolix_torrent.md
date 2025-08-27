@@ -1,7 +1,8 @@
 ---
-tags: [pt]
 title: "近期anacrolix_torrent等无限下载工具的说明与对策"
 published: 2024-04-13
+tags: [pt]
+category: PT
 ---
 
 ## 起因

@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "利用Grafana和Promethus在服务器上搭建BT下载器流量统计面板"
 published: 2023-07-17
+tags: [Docker, Grafana, Promethus]
+category: 教程
 ---
 
 ## 效果

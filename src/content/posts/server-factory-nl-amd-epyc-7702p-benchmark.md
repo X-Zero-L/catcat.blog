@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "server-factory 荷兰 AMD EPYC™ 7702P 测评"
 published: 2023-10-13
+tags: [荷兰]
+category: Benchmark
 ---
 
 ## 套餐

@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "AdGuard 去除广告与 Clash 网络代理同时进行"
 published: 2023-03-19
+tags: [AdGuard, Clash]
+category: 教程
 ---
 
 ## [#](#不只是厌烦广告) 不只是厌烦广告

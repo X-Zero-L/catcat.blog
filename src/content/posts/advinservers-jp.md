@@ -1,7 +1,8 @@
 ---
-tags: [东京, jp-server]
 title: "advinservers东京测评"
 published: 2023-04-09
+tags: [东京]
+category: BenchMark
 ---
 
 - 性价比不错，延迟优秀

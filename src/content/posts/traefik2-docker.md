@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "Traefik 智能反向代理，解放双手"
 published: 2023-09-14
+tags: [Docker,Traefik]
+category: 教程
 ---
 
 **_Traefik_** 是一款反向代理、负载均衡服务，使用golang 实现的。 和nginx 最大的不同是，它支持自动化更新反向代理和负载均衡配置。

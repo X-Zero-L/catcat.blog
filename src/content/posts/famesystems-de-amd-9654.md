@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "FameSystems 德国 AMD 9654 测评"
 published: 2024-12-02
+tags: [德国]
+category: Benchmark
 ---
 
 从去年Bero 发布大内存机器以来，不少商家发现很受买家青睐。目前经常出现的有[Bero](https://catcat.blog/bero-host-%e5%be%b7%e5%9b%bdamd-epyc-7443p-%e6%b5%8b%e8%af%84.html),[HostHatch](https://catcat.blog/hosthatch-jp-amd-7r13.html),[Hostbrr](https://catcat.blog/hostbrr-amd-9454p.htm)。虽然商家对于流量比较抠搜，总体来说通过 cf 缓存的话还是够用。之前一直三代米兰([7763](https://www.nodeseek.com/post-143116-1))促销的时候就想买个试试了，一直忍到了黑五。商家果然推出了两款新型号 AMD EPYC 9654 和 AMD 9900X ，从机器整体来看性价比非常不错，机器也据说是老板全新采购的，机房和 bero 在同一个。购买时可以选择 Linux 和 Windows，这是两个不同架构，Linux 分配 KVM，Windows 分配 HyperV。

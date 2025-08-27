@@ -1,7 +1,8 @@
 ---
-tags: [laboratory]
 title: "GPU 虚拟化研究和方案"
 published: 2023-09-24
+tags: [GPU]
+category: 教程
 ---
 
 > **常见术语**  

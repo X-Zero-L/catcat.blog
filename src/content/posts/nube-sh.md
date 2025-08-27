@@ -1,7 +1,8 @@
 ---
-tags: [sg-server, jp-server, us-server, hk-server]
 title: "Nube.sh 弹性云折扣"
 published: 2025-02-25
+tags: [美国,香港,日本,新加坡]
+category: Benchmark
 ---
 
 牛老板也开启了促销，不过规则还是有些复杂的。

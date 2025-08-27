@@ -1,7 +1,8 @@
 ---
-tags: [strong-server, eu-server]
 title: "Hetzner 德国 AMD 3700X 160T 存储测评"
 published: 2025-05-20
+tags: [德国]
+category: Benchmark
 ---
 
 ## 机器配置

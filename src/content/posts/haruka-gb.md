@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Haruka 英国预售 测评"
 published: 2024-02-05
+tags: [英国]
+category: Benchmark
 ---
 
 去年6月开业的商家，目前有 香港 新加坡 英国在售。买的时候上当了，标题有误导，以为是Ryzen ，后续询问才知道活动款居然是e5。配置 如下，可以回订单号翻倍 内存。后台面板 [VirtFusion](https://virtfusion.com/)。机器性能懂的都懂，英区解锁，纯落地。

@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "CrownCloud DE AMD 7950X测试"
 published: 2023-09-16
+tags: [德国]
+category: BenchMark
 ---
 
 > ## 套餐

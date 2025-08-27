@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Advin Servers 荷兰7950x vds测评"
 published: 2023-06-25
+tags: [荷兰]
+category: BenchMark
 ---
 
 ## bench.sh测试

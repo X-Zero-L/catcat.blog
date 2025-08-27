@@ -1,8 +1,8 @@
 ---
-tags: [hk-server]
 title: "Sharon HK Infinite(CN2+9929+CMIN2)测评"
 published: 2024-06-08
-coverImage: "image-10.png"
+tags: [香港]
+category: Benchmark
 ---
 
 > **我们仍然所未知道，Sharon的极限在哪里？****伟大无需多言！**

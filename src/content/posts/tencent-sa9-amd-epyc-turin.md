@@ -1,7 +1,8 @@
 ---
-tags: [大陆服务器]
 title: "[全网首发]腾讯云 SA9 AMD EPYC Turin 机器测试"
 published: 2025-04-23
+tags: [大陆服务器]
+category: Benchmark
 ---
 
 <picture>

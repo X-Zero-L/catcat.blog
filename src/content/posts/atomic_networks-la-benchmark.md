@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "Atomic_Networks 洛杉矶7900测评"
 published: 2023-09-04
+tags: [美国]
+category: BenchMark
 ---
 
 看上去是ReliableSite的下游，网络挺烂的，避坑

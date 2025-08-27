@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Netcup RS 1000 G11 维也纳 AMD  9634 测评"
 published: 2024-05-14
+tags: [奥地利]
+category: Benchmark
 ---
 
 今天闲来无事，第一次尝试注册Netcup。一次成功，用时6个小时，完成了开号，免税，机器激活一条路服务。似乎难度比想象中的简单的多。首月用了5欧优惠券，实付5.69欧，随机开的地区是维也纳。

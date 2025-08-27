@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Hybula 荷兰预售 AMD EPYC™ Genoa 9554 测评"
 published: 2023-11-30
+tags: [荷兰]
+category: Benchmark
 ---
 
 Hybula的新套餐，路由和网络都很不错，除了价格较贵，其他没啥缺点。

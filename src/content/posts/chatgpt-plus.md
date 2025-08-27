@@ -1,7 +1,8 @@
 ---
-tags: [knowledge]
 title: "从零开通ChatGPT Plus"
 published: 2023-03-22
+tags: [ChatGPT]
+category: 教程
 ---
 
 ## 1\. 前言

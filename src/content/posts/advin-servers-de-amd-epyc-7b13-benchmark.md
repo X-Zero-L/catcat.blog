@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Advin Servers DE AMD EPYC 7B13 测试"
 published: 2023-09-30
+tags: [德国]
+category: BenchMark
 ---
 
 **注意：灵车，带宽非无限，每个套餐都有固定的使用量，无限流量只是商家的推辞。谨慎购买**

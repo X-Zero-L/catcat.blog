@@ -1,7 +1,8 @@
 ---
-tags: [us-server]
 title: "Aeza USA AMD 7950X3D 测评"
 published: 2023-09-11
+tags: [美国]
+category: BenchMark
 ---
 
 > ## 套餐

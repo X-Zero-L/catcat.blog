@@ -1,7 +1,8 @@
 ---
-tags: [sg-server]
 title: "YxVM Volume Beta SG 测试"
 published: 2024-06-02
+tags: [新加坡]
+category: Benchmark
 ---
 
 这家我是严重怀疑和Sharon有什么关系的，虽然我没有证据。YxVM今天大量补货，似乎和之前的3刀款路由不一样。IP目测是刚购的，地区啥的还在RU。三网直，电联4837，移动cmi，不知道线路是否固定。如果能一直这样下去，在aws lightsail 全面涨价的现在，有可能会是个不错的选择。

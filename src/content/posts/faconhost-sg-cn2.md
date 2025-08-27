@@ -1,7 +1,8 @@
 ---
-tags: [sg-server]
 title: "Faconhost 新加坡 CN2 测评"
 published: 2024-04-27
+tags: [新加坡]
+category: Benchmark
 ---
 
 - **高严格 TOS，不建议购买！！！避坑！！！**

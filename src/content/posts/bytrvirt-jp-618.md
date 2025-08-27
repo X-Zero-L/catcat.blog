@@ -1,7 +1,8 @@
 ---
-tags: [jp-server]
 title: "bytrvirt JP 618盲盒"
 published: 2023-05-31
+tags: [日本]
+category: BenchMark
 ---
 
 线路就是日本去程cn2 9929。跟鸡总家那款一样，目前可能还没优化好。  

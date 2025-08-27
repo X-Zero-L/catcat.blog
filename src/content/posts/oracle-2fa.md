@@ -1,7 +1,8 @@
 ---
-tags: [knowledge]
 title: "Oracle 二步验证丢失找回办法"
 published: 2023-11-29
+tags: [甲骨文]
+category: 教程
 ---
 
 - 2024年2月更新，此方法已经失效

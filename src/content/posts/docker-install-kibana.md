@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "Docker 部署 kibana"
 published: 2023-05-17
+tags: [Docker, kibana]
+category: 教程
 ---
 
 > 需要宿主机安装 `docker` 服务

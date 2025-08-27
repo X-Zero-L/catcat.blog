@@ -1,7 +1,8 @@
 ---
-tags: [hk-server]
 title: "Misaka  系列测评"
 published: 2023-07-10
+tags: [香港]
+category: Benchmark
 ---
 
 Misaka（御坂网络）是一家成立于2017年的国人商家,提供台湾、美国、德国、香港、东京等地区。国际互联效果十分不错 可以算是顶尖网络供应商，支持支付宝、Visa、Master Card。有多地节点以及自有骨干，旗下俄罗斯CN2和德国CN2产品非常出名。

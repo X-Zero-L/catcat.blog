@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "英国 AllHost AMD 7900 测评"
 published: 2023-09-08
+tags: [英国]
+category: Benchmark
 ---
 
 > ## 套餐

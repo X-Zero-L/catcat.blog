@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "Docker 部署Prometheus Node Exporter Grafana and cAdvisor（2023）"
 published: 2023-07-17
+tags: [Docker, Prometheus, Node Exporter, Grafana, cAdvisor]
+category: 教程
 ---
 
 <picture>

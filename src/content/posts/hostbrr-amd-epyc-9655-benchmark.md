@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Hostbrr AMD EPYC 9655 测评"
 published: 2025-04-18
+tags: [德国]
+category: Benchmark
 ---
 
 # 前言

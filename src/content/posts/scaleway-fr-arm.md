@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Scaleway 巴黎 ARM 实例测试"
 published: 2024-01-12
+tags: [巴黎,ARM]
+category: Benchmark
 ---
 
 昨晚打开邮箱，发现Scaleway发来了他们的ARM促销邮件。Scaleway 引入了采用基于 ARM 的 Ampere® Altra® 处理器的服务器，目前仅仅在Paris:PAR 2可用。目前有50%的折扣优惠码可用，**COPARM50**，有效期至 2024 年 1 月 31 日。从各种角度来说，和其他厂商的ARM没有啥可比性。不推荐。Scaleway还是就用用星尘系列吧。

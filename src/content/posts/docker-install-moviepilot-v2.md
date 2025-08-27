@@ -1,7 +1,8 @@
 ---
-tags: [docker, laboratory]
 title: "Docker 部署 自动化观影 MoviePilot v2"
 published: 2025-04-02
+tags: [Docker, MoviePilot]
+category: 教程
 ---
 
 # 前言

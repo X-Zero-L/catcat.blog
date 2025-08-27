@@ -1,8 +1,8 @@
 ---
-tags: [llm, laboratory]
 title: "火山引擎 DeepSeek R1 满血 API 白嫖指南"
 published: 2025-02-20
-coverImage: "image-15.png"
+tags: [llm]
+category: 教程
 ---
 
 **DeepSeek 官方 API 一直提示系统繁忙，原因是限制了每个账户一段时间只能请求一次满血模型。现在市面上类似的产品也多，要么不是满血的模型，要不也存在繁忙的问题。火山背靠字节提供 DeepSeek 每个模型 50W Token 的免费推理额度且支持3万RPM和500万TPM不限速，相比硅基什么的更稳定更好用。同样，字节属于国内平台，实名无可避免。**

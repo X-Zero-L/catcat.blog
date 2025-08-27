@@ -1,7 +1,8 @@
 ---
-tags: [jp-server]
 title: "SpeedyPage 日本东京测试"
 published: 2023-08-29
+tags: [日本]
+category: Benchmark
 ---
 
 ## 套餐

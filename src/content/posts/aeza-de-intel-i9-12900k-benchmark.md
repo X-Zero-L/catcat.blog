@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Aeza DE Intel i9-12900K 测评"
 published: 2023-09-27
+tags: [德国]
+category: BenchMark
 ---
 
 > 套餐

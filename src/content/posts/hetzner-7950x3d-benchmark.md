@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Hetzner 7950x3d测评"
 published: 2023-05-20
+tags: [德国]
+category: Benchmark
 ---
 
 ```shell

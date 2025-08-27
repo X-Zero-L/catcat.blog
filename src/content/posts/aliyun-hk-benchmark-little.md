@@ -1,7 +1,8 @@
 ---
-tags: [hk, hk-server]
 title: "阿里云香港轻量服务器测试"
 published: 2023-02-26
+tags: [香港]
+category: BenchMark
 ---
 
 ## 1\. 官方网站

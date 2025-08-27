@@ -1,7 +1,8 @@
 ---
-tags: [eu-server]
 title: "Faconhost 荷兰 AMD 7950X 测评"
 published: 2023-12-19
+tags: [荷兰]
+category: Benchmark
 ---
 
 - **高严格 TOS，不建议购买！！！避坑！！！**
