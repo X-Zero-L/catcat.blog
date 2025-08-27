@@ -1,5 +1,4 @@
 ---
-tags: [docker, laboratory]
 title: "Docker部署Misskey"
 published: 2023-04-03
 tags: [Docker, Misskey]

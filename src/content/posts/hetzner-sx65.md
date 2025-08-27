@@ -1,5 +1,4 @@
 ---
-tags: [strong-server, eu-server]
 title: "Hetzner 新大盘杜甫SX65 测评"
 published: 2024-05-07
 tags: [德国,存储服务器]
