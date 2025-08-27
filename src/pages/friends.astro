@@ -1,0 +1,137 @@
+---
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+
+import { getEntry } from "astro:content";
+import { render } from "astro:content";
+import Markdown from "@components/misc/Markdown.astro";
+import I18nKey from "../i18n/i18nKey";
+import { i18n } from "../i18n/translation";
+
+const friendsPost = await getEntry('spec', 'friends')
+
+if (!friendsPost) {
+    throw new Error("Friend page content not found");
+}
+
+const { Content } = await render(friendsPost);
+
+const items = [
+  {  
+    title: '叶子的花园',  
+    imgurl: 'https://image.catcat.blog/catcat/2023/10/07/4e2ae34e35b73336f87eb.jpeg',  
+    desc: '靡不有初，鲜克有终',  
+    siteurl: 'https://mskclover.com',  
+    tags: ['Blog'],  
+  },
+  {  
+    title: 'CircleCrop Blog',  
+    imgurl: 'https://aiccrop.com/api/head',  
+    desc: 'A boy from China who likes photography, music and ACGN.',  
+    siteurl: 'https://aiccrop.com/',  
+    tags: ['Blog'],  
+  },
+  {  
+    title: 'DaMa's Blog',  
+    imgurl: 'https://image.catcat.blog/catcat/2024/Avatar.jpg',  
+    desc: '怎么会一点都看不懂呢',  
+    siteurl: 'https://oidm.de/',  
+    tags: ['Blog'],  
+  },
+  {  
+    title: 'EXEC',  
+    imgurl: 'https://image.catcat.blog/catcat/2023/10/07/46400566.jpeg',  
+    desc: '嘶吼～～～🐺',  
+    siteurl: 'https://evex.one/',  
+    tags: ['Blog'],  
+  },
+  {  
+    title: 'Lincol29’s Blog',  
+    imgurl: 'https://image.lincol29.cn/images/2024/08/13/b15baca2a31b4897fc96f9e892252e95.png',  
+    desc: '一名 Java 转 C# 开发的码农，分享一些项目中使用的技术和知识。以及 wordpres 建站技巧',  
+    siteurl: 'https://www.lincol29.cn',  
+    tags: ['Blog'],  
+  },
+  {  
+    title: 'Roxy_Magicの咖啡馆',  
+    imgurl: 'https://bu.dusays.com/2025/06/13/684c288faee77.png',  
+    desc: '昨日之书已合，今日之页当以“真本事”为墨',  
+    siteurl: 'https://blog.roxymagic.top',  
+    tags: ['Blog'],  
+  },
+  {  
+    title: '云深不知处',  
+    imgurl: 'https://image.catcat.blog/catcat/2023/10/07/hIwTot.png',  
+    desc: '仙风道骨 清幽避世',  
+    siteurl: 'https://www.lanzlz.cn/',  
+    tags: ['Blog'],  
+  },
+  {  
+    title: '忘川河畔',  
+    imgurl: 'https://blog.manjusaka.de/link/flower.jpg',  
+    desc: '木已成舟，渡我者何人？',  
+    siteurl: 'https://blog.manjusaka.de',  
+    tags: ['Blog'],  
+  },
+  {  
+    title: '米莉亚的小破站',  
+    imgurl: 'https://image.catcat.blog/catcat/2024/photo_2022-07-24_19-51-21.jpg',  
+    desc: '米莉亚的小破站',  
+    siteurl: 'https://mireya.moe/',  
+    tags: ['Blog'],  
+  },
+  {  
+    title: '萌鹰研究所',  
+    imgurl: 'https://www.eaglemoe.com/wp-content/uploads/2025/07/favicon-1.png',  
+    desc: 'Study and Share',  
+    siteurl: 'https://www.eaglemoe.com',  
+    tags: ['Blog'],  
+  },
+  {  
+    title: '间窗的博客',  
+    imgurl: 'https://gitee.com/jcyf1987/picgo/raw/master/a.png',  
+    desc: '窗外是蓝天白云，心里是小杏扉间。',  
+    siteurl: 'https://www.jcblog.com.cn',  
+    tags: ['Blog'],  
+  },
+
+]
+---
+<MainGridLayout title={i18n(I18nKey.friends)} description={i18n(I18nKey.friends)}>
+    <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+        <div class="card-base z-10 px-9 py-6 relative w-full ">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-8 my-4">
+                {items.map((item) => (   
+                    <div class="flex flex-nowrap items-stretch h-28 gap-4 rounded-[var(--radius-large)]">
+                        <div class="w-28 h-28 flex-shrink-0 rounded-lg overflow-hidden bg-zinc-200 dark:bg-zinc-900">
+                            <img src={item.imgurl} alt="站点头像" class="w-full h-full object-cover">
+                        </div>
+                        <div class="grow w-full">
+                            <div class="font-bold transition text-lg text-neutral-900 dark:text-neutral-100 mb-1">{item.title}</div>
+                            <div class="text-50 text-sm font-medium">{item.desc}</div>
+                            <div class:list={["items-center", {"flex": true, "hidden md:flex" : false}]}>
+                                <div class="flex flex-row flex-nowrap items-center">
+                                    {(item.tags && item.tags.length > 0) && item.tags.map((tag,i) => (  
+                                    <div class:list={[{"hidden": i==0}, "mx-1.5 text-[var(--meta-divider)] text-sm" ]}>
+                                        /
+                                    </div>  
+                                    <span class="transition text-50 text-sm font-medium">
+                                        {tag}
+                                    </span>))}
+                                    {!(item.tags && item.tags.length > 0) && <div class="transition text-50 text-sm font-medium">{i18n(I18nKey.noTags)}</div>}
+                                </div>
+                            </div>
+                        </div>
+                        <a href={item.siteurl} target="_blank" rel="noopener noreferrer" class="flex btn-regular w-[3.25rem] rounded-lg bg-[var(--enter-btn-bg)] hover:bg-[var(--enter-btn-bg-hover)] active:bg-[var(--enter-btn-bg-active)] active:scale-95">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="transition text-[var(--primary)] text-4xl mx-auto iconify iconify--material-symbols" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12.6 12L8.7 8.1q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l4.6 4.6q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.6 4.6q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                ))}
+            </div>  
+            <Markdown class="mt-2">
+                <Content />
+            </Markdown>
+        </div>
+    </div>
+</MainGridLayout>
