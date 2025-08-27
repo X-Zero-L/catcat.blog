@@ -137,21 +137,27 @@ function cssFor(h: number, mode: 'light' | 'dark') {
       border: none !important;
     }
     
-    /* GitHub 登录按钮样式 */
+    /* GitHub 登录按钮样式 - 与网站按钮风格一致 */
     .btn-primary, 
     a.btn-primary,
     button[class*="color-btn-primary"] {
-      background-color: #24292f !important;
-      color: white !important;
-      border: none !important;
+      background-color: oklch(0.95 0.025 ${hue}) !important;
+      color: oklch(0.55 0.12 ${hue}) !important;
+      border: 1px solid oklch(0.90 0.02 ${hue}) !important;
       box-shadow: none !important;
     }
     
     .btn-primary:hover,
     a.btn-primary:hover,
     button[class*="color-btn-primary"]:hover {
-      background-color: #1a1e22 !important;
-      border: none !important;
+      background-color: oklch(0.90 0.05 ${hue}) !important;
+      border-color: oklch(0.85 0.03 ${hue}) !important;
+    }
+    
+    .btn-primary:active,
+    a.btn-primary:active,
+    button[class*="color-btn-primary"]:active {
+      background-color: oklch(0.85 0.08 ${hue}) !important;
     }
     
     /* 表情反应菜单背景 */
@@ -296,21 +302,27 @@ function cssFor(h: number, mode: 'light' | 'dark') {
       border: none !important;
     }
     
-    /* GitHub 登录按钮样式 - 暗色模式 */
+    /* GitHub 登录按钮样式 - 暗色模式，与网站按钮风格一致 */
     .btn-primary,
     a.btn-primary,
     button[class*="color-btn-primary"] {
-      background-color: var(--color-accent-fg) !important;
-      color: var(--color-canvas-default) !important;
-      border: none !important;
+      background-color: oklch(0.33 0.035 ${hue}) !important;
+      color: oklch(0.75 0.1 ${hue}) !important;
+      border: 1px solid oklch(0.35 0.02 ${hue}) !important;
       box-shadow: none !important;
     }
     
     .btn-primary:hover,
     a.btn-primary:hover,
     button[class*="color-btn-primary"]:hover {
-      background-color: var(--color-accent-emphasis) !important;
-      border: none !important;
+      background-color: oklch(0.38 0.04 ${hue}) !important;
+      border-color: oklch(0.40 0.025 ${hue}) !important;
+    }
+    
+    .btn-primary:active,
+    a.btn-primary:active,
+    button[class*="color-btn-primary"]:active {
+      background-color: oklch(0.43 0.045 ${hue}) !important;
     }
     
     /* 表情反应菜单背景 - 使用主题色 */
